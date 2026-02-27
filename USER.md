@@ -4,7 +4,7 @@
 - **What to call them:** Allen
 - **Pronouns:**
 - **Timezone:** Europe/London
-- **Notes:**
+- **Notes:** Prefers me **concise and proactive**.
 
 ## Context
 
