@@ -1,0 +1,2424 @@
+I'm sure you've all seen the meme. We're
+I'm sure you've all seen the meme. We're 6 months away from AI taking our jobs as
+6 months away from AI taking our jobs as
+6 months away from AI taking our jobs as developers forever. And while this is a
+developers forever. And while this is a
+developers forever. And while this is a meme that we've been saying for years,
+meme that we've been saying for years,
+meme that we've been saying for years, I'm starting to really feel it. There
+I'm starting to really feel it. There
+I'm starting to really feel it. There have just been so many signals that
+have just been so many signals that
+have just been so many signals that things are actually changing now. From
+things are actually changing now. From
+things are actually changing now. From baby Keem using OpenClaw to the top
+baby Keem using OpenClaw to the top
+baby Keem using OpenClaw to the top G-Talking [&nbsp;__&nbsp;] on it to Cloudflare
+G-Talking [&nbsp;__&nbsp;] on it to Cloudflare
+G-Talking [&nbsp;__&nbsp;] on it to Cloudflare rewriting Nex.js JS in a week using AI
+rewriting Nex.js JS in a week using AI
+rewriting Nex.js JS in a week using AI to CEOs that barely even code building
+to CEOs that barely even code building
+to CEOs that barely even code building whole apps from scratch cloning
+whole apps from scratch cloning
+whole apps from scratch cloning billion-dollar companies in just a few
+billion-dollar companies in just a few
+billion-dollar companies in just a few days to Jack the original CEO of Twitter
+days to Jack the original CEO of Twitter
+days to Jack the original CEO of Twitter laying off 40% of his employees at Block
+laying off 40% of his employees at Block
+laying off 40% of his employees at Block even though they're profitable and
+even though they're profitable and
+even though they're profitable and growing. This is this is terrifying. We
+growing. This is this is terrifying. We
+growing. This is this is terrifying. We are there now. I didn't know what this
+are there now. I didn't know what this
+are there now. I didn't know what this would look like or how it would feel,
+would look like or how it would feel,
+would look like or how it would feel, but it's happening now. It's very clear
+but it's happening now. It's very clear
+but it's happening now. It's very clear it is happening now. And I have a lot of
+it is happening now. And I have a lot of
+it is happening now. And I have a lot of thoughts about that. Mostly in a very
+thoughts about that. Mostly in a very
+thoughts about that. Mostly in a very privileged position here where at least
+privileged position here where at least
+privileged position here where at least by the looks of it, media doesn't seem
+by the looks of it, media doesn't seem
+by the looks of it, media doesn't seem to be going anywhere. But that doesn't
+to be going anywhere. But that doesn't
+to be going anywhere. But that doesn't mean I don't talk to engineers every day
+mean I don't talk to engineers every day
+mean I don't talk to engineers every day and that I don't have hundreds of y'all
+and that I don't have hundreds of y'all
+and that I don't have hundreds of y'all in my DMs and talking to me across every
+in my DMs and talking to me across every
+in my DMs and talking to me across every possible imaginable method telling me
+possible imaginable method telling me
+possible imaginable method telling me just how screwed things are right now.
+just how screwed things are right now.
+just how screwed things are right now. And there is hope. There are places this
+And there is hope. There are places this
+And there is hope. There are places this can go that are good. But right now, the
+can go that are good. But right now, the
+can go that are good. But right now, the dev world is about to change. Normally,
+dev world is about to change. Normally,
+dev world is about to change. Normally, I would do a joke here about how I need
+I would do a joke here about how I need
+I would do a joke here about how I need ads because I'm not getting paid to
+ads because I'm not getting paid to
+ads because I'm not getting paid to write code anymore. But honestly, things
+write code anymore. But honestly, things
+write code anymore. But honestly, things are scary enough right now. It feels a
+are scary enough right now. It feels a
+are scary enough right now. It feels a bit inappropriate. So, just know I have
+bit inappropriate. So, just know I have
+bit inappropriate. So, just know I have to get my team paid. So, we'll do a
+to get my team paid. So, we'll do a
+to get my team paid. So, we'll do a quick break and then we'll dive in.
+quick break and then we'll dive in.
+quick break and then we'll dive in. Going to be real with you guys. I'm vibe
+Going to be real with you guys. I'm vibe
+Going to be real with you guys. I'm vibe coding a bit close to the sun lately.
+coding a bit close to the sun lately.
+coding a bit close to the sun lately. We're shipping so much code for all the
+We're shipping so much code for all the
+We're shipping so much code for all the projects we're working on and I would
+projects we're working on and I would
+projects we're working on and I would probably be shipping a lot more bugs if
+probably be shipping a lot more bugs if
+probably be shipping a lot more bugs if today's sponsor wasn't a thing. Code
+today's sponsor wasn't a thing. Code
+today's sponsor wasn't a thing. Code Rabbit has reviewed pretty much every
+Rabbit has reviewed pretty much every
+Rabbit has reviewed pretty much every line of code I've written in the past
+line of code I've written in the past
+line of code I've written in the past few months and it has prevented so many
+few months and it has prevented so many
+few months and it has prevented so many bugs from shipping. I've tried all of
+bugs from shipping. I've tried all of
+bugs from shipping. I've tried all of these AI code review tools with my team
+these AI code review tools with my team
+these AI code review tools with my team and this is the one my team chooses
+and this is the one my team chooses
+and this is the one my team chooses every single time. And I get why. It
+every single time. And I get why. It
+every single time. And I get why. It seems to just understand these complex
+seems to just understand these complex
+seems to just understand these complex code bases better than other tools,
+code bases better than other tools,
+code bases better than other tools, especially once you've used it for a bit
+especially once you've used it for a bit
+especially once you've used it for a bit because it has a good memory tool where
+because it has a good memory tool where
+because it has a good memory tool where it learns when you give it feedback. If
+it learns when you give it feedback. If
+it learns when you give it feedback. If you tell it, hey, this thing doesn't
+you tell it, hey, this thing doesn't
+you tell it, hey, this thing doesn't matter. It remembers and it won't
+matter. It remembers and it won't
+matter. It remembers and it won't comment on it in the future, which makes
+comment on it in the future, which makes
+comment on it in the future, which makes it really easy to reduce the noise and
+it really easy to reduce the noise and
+it really easy to reduce the noise and focus in on the signal. For a good
+focus in on the signal. For a good
+focus in on the signal. For a good example of that signal, here's a mistake
+example of that signal, here's a mistake
+example of that signal, here's a mistake that I never would have made in the good
+that I never would have made in the good
+that I never would have made in the good old days of handwriting code that an
+old days of handwriting code that an
+old days of handwriting code that an agent will gladly do. This directory
+agent will gladly do. This directory
+agent will gladly do. This directory should have been git ignored because
+should have been git ignored because
+should have been git ignored because it's a build directory, but somehow it
+it's a build directory, but somehow it
+it's a build directory, but somehow it snuck in here. I mean, I know how the
+snuck in here. I mean, I know how the
+snuck in here. I mean, I know how the agent had put it in the git ignore and
+agent had put it in the git ignore and
+agent had put it in the git ignore and now it's my problem. Being that this PR
+now it's my problem. Being that this PR
+now it's my problem. Being that this PR was like 3,000 lines of code, there's no
+was like 3,000 lines of code, there's no
+was like 3,000 lines of code, there's no world in which I would have bothered to
+world in which I would have bothered to
+world in which I would have bothered to read it well enough to catch this type
+read it well enough to catch this type
+read it well enough to catch this type of mistake. But Code Rabbit's more than
+of mistake. But Code Rabbit's more than
+of mistake. But Code Rabbit's more than happy to do that. Calling this out is a
+happy to do that. Calling this out is a
+happy to do that. Calling this out is a major potential issue and that this is a
+major potential issue and that this is a
+major potential issue and that this is a build directory that should have been
+build directory that should have been
+build directory that should have been ignored. Not only does it tell you
+ignored. Not only does it tell you
+ignored. Not only does it tell you exactly what's wrong, it gives you a
+exactly what's wrong, it gives you a
+exactly what's wrong, it gives you a prompt that you can copy paste, which is
+prompt that you can copy paste, which is
+prompt that you can copy paste, which is exactly what I did. I actually went
+exactly what I did. I actually went
+exactly what I did. I actually went through and found all of the issues that
+through and found all of the issues that
+through and found all of the issues that I agreed with in this feedback. Copy
+I agreed with in this feedback. Copy
+I agreed with in this feedback. Copy pasted the prompts, had them all fixed,
+pasted the prompts, had them all fixed,
+pasted the prompts, had them all fixed, and then we shipped. This is a big
+and then we shipped. This is a big
+and then we shipped. This is a big change in a real big repo, too. I'm
+change in a real big repo, too. I'm
+change in a real big repo, too. I'm working on a fun project they'll have
+working on a fun project they'll have
+working on a fun project they'll have more details on soon, I promise. That
+more details on soon, I promise. That
+more details on soon, I promise. That has everything from Rust and Swift code
+has everything from Rust and Swift code
+has everything from Rust and Swift code to TypeScript and Electron. So, uh, case
+to TypeScript and Electron. So, uh, case
+to TypeScript and Electron. So, uh, case in point, it's a rough codebase to work
+in point, it's a rough codebase to work
+in point, it's a rough codebase to work in, and I swear Code Rabbit's the only
+in, and I swear Code Rabbit's the only
+in, and I swear Code Rabbit's the only thing that seems to actually understand.
+thing that seems to actually understand.
+thing that seems to actually understand. It even caught a pretty novel bug with
+It even caught a pretty novel bug with
+It even caught a pretty novel bug with async cleanup operations with how we're
+async cleanup operations with how we're
+async cleanup operations with how we're abusing promises a little bit for our
+abusing promises a little bit for our
+abusing promises a little bit for our actual startup script that I don't think
+actual startup script that I don't think
+actual startup script that I don't think any other tool came close to catching.
+any other tool came close to catching.
+any other tool came close to catching. Whether or not you're using AI for code,
+Whether or not you're using AI for code,
+Whether or not you're using AI for code, you should absolutely use it for code
+you should absolutely use it for code
+you should absolutely use it for code review. If you're somehow not doing it
+review. If you're somehow not doing it
+review. If you're somehow not doing it yet, fix that today at soyv.link/code
+yet, fix that today at soyv.link/code
+yet, fix that today at soyv.link/code rabbit. It's literally just two clicks.
+rabbit. It's literally just two clicks.
+rabbit. It's literally just two clicks. There's a lot going on in the industry
+There's a lot going on in the industry
+There's a lot going on in the industry and I think this post from Jack is going
+and I think this post from Jack is going
+and I think this post from Jack is going to be a really good place to start from.
+to be a really good place to start from.
+to be a really good place to start from. Generally speaking, Jack tends to be a
+Generally speaking, Jack tends to be a
+Generally speaking, Jack tends to be a decent bit ahead of market trends at the
+decent bit ahead of market trends at the
+decent bit ahead of market trends at the very least 6 months to two years ahead
+very least 6 months to two years ahead
+very least 6 months to two years ahead overall. And it is incredibly rare for a
+overall. And it is incredibly rare for a
+overall. And it is incredibly rare for a company to do mass layoffs like this
+company to do mass layoffs like this
+company to do mass layoffs like this when they are currently in the process
+when they are currently in the process
+when they are currently in the process of growing and their revenue is going up
+of growing and their revenue is going up
+of growing and their revenue is going up and their profits are increasing. I have
+and their profits are increasing. I have
+and their profits are increasing. I have a lot of faith in Jack personally and I
+a lot of faith in Jack personally and I
+a lot of faith in Jack personally and I understand why he did this. It is his
+understand why he did this. It is his
+understand why he did this. It is his ultimate responsibility to make his
+ultimate responsibility to make his
+ultimate responsibility to make his business as successful as possible and
+business as successful as possible and
+business as successful as possible and as likely to succeed as possible. And
+as likely to succeed as possible. And
+as likely to succeed as possible. And right now there's a real risk of smaller
+right now there's a real risk of smaller
+right now there's a real risk of smaller teams moving faster and overtaking your
+teams moving faster and overtaking your
+teams moving faster and overtaking your position for cheaper. It's a silly
+position for cheaper. It's a silly
+position for cheaper. It's a silly example here, but I do want to talk
+example here, but I do want to talk
+example here, but I do want to talk about the product I just put out, lawn.
+about the product I just put out, lawn.
+about the product I just put out, lawn. I'm not here to try and sell this to you
+I'm not here to try and sell this to you
+I'm not here to try and sell this to you guys. The MR on it's like $350. It's not
+guys. The MR on it's like $350. It's not
+guys. The MR on it's like $350. It's not going to make real money. It's probably
+going to make real money. It's probably
+going to make real money. It's probably going to lose money, but it's a good
+going to lose money, but it's a good
+going to lose money, but it's a good example of where things are going. Lawn
+example of where things are going. Lawn
+example of where things are going. Lawn is an alternative to Frame.io. Frame.io
+is an alternative to Frame.io. Frame.io
+is an alternative to Frame.io. Frame.io IO is a video review platform kind of
+IO is a video review platform kind of
+IO is a video review platform kind of like doing code reviews and PRs but for
+like doing code reviews and PRs but for
+like doing code reviews and PRs but for video teams. It's how we have managed
+video teams. It's how we have managed
+video teams. It's how we have managed our video pipeline for a while. Whenever
+our video pipeline for a while. Whenever
+our video pipeline for a while. Whenever my editor FaZe finishes an edit, he
+my editor FaZe finishes an edit, he
+my editor FaZe finishes an edit, he would upload it onto Frame so that my
+would upload it onto Frame so that my
+would upload it onto Frame so that my team could review it. Whenever we have a
+team could review it. Whenever we have a
+team could review it. Whenever we have a new ad spot that needs to be approved by
+new ad spot that needs to be approved by
+new ad spot that needs to be approved by a brand, we put that up on Frame for
+a brand, we put that up on Frame for
+a brand, we put that up on Frame for them to approve. And every single time
+them to approve. And every single time
+them to approve. And every single time we just were watching it crumble. I
+we just were watching it crumble. I
+we just were watching it crumble. I swear I never went to frame.io without
+swear I never went to frame.io without
+swear I never went to frame.io without having to resign in cuz they broke off
+having to resign in cuz they broke off
+having to resign in cuz they broke off all the time. The share links were an
+all the time. The share links were an
+all the time. The share links were an absolute mess. I never knew when
+absolute mess. I never knew when
+absolute mess. I never knew when something got to one of the companies we
+something got to one of the companies we
+something got to one of the companies we were working with if they had responded
+were working with if they had responded
+were working with if they had responded or not. It was just a rough time. So I
+or not. It was just a rough time. So I
+or not. It was just a rough time. So I decided to make my own alternative
+decided to make my own alternative
+decided to make my own alternative largely just to explore the space and
+largely just to explore the space and
+largely just to explore the space and play around with these AI dev tools. I
+play around with these AI dev tools. I
+play around with these AI dev tools. I really didn't think we would ship this.
+really didn't think we would ship this.
+really didn't think we would ship this. I really didn't. But it just kept going.
+I really didn't. But it just kept going.
+I really didn't. But it just kept going. And I didn't sit and work on this
+And I didn't sit and work on this
+And I didn't sit and work on this full-time. Obviously I'm very busy. I
+full-time. Obviously I'm very busy. I
+full-time. Obviously I'm very busy. I have a company to run. I have a lot of
+have a company to run. I have a lot of
+have a company to run. I have a lot of other product that we're shipping. I
+other product that we're shipping. I
+other product that we're shipping. I have a channel to run. I employ like 15
+have a channel to run. I employ like 15
+have a channel to run. I employ like 15 people across all these surfaces. I
+people across all these surfaces. I
+people across all these surfaces. I don't have time to sit there and code
+don't have time to sit there and code
+don't have time to sit there and code for eight hours a day. If I did, I would
+for eight hours a day. If I did, I would
+for eight hours a day. If I did, I would guess this product would have taken me
+guess this product would have taken me
+guess this product would have taken me about a month or two to make and then a
+about a month or two to make and then a
+about a month or two to make and then a couple more months to refine and get all
+couple more months to refine and get all
+couple more months to refine and get all the core pieces in properly. I was able
+the core pieces in properly. I was able
+the core pieces in properly. I was able to build it in 2 weeks. I was able to
+to build it in 2 weeks. I was able to
+to build it in 2 weeks. I was able to build it in two weeks in the background
+build it in two weeks in the background
+build it in two weeks in the background as I did other things. That's crazy. I
+as I did other things. That's crazy. I
+as I did other things. That's crazy. I have not written a single line of code
+have not written a single line of code
+have not written a single line of code in this project. I've read a little bit
+in this project. I've read a little bit
+in this project. I've read a little bit of it. I structured a bunch of APIs and
+of it. I structured a bunch of APIs and
+of it. I structured a bunch of APIs and like core application logic stuff with
+like core application logic stuff with
+like core application logic stuff with the AI where I described how it should
+the AI where I described how it should
+the AI where I described how it should be structured, watched it write a
+be structured, watched it write a
+be structured, watched it write a proposal like that looks good, go use
+proposal like that looks good, go use
+proposal like that looks good, go use that everywhere. But I didn't write the
+that everywhere. But I didn't write the
+that everywhere. But I didn't write the code and it's not bad code. For proof, I
+code and it's not bad code. For proof, I
+code and it's not bad code. For proof, I actually decided to open source it,
+actually decided to open source it,
+actually decided to open source it, which is a weird decision for a bunch of
+which is a weird decision for a bunch of
+which is a weird decision for a bunch of reasons, but the main one that I think
+reasons, but the main one that I think
+reasons, but the main one that I think makes it so strange is that it makes it
+makes it so strange is that it makes it
+makes it so strange is that it makes it easy to clone and go build your own. So,
+easy to clone and go build your own. So,
+easy to clone and go build your own. So, it's already low revenue, but if
+it's already low revenue, but if
+it's already low revenue, but if somebody wants to be really cheap, they
+somebody wants to be really cheap, they
+somebody wants to be really cheap, they can go clone it themselves and host it,
+can go clone it themselves and host it,
+can go clone it themselves and host it, and then I get no revenue for it. But to
+and then I get no revenue for it. But to
+and then I get no revenue for it. But to be frank, that could have happened
+be frank, that could have happened
+be frank, that could have happened anyways. And that's what's so crazy.
+anyways. And that's what's so crazy.
+anyways. And that's what's so crazy. Ideas haven't been valuable for a long
+Ideas haven't been valuable for a long
+Ideas haven't been valuable for a long time. And I say that all the time. Ideas
+time. And I say that all the time. Ideas
+time. And I say that all the time. Ideas are cheap. Somehow ideas got more and
+are cheap. Somehow ideas got more and
+are cheap. Somehow ideas got more and less valuable at the same time. where
+less valuable at the same time. where
+less valuable at the same time. where dropping something novel and coming up
+dropping something novel and coming up
+dropping something novel and coming up with a good idea is really powerful now
+with a good idea is really powerful now
+with a good idea is really powerful now because the speed you can go from idea
+because the speed you can go from idea
+because the speed you can go from idea to usable product has never been lower.
+to usable product has never been lower.
+to usable product has never been lower. But it also means cloning someone else's
+But it also means cloning someone else's
+But it also means cloning someone else's product and idea is way more trivial
+product and idea is way more trivial
+product and idea is way more trivial than it's ever been. You might look at
+than it's ever been. You might look at
+than it's ever been. You might look at this and think, well video review can't
+this and think, well video review can't
+this and think, well video review can't be that big a market. Like you're only
+be that big a market. Like you're only
+be that big a market. Like you're only making what 350 a month isn't $350 a
+making what 350 a month isn't $350 a
+making what 350 a month isn't $350 a month. Well Frame.io
+month. Well Frame.io
+month. Well Frame.io got acquired by Adobe in 2021 for $1.3
+got acquired by Adobe in 2021 for $1.3
+got acquired by Adobe in 2021 for $1.3 billion.
+billion.
+billion. It took them years to build 1.3 bill and
+It took them years to build 1.3 bill and
+It took them years to build 1.3 bill and I was able to replicate the majority of
+I was able to replicate the majority of
+I was able to replicate the majority of the functionality part-time in an app
+the functionality part-time in an app
+the functionality part-time in an app that genuinely feels better to use in 2
+that genuinely feels better to use in 2
+that genuinely feels better to use in 2 weeks. Everything has changed. I don't
+weeks. Everything has changed. I don't
+weeks. Everything has changed. I don't care about your silly examples of
+care about your silly examples of
+care about your silly examples of co-pilot screwing up in a giant C
+co-pilot screwing up in a giant C
+co-pilot screwing up in a giant C codebase because I can rewrite that
+codebase because I can rewrite that
+codebase because I can rewrite that codebase in different tech in a week.
+codebase in different tech in a week.
+codebase in different tech in a week. Everything is different now. And it's
+Everything is different now. And it's
+Everything is different now. And it's not even slop. Like, yeah, the whole
+not even slop. Like, yeah, the whole
+not even slop. Like, yeah, the whole thing's vibe coded. Even the UI, even
+thing's vibe coded. Even the UI, even
+thing's vibe coded. Even the UI, even the background image, all AI generated,
+the background image, all AI generated,
+the background image, all AI generated, but once you start using it, it feels
+but once you start using it, it feels
+but once you start using it, it feels great. Things fly. I'm real time right
+great. Things fly. I'm real time right
+great. Things fly. I'm real time right now. I'm going to click right now.
+now. I'm going to click right now.
+now. I'm going to click right now. Instantly loads. I'm going to click this
+Instantly loads. I'm going to click this
+Instantly loads. I'm going to click this video. Instantly loads. The video stream
+video. Instantly loads. The video stream
+video. Instantly loads. The video stream has to take a sec to start cuz streaming
+has to take a sec to start cuz streaming
+has to take a sec to start cuz streaming video is hard. I go back to the team
+video is hard. I go back to the team
+video is hard. I go back to the team page. Instant. Instant. Instant. Leave a
+page. Instant. Instant. Instant. Leave a
+page. Instant. Instant. Instant. Leave a comment. Hit the send. instantly
+comment. Hit the send. instantly
+comment. Hit the send. instantly appears. It flies. I had to come up with
+appears. It flies. I had to come up with
+appears. It flies. I had to come up with some specific data loading patterns to
+some specific data loading patterns to
+some specific data loading patterns to make it feel so good around pre-warming
+make it feel so good around pre-warming
+make it feel so good around pre-warming and subscriptions on hover. But once I
+and subscriptions on hover. But once I
+and subscriptions on hover. But once I had established that pattern and
+had established that pattern and
+had established that pattern and mentioned it in the agent MD, it kind of
+mentioned it in the agent MD, it kind of
+mentioned it in the agent MD, it kind of just took care of itself. Like it hit
+just took care of itself. Like it hit
+just took care of itself. Like it hit everything in the codebase and once or
+everything in the codebase and once or
+everything in the codebase and once or twice it would miss a link. Like for a
+twice it would miss a link. Like for a
+twice it would miss a link. Like for a bit it missed this T3 team link up here
+bit it missed this T3 team link up here
+bit it missed this T3 team link up here and I told it, hey, one of the links in
+and I told it, hey, one of the links in
+and I told it, hey, one of the links in the topnav doesn't have pre-warming
+the topnav doesn't have pre-warming
+the topnav doesn't have pre-warming working. and it went and found that and
+working. and it went and found that and
+working. and it went and found that and fixed it. And it just feels great to
+fixed it. And it just feels great to
+fixed it. And it just feels great to use. Like, this is a product that is
+use. Like, this is a product that is
+use. Like, this is a product that is genuinely more joyful to use than the
+genuinely more joyful to use than the
+genuinely more joyful to use than the thing that I'm paying lots of money for
+thing that I'm paying lots of money for
+thing that I'm paying lots of money for that it's replacing. And this is the
+that it's replacing. And this is the
+that it's replacing. And this is the worst it's ever going to be, guys. These
+worst it's ever going to be, guys. These
+worst it's ever going to be, guys. These tools are going to keep getting better.
+tools are going to keep getting better.
+tools are going to keep getting better. Building things like this is going to
+Building things like this is going to
+Building things like this is going to keep getting easier. Sure, part of why
+keep getting easier. Sure, part of why
+keep getting easier. Sure, part of why this feels so good is because I'm an
+this feels so good is because I'm an
+this feels so good is because I'm an engineer with a long background in video
+engineer with a long background in video
+engineer with a long background in video product that understands the restraints,
+product that understands the restraints,
+product that understands the restraints, the requirements, and all the weird
+the requirements, and all the weird
+the requirements, and all the weird things that you need to do this. But if
+things that you need to do this. But if
+things that you need to do this. But if you asked the model what to do, it would
+you asked the model what to do, it would
+you asked the model what to do, it would have given you at least like half of the
+have given you at least like half of the
+have given you at least like half of the things that I said. Just for comparison,
+things that I said. Just for comparison,
+things that I said. Just for comparison, here's the monstrosity that is frame.
+here's the monstrosity that is frame.
+here's the monstrosity that is frame. I'm surprised it didn't make me do a
+I'm surprised it didn't make me do a
+I'm surprised it didn't make me do a signin. Clicked edits. Takes forever to
+signin. Clicked edits. Takes forever to
+signin. Clicked edits. Takes forever to load. Click a video. By default, when
+load. Click a video. By default, when
+load. Click a video. By default, when you click a video, it goes into select
+you click a video, it goes into select
+you click a video, it goes into select and not the video, which I love. You
+and not the video, which I love. You
+and not the video, which I love. You have to double click it to get to it.
+have to double click it to get to it.
+have to double click it to get to it. Also takes forever to load. Works. It's
+Also takes forever to load. Works. It's
+Also takes forever to load. Works. It's fine, but things are not fast.
+fine, but things are not fast.
+fine, but things are not fast. UX is really strange. There's too much
+UX is really strange. There's too much
+UX is really strange. There's too much going on. And the folders are high
+going on. And the folders are high
+going on. And the folders are high priority for some reason and the actual
+priority for some reason and the actual
+priority for some reason and the actual videos I care about are too low
+videos I care about are too low
+videos I care about are too low priority. I don't even really like
+priority. I don't even really like
+priority. I don't even really like folders for this, but might not want
+folders for this, but might not want
+folders for this, but might not want that in the future. Wouldn't even be
+that in the future. Wouldn't even be
+that in the future. Wouldn't even be hard to here. I'll show you. You can see
+hard to here. I'll show you. You can see
+hard to here. I'll show you. You can see most of the prompts I used for building
+most of the prompts I used for building
+most of the prompts I used for building this here. Let's make a new thread.
+this here. Let's make a new thread.
+this here. Let's make a new thread. Let's do some whisper flowing for this
+Let's do some whisper flowing for this
+Let's do some whisper flowing for this just to show how absurdly easy these
+just to show how absurdly easy these
+just to show how absurdly easy these things are. I want to add a folder style
+things are. I want to add a folder style
+things are. I want to add a folder style structure for projects so that users can
+structure for projects so that users can
+structure for projects so that users can optionally put given files inside of
+optionally put given files inside of
+optionally put given files inside of folders. It should be easy to move a
+folders. It should be easy to move a
+folders. It should be easy to move a file to a folder via drag and drop. And
+file to a folder via drag and drop. And
+file to a folder via drag and drop. And it should be easy to see all of the
+it should be easy to see all of the
+it should be easy to see all of the folders and open them and navigate the
+folders and open them and navigate the
+folders and open them and navigate the hierarchy of what folder you are in.
+hierarchy of what folder you are in.
+hierarchy of what folder you are in. Write up a plan for how we will
+Write up a plan for how we will
+Write up a plan for how we will implement this and what the UX will look
+implement this and what the UX will look
+implement this and what the UX will look like. And then we can implement soon
+like. And then we can implement soon
+like. And then we can implement soon after. By the way, T3 Code, the app I'm
+after. By the way, T3 Code, the app I'm
+after. By the way, T3 Code, the app I'm using for this, is another example of an
+using for this, is another example of an
+using for this, is another example of an app that I and my team built because we
+app that I and my team built because we
+app that I and my team built because we were unhappy with the alternatives and
+were unhappy with the alternatives and
+were unhappy with the alternatives and it was easier to just build our own than
+it was easier to just build our own than
+it was easier to just build our own than get the others fixed. I used to spend a
+get the others fixed. I used to spend a
+get the others fixed. I used to spend a lot of time talking to companies trying
+lot of time talking to companies trying
+lot of time talking to companies trying to convince them, hey, this features
+to convince them, hey, this features
+to convince them, hey, this features brokered or hey, we need this thing
+brokered or hey, we need this thing
+brokered or hey, we need this thing implemented. And now I don't even bother
+implemented. And now I don't even bother
+implemented. And now I don't even bother half the time. Okay, usually I will once
+half the time. Okay, usually I will once
+half the time. Okay, usually I will once or twice, but like one of the companies
+or twice, but like one of the companies
+or twice, but like one of the companies building one of these style tools, one
+building one of these style tools, one
+building one of these style tools, one of these GUIs for using the CLI, it had
+of these GUIs for using the CLI, it had
+of these GUIs for using the CLI, it had a lot of random problems and we hit them
+a lot of random problems and we hit them
+a lot of random problems and we hit them up about it. In particular, the codec
+up about it. In particular, the codec
+up about it. In particular, the codec support was atrocious. And we kind of
+support was atrocious. And we kind of
+support was atrocious. And we kind of got shrugged off and told, "Yeah, uh,
+got shrugged off and told, "Yeah, uh,
+got shrugged off and told, "Yeah, uh, we're a cloud house. We don't really
+we're a cloud house. We don't really
+we're a cloud house. We don't really care that much about codec support." And
+care that much about codec support." And
+care that much about codec support." And that was the moment I decided to build
+that was the moment I decided to build
+that was the moment I decided to build my own because it's not worth trying to
+my own because it's not worth trying to
+my own because it's not worth trying to convince somebody when I can just out
+convince somebody when I can just out
+convince somebody when I can just out build them now. It's insane. Like like
+build them now. It's insane. Like like
+build them now. It's insane. Like like everything's changed from that alone.
+everything's changed from that alone.
+everything's changed from that alone. Like a lot of my time used to be spent
+Like a lot of my time used to be spent
+Like a lot of my time used to be spent trying to convince other products, other
+trying to convince other products, other
+trying to convince other products, other founders, other leads at other companies
+founders, other leads at other companies
+founders, other leads at other companies to build the things I need. Now I just
+to build the things I need. Now I just
+to build the things I need. Now I just build it myself. And I can barely even
+build it myself. And I can barely even
+build it myself. And I can barely even justify spending time coding cuz I got
+justify spending time coding cuz I got
+justify spending time coding cuz I got way too much [&nbsp;__&nbsp;] going on. Yet here I
+way too much [&nbsp;__&nbsp;] going on. Yet here I
+way too much [&nbsp;__&nbsp;] going on. Yet here I am with like over a dozen lawn threads
+am with like over a dozen lawn threads
+am with like over a dozen lawn threads with a bunch more for quip slop that I
+with a bunch more for quip slop that I
+with a bunch more for quip slop that I also vibe code on the side. shoe which I
+also vibe code on the side. shoe which I
+also vibe code on the side. shoe which I built mostly in other things. Bunch of
+built mostly in other things. Bunch of
+built mostly in other things. Bunch of T3 code stuff I was working on in T3
+T3 code stuff I was working on in T3
+T3 code stuff I was working on in T3 code. I'm building a lot. And whenever
+code. I'm building a lot. And whenever
+code. I'm building a lot. And whenever something bothers me, I just go build
+something bothers me, I just go build
+something bothers me, I just go build alternatives now. And that's crazy. And
+alternatives now. And that's crazy. And
+alternatives now. And that's crazy. And that's me on an individual level. What's
+that's me on an individual level. What's
+that's me on an individual level. What's much scarier is when you start thinking
+much scarier is when you start thinking
+much scarier is when you start thinking about this on a company level, which is
+about this on a company level, which is
+about this on a company level, which is what Jack is doing today. Should
+what Jack is doing today. Should
+what Jack is doing today. Should probably talk about what Block is. Block
+probably talk about what Block is. Block
+probably talk about what Block is. Block is the company that Jack made after
+is the company that Jack made after
+is the company that Jack made after Twitter. They operate Square, Cash App,
+Twitter. They operate Square, Cash App,
+Twitter. They operate Square, Cash App, Afterpay, Tidal, which is my beloved
+Afterpay, Tidal, which is my beloved
+Afterpay, Tidal, which is my beloved music app. I still use Tidal for my
+music app. I still use Tidal for my
+music app. I still use Tidal for my listening every single day. I'm going to
+listening every single day. I'm going to
+listening every single day. I'm going to submit them some prompts that I want
+submit them some prompts that I want
+submit them some prompts that I want them to implement ASAP. I love Tidal. I
+them to implement ASAP. I love Tidal. I
+them to implement ASAP. I love Tidal. I hope that the Title team doesn't get hit
+hope that the Title team doesn't get hit
+hope that the Title team doesn't get hit too hard with these layoffs. Bit Key,
+too hard with these layoffs. Bit Key,
+too hard with these layoffs. Bit Key, which is a new one. I think it's a
+which is a new one. I think it's a
+which is a new one. I think it's a crypto like hardware wallet. And then
+crypto like hardware wallet. And then
+crypto like hardware wallet. And then Proto, which is some type of server rack
+Proto, which is some type of server rack
+Proto, which is some type of server rack stuff. Not as familiar with those, but
+stuff. Not as familiar with those, but
+stuff. Not as familiar with those, but Square and Cash App are slaughtering.
+Square and Cash App are slaughtering.
+Square and Cash App are slaughtering. These two make a ton of money and fund
+These two make a ton of money and fund
+These two make a ton of money and fund most of the business. Another thing
+most of the business. Another thing
+most of the business. Another thing worth noting for most of these
+worth noting for most of these
+worth noting for most of these businesses is they're not things you can
+businesses is they're not things you can
+businesses is they're not things you can go reimplement. You're not going to just
+go reimplement. You're not going to just
+go reimplement. You're not going to just go vibe code an alternative to Square,
+go vibe code an alternative to Square,
+go vibe code an alternative to Square, Cash App, or Afterpay because these are
+Cash App, or Afterpay because these are
+Cash App, or Afterpay because these are as much about the weird agreements and
+as much about the weird agreements and
+as much about the weird agreements and process with financial companies as they
+process with financial companies as they
+process with financial companies as they are the actual code that was written.
+are the actual code that was written.
+are the actual code that was written. The code for all of these absolutely
+The code for all of these absolutely
+The code for all of these absolutely could be rewritten in days and they
+could be rewritten in days and they
+could be rewritten in days and they might even do that now themselves. But
+might even do that now themselves. But
+might even do that now themselves. But the infrastructure, the partnerships,
+the infrastructure, the partnerships,
+the infrastructure, the partnerships, the deals with the credit card
+the deals with the credit card
+the deals with the credit card providers, all of that that can't be
+providers, all of that that can't be
+providers, all of that that can't be remade. Same deal with title, the
+remade. Same deal with title, the
+remade. Same deal with title, the negotiations they have done in order to
+negotiations they have done in order to
+negotiations they have done in order to build up the library they have, the
+build up the library they have, the
+build up the library they have, the payment structures and systems to pay
+payment structures and systems to pay
+payment structures and systems to pay artists when their music is played.
+artists when their music is played.
+artists when their music is played. those things. Also, their credit system
+those things. Also, their credit system
+those things. Also, their credit system is insane. Like, they have the most
+is insane. Like, they have the most
+is insane. Like, they have the most in-depth credits of any streaming
+in-depth credits of any streaming
+in-depth credits of any streaming platform. That's partnerships and data
+platform. That's partnerships and data
+platform. That's partnerships and data are not things you can replace via vibe
+are not things you can replace via vibe
+are not things you can replace via vibe coding. You can replace the code, but
+coding. You can replace the code, but
+coding. You can replace the code, but nothing else. So, anybody whose product
+nothing else. So, anybody whose product
+nothing else. So, anybody whose product is built entirely on top of code,
+is built entirely on top of code,
+is built entirely on top of code, they're a little bit screwed. Despite
+they're a little bit screwed. Despite
+they're a little bit screwed. Despite knowing that as the CEO, like Jack knows
+knowing that as the CEO, like Jack knows
+knowing that as the CEO, like Jack knows they aren't as displaceable due to the
+they aren't as displaceable due to the
+they aren't as displaceable due to the nature of their product and the
+nature of their product and the
+nature of their product and the partnerships and deals and space that
+partnerships and deals and space that
+partnerships and deals and space that they are in. Despite all of that, he is
+they are in. Despite all of that, he is
+they are in. Despite all of that, he is still choosing to make this decision.
+still choosing to make this decision.
+still choosing to make this decision. And I'll give you my thoughts as to why
+And I'll give you my thoughts as to why
+And I'll give you my thoughts as to why after we read what he says. Today, we're
+after we read what he says. Today, we're
+after we read what he says. Today, we're making one of the hardest decisions in
+making one of the hardest decisions in
+making one of the hardest decisions in the history of our company. We're
+the history of our company. We're
+the history of our company. We're reducing our organization by nearly half
+reducing our organization by nearly half
+reducing our organization by nearly half from over 10,000 people to just under
+from over 10,000 people to just under
+from over 10,000 people to just under 6,000. That means over 4,000 of you are
+6,000. That means over 4,000 of you are
+6,000. That means over 4,000 of you are being asked to leave or you're entering
+being asked to leave or you're entering
+being asked to leave or you're entering into consultation. I'll be straight
+into consultation. I'll be straight
+into consultation. I'll be straight about what's happening, why, and what it
+about what's happening, why, and what it
+about what's happening, why, and what it means for everyone. First off, if you're
+means for everyone. First off, if you're
+means for everyone. First off, if you're one of the people affected, you'll
+one of the people affected, you'll
+one of the people affected, you'll receive your salary for 20 weeks, plus
+receive your salary for 20 weeks, plus
+receive your salary for 20 weeks, plus an additional week per year of tenure,
+an additional week per year of tenure,
+an additional week per year of tenure, equity vested through the end of May, 6
+equity vested through the end of May, 6
+equity vested through the end of May, 6 months of healthcare, your corporate
+months of healthcare, your corporate
+months of healthcare, your corporate devices, and $5,000 to put towards
+devices, and $5,000 to put towards
+devices, and $5,000 to put towards whatever you need to help you in this
+whatever you need to help you in this
+whatever you need to help you in this transition. If you're outside of the US,
+transition. If you're outside of the US,
+transition. If you're outside of the US, you'll receive similar support, but
+you'll receive similar support, but
+you'll receive similar support, but exact details are going to vary based on
+exact details are going to vary based on
+exact details are going to vary based on local requirements. Yep, different
+local requirements. Yep, different
+local requirements. Yep, different countries have different rules around
+countries have different rules around
+countries have different rules around what layoffs entail and what offers
+what layoffs entail and what offers
+what layoffs entail and what offers you're able to give employees as they
+you're able to give employees as they
+you're able to give employees as they are let go. But this is actually a
+are let go. But this is actually a
+are let go. But this is actually a really good offer. There's a lot of
+really good offer. There's a lot of
+really good offer. There's a lot of little pieces here I like about it. The
+little pieces here I like about it. The
+little pieces here I like about it. The 20 weeks is a really good base starting
+20 weeks is a really good base starting
+20 weeks is a really good base starting point. That's effectively five months of
+point. That's effectively five months of
+point. That's effectively five months of salary. Gives you a lot of time to
+salary. Gives you a lot of time to
+salary. Gives you a lot of time to figure things out. The additional week
+figure things out. The additional week
+figure things out. The additional week per year of tenure is a huge assist to
+per year of tenure is a huge assist to
+per year of tenure is a huge assist to people who have been there for 6 to 10
+people who have been there for 6 to 10
+people who have been there for 6 to 10 years. That's an additional couple
+years. That's an additional couple
+years. That's an additional couple months of support. Very much like that.
+months of support. Very much like that.
+months of support. Very much like that. So, they're rewarding employees that
+So, they're rewarding employees that
+So, they're rewarding employees that have been there for a long time. They're
+have been there for a long time. They're
+have been there for a long time. They're giving everybody a really solid buffer
+giving everybody a really solid buffer
+giving everybody a really solid buffer here. Equity vested through the end of
+here. Equity vested through the end of
+here. Equity vested through the end of May is another huge deal. Making sure
+May is another huge deal. Making sure
+May is another huge deal. Making sure that people who are near an equity grant
+that people who are near an equity grant
+that people who are near an equity grant can get it. If there's somebody whose
+can get it. If there's somebody whose
+can get it. If there's somebody whose equity vests like June 3rd or so, I
+equity vests like June 3rd or so, I
+equity vests like June 3rd or so, I would hope they're able to negotiate
+would hope they're able to negotiate
+would hope they're able to negotiate with the company to do something to get
+with the company to do something to get
+with the company to do something to get that through end of May is totally fine,
+that through end of May is totally fine,
+that through end of May is totally fine, though. Six months of healthcare is
+though. Six months of healthcare is
+though. Six months of healthcare is huge. This is one of the most annoying
+huge. This is one of the most annoying
+huge. This is one of the most annoying things. When I quit Twitch, having to
+things. When I quit Twitch, having to
+things. When I quit Twitch, having to fight Cobra to get health insurance was
+fight Cobra to get health insurance was
+fight Cobra to get health insurance was one of the most annoying things I've
+one of the most annoying things I've
+one of the most annoying things I've ever done in my life. It it radicalized
+ever done in my life. It it radicalized
+ever done in my life. It it radicalized me. I'll talk a lot about that in the
+me. I'll talk a lot about that in the
+me. I'll talk a lot about that in the future, but uh the TLDDR, my stance here
+future, but uh the TLDDR, my stance here
+future, but uh the TLDDR, my stance here is that healthcare is so [&nbsp;__&nbsp;] in the
+is that healthcare is so [&nbsp;__&nbsp;] in the
+is that healthcare is so [&nbsp;__&nbsp;] in the US that it's making the job market less
+US that it's making the job market less
+US that it's making the job market less competitive. And I can make capitalist
+competitive. And I can make capitalist
+competitive. And I can make capitalist arguments towards healthcare for all
+arguments towards healthcare for all
+arguments towards healthcare for all because like that being healthcare being
+because like that being healthcare being
+because like that being healthcare being tied to your job just makes everything
+tied to your job just makes everything
+tied to your job just makes everything shitty for no reason. Obnoxious.
+shitty for no reason. Obnoxious.
+shitty for no reason. Obnoxious. Anyways, corporate devices is another
+Anyways, corporate devices is another
+Anyways, corporate devices is another huge one. For a lot of people, losing
+huge one. For a lot of people, losing
+huge one. For a lot of people, losing the one computer you have is the worst
+the one computer you have is the worst
+the one computer you have is the worst thing ever. I know so many people whose
+thing ever. I know so many people whose
+thing ever. I know so many people whose only computer is the one they have from
+only computer is the one they have from
+only computer is the one they have from work. So letting them keep it is a huge
+work. So letting them keep it is a huge
+work. So letting them keep it is a huge deal for a ton of people. Just a big
+deal for a ton of people. Just a big
+deal for a ton of people. Just a big stress relief. And similarly, the $5,000
+stress relief. And similarly, the $5,000
+stress relief. And similarly, the $5,000 of extra here is huge. Like if you're
+of extra here is huge. Like if you're
+of extra here is huge. Like if you're making 300K a year, the 20 weeks is
+making 300K a year, the 20 weeks is
+making 300K a year, the 20 weeks is going to give you a lot of money. But if
+going to give you a lot of money. But if
+going to give you a lot of money. But if you're like a support person that's
+you're like a support person that's
+you're like a support person that's doing 30K a year, your 20 weeks is only
+doing 30K a year, your 20 weeks is only
+doing 30K a year, your 20 weeks is only going to be a few thousand. So an extra
+going to be a few thousand. So an extra
+going to be a few thousand. So an extra 5K on top is a huge benefit to people
+5K on top is a huge benefit to people
+5K on top is a huge benefit to people who are lower income. So that's what I
+who are lower income. So that's what I
+who are lower income. So that's what I like about this structure here. The
+like about this structure here. The
+like about this structure here. The first part very good for people who are
+first part very good for people who are
+first part very good for people who are high income. This part very good for
+high income. This part very good for
+high income. This part very good for people who are long tenure. This part
+people who are long tenure. This part
+people who are long tenure. This part very good for the people who have large
+very good for the people who have large
+very good for the people who have large equity grants that are probably also
+equity grants that are probably also
+equity grants that are probably also higher income. Six months of healthcare,
+higher income. Six months of healthcare,
+higher income. Six months of healthcare, good for everyone, just makes it less
+good for everyone, just makes it less
+good for everyone, just makes it less stressful to be out of the job and
+stressful to be out of the job and
+stressful to be out of the job and between jobs. Corporate devices, huge,
+between jobs. Corporate devices, huge,
+between jobs. Corporate devices, huge, especially for people who are lower
+especially for people who are lower
+especially for people who are lower income. And the $5,000 put towards the
+income. And the $5,000 put towards the
+income. And the $5,000 put towards the transition, again, very helpful for
+transition, again, very helpful for
+transition, again, very helpful for people who are of lower income. It also
+people who are of lower income. It also
+people who are of lower income. It also makes sense they call it the US part
+makes sense they call it the US part
+makes sense they call it the US part here in particular because a lot of like
+here in particular because a lot of like
+here in particular because a lot of like offshore support that might be hit by
+offshore support that might be hit by
+offshore support that might be hit by this, for example, benefits greatly from
+this, for example, benefits greatly from
+this, for example, benefits greatly from that. Also, saying everybody will be
+that. Also, saying everybody will be
+that. Also, saying everybody will be notified today whether they're being
+notified today whether they're being
+notified today whether they're being asked to leave, consult, or stay. I've
+asked to leave, consult, or stay. I've
+asked to leave, consult, or stay. I've seen this done so wrong where people
+seen this done so wrong where people
+seen this done so wrong where people didn't know what side they were on and
+didn't know what side they were on and
+didn't know what side they were on and then the next day we're still stressed
+then the next day we're still stressed
+then the next day we're still stressed and the demoralization over time was
+and the demoralization over time was
+and the demoralization over time was horrifying. We're not making this
+horrifying. We're not making this
+horrifying. We're not making this decision because we're in trouble. Our
+decision because we're in trouble. Our
+decision because we're in trouble. Our business is strong. Gross profit
+business is strong. Gross profit
+business is strong. Gross profit continues to grow. We continue to serve
+continues to grow. We continue to serve
+continues to grow. We continue to serve more and more customers and
+more and more customers and
+more and more customers and profitability is improving. But
+profitability is improving. But
+profitability is improving. But something has changed. We're already
+something has changed. We're already
+something has changed. We're already seeing that the intelligence tools we're
+seeing that the intelligence tools we're
+seeing that the intelligence tools we're creating and using paired with smaller
+creating and using paired with smaller
+creating and using paired with smaller and flatter teams are enabling a new way
+and flatter teams are enabling a new way
+and flatter teams are enabling a new way of working which fundamentally changes
+of working which fundamentally changes
+of working which fundamentally changes what it means to build and run a
+what it means to build and run a
+what it means to build and run a company. and that's accelerating
+company. and that's accelerating
+company. and that's accelerating rapidly. We'll talk more about this
+rapidly. We'll talk more about this
+rapidly. We'll talk more about this paragraph in a little bit. I had two
+paragraph in a little bit. I had two
+paragraph in a little bit. I had two options. Cut gradually over months or
+options. Cut gradually over months or
+options. Cut gradually over months or years as the shift plays out or be
+years as the shift plays out or be
+years as the shift plays out or be honest about where we are and act on it
+honest about where we are and act on it
+honest about where we are and act on it now. I chose the latter. Repeated rounds
+now. I chose the latter. Repeated rounds
+now. I chose the latter. Repeated rounds of cuts are destructive to morale to
+of cuts are destructive to morale to
+of cuts are destructive to morale to focus and to the trust that customers
+focus and to the trust that customers
+focus and to the trust that customers and shareholders place in our ability to
+and shareholders place in our ability to
+and shareholders place in our ability to lead. I'd rather take a hard clear
+lead. I'd rather take a hard clear
+lead. I'd rather take a hard clear action now and build from a position
+action now and build from a position
+action now and build from a position that we believe in than manage a slow
+that we believe in than manage a slow
+that we believe in than manage a slow reduction of people towards the same
+reduction of people towards the same
+reduction of people towards the same outcome. A smaller company also gives us
+outcome. A smaller company also gives us
+outcome. A smaller company also gives us the space to grow our business in the
+the space to grow our business in the
+the space to grow our business in the right way on our own terms instead of
+right way on our own terms instead of
+right way on our own terms instead of constantly reacting to market pressures.
+constantly reacting to market pressures.
+constantly reacting to market pressures. Another really important sentence that
+Another really important sentence that
+Another really important sentence that we'll get back to in a sec. A decision
+we'll get back to in a sec. A decision
+we'll get back to in a sec. A decision at this scale carries risk, but so does
+at this scale carries risk, but so does
+at this scale carries risk, but so does standing still. We've done a full review
+standing still. We've done a full review
+standing still. We've done a full review to determine the roles and people we
+to determine the roles and people we
+to determine the roles and people we require to reliably grow the business
+require to reliably grow the business
+require to reliably grow the business from here. And we've pressure tested
+from here. And we've pressure tested
+from here. And we've pressure tested these decisions from multiple angles. I
+these decisions from multiple angles. I
+these decisions from multiple angles. I accept that we may have gotten some of
+accept that we may have gotten some of
+accept that we may have gotten some of these wrong and we've built in
+these wrong and we've built in
+these wrong and we've built in flexibility to account for that and do
+flexibility to account for that and do
+flexibility to account for that and do the right thing for our customers. We're
+the right thing for our customers. We're
+the right thing for our customers. We're not going to just disappear people from
+not going to just disappear people from
+not going to just disappear people from Slack and email and pretend they were
+Slack and email and pretend they were
+Slack and email and pretend they were never here. Communication channels will
+never here. Communication channels will
+never here. Communication channels will stay open through Thursday evening so
+stay open through Thursday evening so
+stay open through Thursday evening so everyone can say goodbye properly and
+everyone can say goodbye properly and
+everyone can say goodbye properly and share whatever you wish. I'll also be
+share whatever you wish. I'll also be
+share whatever you wish. I'll also be hosting a live video session to thank
+hosting a live video session to thank
+hosting a live video session to thank everyone at 3:35 p.m. Pacific. I know
+everyone at 3:35 p.m. Pacific. I know
+everyone at 3:35 p.m. Pacific. I know doing it this way might feel awkward.
+doing it this way might feel awkward.
+doing it this way might feel awkward. I'd rather it feel awkward and human
+I'd rather it feel awkward and human
+I'd rather it feel awkward and human than efficient and cold. I love this. I
+than efficient and cold. I love this. I
+than efficient and cold. I love this. I When I left Twitch, I was in my goodbye
+When I left Twitch, I was in my goodbye
+When I left Twitch, I was in my goodbye call when right at 5:00 p.m. on the dot,
+call when right at 5:00 p.m. on the dot,
+call when right at 5:00 p.m. on the dot, they disabled my Google account and I
+they disabled my Google account and I
+they disabled my Google account and I got booted from the call. I much prefer
+got booted from the call. I much prefer
+got booted from the call. I much prefer this human way of doing things and like
+this human way of doing things and like
+this human way of doing things and like letting people be in Slack and have the
+letting people be in Slack and have the
+letting people be in Slack and have the conversation, not just like watching
+conversation, not just like watching
+conversation, not just like watching names drop from the list as I've heard
+names drop from the list as I've heard
+names drop from the list as I've heard so many stories about. Jack's doing this
+so many stories about. Jack's doing this
+so many stories about. Jack's doing this very responsibly. To those of you
+very responsibly. To those of you
+very responsibly. To those of you leaving, I'm grateful for you and I'm
+leaving, I'm grateful for you and I'm
+leaving, I'm grateful for you and I'm sorry to put you through this. You built
+sorry to put you through this. You built
+sorry to put you through this. You built what the company is today. That's a fact
+what the company is today. That's a fact
+what the company is today. That's a fact I'll honor forever. This decision is not
+I'll honor forever. This decision is not
+I'll honor forever. This decision is not a reflection of what you contributed.
+a reflection of what you contributed.
+a reflection of what you contributed. You will be a great contributor to any
+You will be a great contributor to any
+You will be a great contributor to any organization going forward. To those
+organization going forward. To those
+organization going forward. To those staying, I made this decision and I'll
+staying, I made this decision and I'll
+staying, I made this decision and I'll own it. What I'm asking of you is to
+own it. What I'm asking of you is to
+own it. What I'm asking of you is to build with me. This is a big deal. I
+build with me. This is a big deal. I
+build with me. This is a big deal. I know a lot of people who have like
+know a lot of people who have like
+know a lot of people who have like survivor guilt when they survive these
+survivor guilt when they survive these
+survivor guilt when they survive these types of layoffs and feel as though like
+types of layoffs and feel as though like
+types of layoffs and feel as though like they might have done something wrong or
+they might have done something wrong or
+they might have done something wrong or they're somehow to blame for this and
+they're somehow to blame for this and
+they're somehow to blame for this and they're not there with their peers that
+they're not there with their peers that
+they're not there with their peers that they're watching drop out. Jack owning
+they're watching drop out. Jack owning
+they're watching drop out. Jack owning this is huge rather than saying like we
+this is huge rather than saying like we
+this is huge rather than saying like we had to or the shareholders made us or
+had to or the shareholders made us or
+had to or the shareholders made us or any of those things. Jack's saying, "No,
+any of those things. Jack's saying, "No,
+any of those things. Jack's saying, "No, I chose to do this. This is mine. Blame
+I chose to do this. This is mine. Blame
+I chose to do this. This is mine. Blame me. I'm the one who is taking this hit."
+me. I'm the one who is taking this hit."
+me. I'm the one who is taking this hit." That I have a lot of respect for Jack.
+That I have a lot of respect for Jack.
+That I have a lot of respect for Jack. Even I didn't have the balls to do that
+Even I didn't have the balls to do that
+Even I didn't have the balls to do that when I had to do the layoffs where I let
+when I had to do the layoffs where I let
+when I had to do the layoffs where I let go a majority of my team a few years
+go a majority of my team a few years
+go a majority of my team a few years ago. I said that I screwed up hiring
+ago. I said that I screwed up hiring
+ago. I said that I screwed up hiring them, but I didn't take the ownership of
+them, but I didn't take the ownership of
+them, but I didn't take the ownership of the the dropping them the same way here.
+the the dropping them the same way here.
+the the dropping them the same way here. I I already like Jack a lot as a leader,
+I I already like Jack a lot as a leader,
+I I already like Jack a lot as a leader, but this this put him above and beyond
+but this this put him above and beyond
+but this this put him above and beyond for me. We're going to build this
+for me. We're going to build this
+for me. We're going to build this company with intelligence at the core of
+company with intelligence at the core of
+company with intelligence at the core of everything we do, how we work, how we
+everything we do, how we work, how we
+everything we do, how we work, how we create, how we serve our customers. Our
+create, how we serve our customers. Our
+create, how we serve our customers. Our customers will feel the shift, too, and
+customers will feel the shift, too, and
+customers will feel the shift, too, and we're going to help them navigate it
+we're going to help them navigate it
+we're going to help them navigate it towards a future where they can build
+towards a future where they can build
+towards a future where they can build their own features directly composed of
+their own features directly composed of
+their own features directly composed of our capabilities and serve through our
+our capabilities and serve through our
+our capabilities and serve through our interfaces. That's what I'm focused on
+interfaces. That's what I'm focused on
+interfaces. That's what I'm focused on now. Expect a note from me tomorrow.
+now. Expect a note from me tomorrow.
+now. Expect a note from me tomorrow. Great note. I have a lot of things I
+Great note. I have a lot of things I
+Great note. I have a lot of things I want to talk about here. The first part
+want to talk about here. The first part
+want to talk about here. The first part I want to talk about here is the smaller
+I want to talk about here is the smaller
+I want to talk about here is the smaller and flatter teams bit. It is very clear
+and flatter teams bit. It is very clear
+and flatter teams bit. It is very clear that this is where things are going. Big
+that this is where things are going. Big
+that this is where things are going. Big teams don't move faster. I've talked
+teams don't move faster. I've talked
+teams don't move faster. I've talked about this for a long time. Hopefully
+about this for a long time. Hopefully
+about this for a long time. Hopefully y'all have heard of the mythical man
+y'all have heard of the mythical man
+y'all have heard of the mythical man month. The classic story where adding
+month. The classic story where adding
+month. The classic story where adding more people makes the project take more
+more people makes the project take more
+more people makes the project take more time, not less. That's a real problem in
+time, not less. That's a real problem in
+time, not less. That's a real problem in software. And the problem just got
+software. And the problem just got
+software. And the problem just got worse.
+worse.
+worse. like significantly worse. We have so
+like significantly worse. We have so
+like significantly worse. We have so many PRs open on basically any of our
+many PRs open on basically any of our
+many PRs open on basically any of our surfaces. Like in T3 code alone, we have
+surfaces. Like in T3 code alone, we have
+surfaces. Like in T3 code alone, we have 13 PRs that Julius has opened that I
+13 PRs that Julius has opened that I
+13 PRs that Julius has opened that I haven't had any chance to go look at or
+haven't had any chance to go look at or
+haven't had any chance to go look at or test anything in. More people does not
+test anything in. More people does not
+test anything in. More people does not mean more review getting done. It means
+mean more review getting done. It means
+mean more review getting done. It means more PRs and more orchestration to make
+more PRs and more orchestration to make
+more PRs and more orchestration to make sure people don't step on each other's
+sure people don't step on each other's
+sure people don't step on each other's toes and that things don't break in
+toes and that things don't break in
+toes and that things don't break in egregious ways. More people slows down
+egregious ways. More people slows down
+egregious ways. More people slows down the iteration here. The workflow Julius
+the iteration here. The workflow Julius
+the iteration here. The workflow Julius and I have taken for T3 code is
+and I have taken for T3 code is
+and I have taken for T3 code is effectively on any given day or any
+effectively on any given day or any
+effectively on any given day or any given time, we choose who owns Maine and
+given time, we choose who owns Maine and
+given time, we choose who owns Maine and who doesn't. And the person who owns
+who doesn't. And the person who owns
+who doesn't. And the person who owns Maine just shifts to Maine all day and
+Maine just shifts to Maine all day and
+Maine just shifts to Maine all day and the other person does other [&nbsp;__&nbsp;] That's
+the other person does other [&nbsp;__&nbsp;] That's
+the other person does other [&nbsp;__&nbsp;] That's such a huge shift in how we build and
+such a huge shift in how we build and
+such a huge shift in how we build and it's letting us out build open AI with
+it's letting us out build open AI with
+it's letting us out build open AI with their equivalent with the codeex app,
+their equivalent with the codeex app,
+their equivalent with the codeex app, which is a team of significantly more
+which is a team of significantly more
+which is a team of significantly more people. I know it's at least 20 because
+people. I know it's at least 20 because
+people. I know it's at least 20 because I met a bunch of them. The fact that
+I met a bunch of them. The fact that
+I met a bunch of them. The fact that Jill and I can ship at a similar speed
+Jill and I can ship at a similar speed
+Jill and I can ship at a similar speed with just us two taking turns on the
+with just us two taking turns on the
+with just us two taking turns on the project shows just how much the smaller
+project shows just how much the smaller
+project shows just how much the smaller focus team matters here. Lines of code
+focus team matters here. Lines of code
+focus team matters here. Lines of code are no longer the bottleneck. This is a
+are no longer the bottleneck. This is a
+are no longer the bottleneck. This is a absurd shift in how everything in our
+absurd shift in how everything in our
+absurd shift in how everything in our industry works. This is hard to put into
+industry works. This is hard to put into
+industry works. This is hard to put into words just how much [&nbsp;__&nbsp;] has changed as
+words just how much [&nbsp;__&nbsp;] has changed as
+words just how much [&nbsp;__&nbsp;] has changed as a result. This is the equivalent of
+a result. This is the equivalent of
+a result. This is the equivalent of software no longer being distributed on
+software no longer being distributed on
+software no longer being distributed on discs, but probably bigger. I don't even
+discs, but probably bigger. I don't even
+discs, but probably bigger. I don't even have a gut feel for how much code is in
+have a gut feel for how much code is in
+have a gut feel for how much code is in any given project. Let's see what we
+any given project. Let's see what we
+any given project. Let's see what we have in lawn. So lawn is about 16k lines
+have in lawn. So lawn is about 16k lines
+have in lawn. So lawn is about 16k lines of code, 15k or typescript. T3 chat's
+of code, 15k or typescript. T3 chat's
+of code, 15k or typescript. T3 chat's nearing 100,000 lines of code. T3 code,
+nearing 100,000 lines of code. T3 code,
+nearing 100,000 lines of code. T3 code, which again vibe coded by Julius and me,
+which again vibe coded by Julius and me,
+which again vibe coded by Julius and me, already at 52,581
+already at 52,581
+already at 52,581 lines of code. In just like 2 to 3
+lines of code. In just like 2 to 3
+lines of code. In just like 2 to 3 weeks, T3 code is already half the size
+weeks, T3 code is already half the size
+weeks, T3 code is already half the size of T3 chat. Lines of code doesn't matter
+of T3 chat. Lines of code doesn't matter
+of T3 chat. Lines of code doesn't matter anymore. Lines of code effectively are
+anymore. Lines of code effectively are
+anymore. Lines of code effectively are free now. Tests matter. Tests matter a
+free now. Tests matter. Tests matter a
+free now. Tests matter. Tests matter a lot. And there's a whole dedicated video
+lot. And there's a whole dedicated video
+lot. And there's a whole dedicated video for that in the near future, but uh
+for that in the near future, but uh
+for that in the near future, but uh lines of code don't. And the only thing
+lines of code don't. And the only thing
+lines of code don't. And the only thing morege helps with is lines of code.
+morege helps with is lines of code.
+morege helps with is lines of code. Historically, more engineers meant more
+Historically, more engineers meant more
+Historically, more engineers meant more code. That was how we would hire. When
+code. That was how we would hire. When
+code. That was how we would hire. When we had all of the things we knew we
+we had all of the things we knew we
+we had all of the things we knew we needed to do, we had a road map of
+needed to do, we had a road map of
+needed to do, we had a road map of things we had to add to the product and
+things we had to add to the product and
+things we had to add to the product and we just didn't have the manpower to
+we just didn't have the manpower to
+we just didn't have the manpower to write all the code for it. That's when
+write all the code for it. That's when
+write all the code for it. That's when we would start hiring up teams. Things
+we would start hiring up teams. Things
+we would start hiring up teams. Things were so crazy that companies would hire
+were so crazy that companies would hire
+were so crazy that companies would hire great engineers just to keep other
+great engineers just to keep other
+great engineers just to keep other companies from getting them, even if
+companies from getting them, even if
+companies from getting them, even if they didn't have work for them to do.
+they didn't have work for them to do.
+they didn't have work for them to do. That was a real thing that used to
+That was a real thing that used to
+That was a real thing that used to happen in the early fang days between
+happen in the early fang days between
+happen in the early fang days between Amazon, Google, Microsoft, and others.
+Amazon, Google, Microsoft, and others.
+Amazon, Google, Microsoft, and others. Trying to keep the best engineers away
+Trying to keep the best engineers away
+Trying to keep the best engineers away from the other companies. Now that's
+from the other companies. Now that's
+from the other companies. Now that's changed. Not because more engineers
+changed. Not because more engineers
+changed. Not because more engineers doesn't mean more lines of code, but the
+doesn't mean more lines of code, but the
+doesn't mean more lines of code, but the process for how you deal with the code
+process for how you deal with the code
+process for how you deal with the code matters a lot more. Now there's a
+matters a lot more. Now there's a
+matters a lot more. Now there's a pipeline of how features ship. You know
+pipeline of how features ship. You know
+pipeline of how features ship. You know what? We're going to do this downwards
+what? We're going to do this downwards
+what? We're going to do this downwards where at the top there is user problem,
+where at the top there is user problem,
+where at the top there is user problem, whatever the issue is that the user has.
+whatever the issue is that the user has.
+whatever the issue is that the user has. At the bottom is shipped solution. And
+At the bottom is shipped solution. And
+At the bottom is shipped solution. And there are always steps along the way
+there are always steps along the way
+there are always steps along the way here. I just wrote all the steps quick
+here. I just wrote all the steps quick
+here. I just wrote all the steps quick because it's easier that way. You
+because it's easier that way. You
+because it's easier that way. You describe the problem, identify a
+describe the problem, identify a
+describe the problem, identify a solution, scope and assign the work,
+solution, scope and assign the work,
+solution, scope and assign the work, write the code, review the code, test
+write the code, review the code, test
+write the code, review the code, test the code, plan the release, and then do
+the code, plan the release, and then do
+the code, plan the release, and then do the release. Generally speaking, more
+the release. Generally speaking, more
+the release. Generally speaking, more engineers helps here and here. Maybe
+engineers helps here and here. Maybe
+engineers helps here and here. Maybe there's like two dimensions to this
+there's like two dimensions to this
+there's like two dimensions to this column though. There's how much is this
+column though. There's how much is this
+column though. There's how much is this happening and how long does it take for
+happening and how long does it take for
+happening and how long does it take for any one particular piece of work? Like
+any one particular piece of work? Like
+any one particular piece of work? Like 500 problems that users have, you'll be
+500 problems that users have, you'll be
+500 problems that users have, you'll be lucky to clearly describe a hundred of
+lucky to clearly describe a hundred of
+lucky to clearly describe a hundred of them. You'll be even luckier to identify
+them. You'll be even luckier to identify
+them. You'll be even luckier to identify solutions to 50 of them. You'll
+solutions to 50 of them. You'll
+solutions to 50 of them. You'll eventually scope out an assign work for
+eventually scope out an assign work for
+eventually scope out an assign work for 15 of them. You'll actually get people
+15 of them. You'll actually get people
+15 of them. You'll actually get people to write code for five of them. And then
+to write code for five of them. And then
+to write code for five of them. And then from here down, things tend to stay
+from here down, things tend to stay
+from here down, things tend to stay pretty consistent. Like by the time
+pretty consistent. Like by the time
+pretty consistent. Like by the time people are writing code, since the code
+people are writing code, since the code
+people are writing code, since the code is so expensive, the majority of the
+is so expensive, the majority of the
+is so expensive, the majority of the code people write at a company where
+code people write at a company where
+code people write at a company where they're paid to gets through everything
+they're paid to gets through everything
+they're paid to gets through everything else till it eventually comes out. This
+else till it eventually comes out. This
+else till it eventually comes out. This part was too expensive to be lossy. We
+part was too expensive to be lossy. We
+part was too expensive to be lossy. We put a lot of work from the top down to
+put a lot of work from the top down to
+put a lot of work from the top down to refine the things that made it to ENGE
+refine the things that made it to ENGE
+refine the things that made it to ENGE because if it made it to ENGE and wasn't
+because if it made it to ENGE and wasn't
+because if it made it to ENGE and wasn't actually worth it, you just wasted a
+actually worth it, you just wasted a
+actually worth it, you just wasted a shitload of time. Now you can literally
+shitload of time. Now you can literally
+shitload of time. Now you can literally take the user problem, paste the
+take the user problem, paste the
+take the user problem, paste the screenshot into the agent, and skip all
+screenshot into the agent, and skip all
+screenshot into the agent, and skip all the way down to here. That's insane.
+the way down to here. That's insane.
+the way down to here. That's insane. That changes [&nbsp;__&nbsp;] everything. If I
+That changes [&nbsp;__&nbsp;] everything. If I
+That changes [&nbsp;__&nbsp;] everything. If I can take a user problem, just take a
+can take a user problem, just take a
+can take a user problem, just take a screenshot of them tweeting at me, paste
+screenshot of them tweeting at me, paste
+screenshot of them tweeting at me, paste it into cloud code, and get the bug
+it into cloud code, and get the bug
+it into cloud code, and get the bug fixed, this whole pipeline has been
+fixed, this whole pipeline has been
+fixed, this whole pipeline has been destroyed. and the stronghold we had
+destroyed. and the stronghold we had
+destroyed. and the stronghold we had here where everything from here down was
+here where everything from here down was
+here where everything from here down was too expensive to [&nbsp;__&nbsp;] up and also too
+too expensive to [&nbsp;__&nbsp;] up and also too
+too expensive to [&nbsp;__&nbsp;] up and also too high skill to easily staff up in. So if
+high skill to easily staff up in. So if
+high skill to easily staff up in. So if you wanted to increase the amount of
+you wanted to increase the amount of
+you wanted to increase the amount of work getting done, you had to hire more
+work getting done, you had to hire more
+work getting done, you had to hire more people to do the code writing. That's
+people to do the code writing. That's
+people to do the code writing. That's just over now. The person who scopes and
+just over now. The person who scopes and
+just over now. The person who scopes and assigns the work can do the writing now
+assigns the work can do the writing now
+assigns the work can do the writing now by kicking it off to an AI. And if you
+by kicking it off to an AI. And if you
+by kicking it off to an AI. And if you help them scale up a bit in how they
+help them scale up a bit in how they
+help them scale up a bit in how they spec out the work, the AI can get better
+spec out the work, the AI can get better
+spec out the work, the AI can get better at writing it. I would argue that the
+at writing it. I would argue that the
+at writing it. I would argue that the role of devs is shifting down here where
+role of devs is shifting down here where
+role of devs is shifting down here where we'll do more and more of the review.
+we'll do more and more of the review.
+we'll do more and more of the review. It's that's even slipping due to all the
+It's that's even slipping due to all the
+It's that's even slipping due to all the AI review tools and now we're stuck
+AI review tools and now we're stuck
+AI review tools and now we're stuck doing the testing and manually verifying
+doing the testing and manually verifying
+doing the testing and manually verifying the stuff. There's a real chance that
+the stuff. There's a real chance that
+the stuff. There's a real chance that somewhere on this computer I have a
+somewhere on this computer I have a
+somewhere on this computer I have a groundbreaking developer experience
+groundbreaking developer experience
+groundbreaking developer experience sitting there because I have dozens of
+sitting there because I have dozens of
+sitting there because I have dozens of work trees trying out theories that I
+work trees trying out theories that I
+work trees trying out theories that I forget about before I ever test them.
+forget about before I ever test them.
+forget about before I ever test them. There are multiple projects on this
+There are multiple projects on this
+There are multiple projects on this machine that I'm very excited about that
+machine that I'm very excited about that
+machine that I'm very excited about that I spun up terminals to go build on
+I spun up terminals to go build on
+I spun up terminals to go build on forever ago that I then had to reboot
+forever ago that I then had to reboot
+forever ago that I then had to reboot and I forgot where they are and haven't
+and I forgot where they are and haven't
+and I forgot where they are and haven't even bothered to go double check. Like
+even bothered to go double check. Like
+even bothered to go double check. Like that's insane that there is work on my
+that's insane that there is work on my
+that's insane that there is work on my computer that might actually be really
+computer that might actually be really
+computer that might actually be really useful to me and others that I haven't
+useful to me and others that I haven't
+useful to me and others that I haven't even checked yet because the checking is
+even checked yet because the checking is
+even checked yet because the checking is the expensive part. Now, are you ready
+the expensive part. Now, are you ready
+the expensive part. Now, are you ready for the harshest reality check here?
+for the harshest reality check here?
+for the harshest reality check here? Most engineers are really bad at this.
+Most engineers are really bad at this.
+Most engineers are really bad at this. Even like the best engineers I know are
+Even like the best engineers I know are
+Even like the best engineers I know are atrocious at QA. I cannot tell you how
+atrocious at QA. I cannot tell you how
+atrocious at QA. I cannot tell you how many times I got to work with like top
+many times I got to work with like top
+many times I got to work with like top 100 in the world type engineers. They
+100 in the world type engineers. They
+100 in the world type engineers. They ship something that looked really good,
+ship something that looked really good,
+ship something that looked really good, seemed really good, made a lot of sense,
+seemed really good, made a lot of sense,
+seemed really good, made a lot of sense, was well aligned with the goal of the
+was well aligned with the goal of the
+was well aligned with the goal of the project and I try and it just doesn't
+project and I try and it just doesn't
+project and I try and it just doesn't [&nbsp;__&nbsp;] work at all. And that's not even
+[&nbsp;__&nbsp;] work at all. And that's not even
+[&nbsp;__&nbsp;] work at all. And that's not even just like writing unit tests, writing
+just like writing unit tests, writing
+just like writing unit tests, writing integration tests or anything like that.
+integration tests or anything like that.
+integration tests or anything like that. It's using the [&nbsp;__&nbsp;] thing. Most
+It's using the [&nbsp;__&nbsp;] thing. Most
+It's using the [&nbsp;__&nbsp;] thing. Most engineers are terrible at that. And
+engineers are terrible at that. And
+engineers are terrible at that. And historically that's been okay because
+historically that's been okay because
+historically that's been okay because there was such a desperation to fill the
+there was such a desperation to fill the
+there was such a desperation to fill the hole that was writing code that we would
+hole that was writing code that we would
+hole that was writing code that we would do anything for it. And now that's over.
+do anything for it. And now that's over.
+do anything for it. And now that's over. Another way to think of this is as a
+Another way to think of this is as a
+Another way to think of this is as a funnel. At the top we have like every
+funnel. At the top we have like every
+funnel. At the top we have like every single thing that's gone wrong in our
+single thing that's gone wrong in our
+single thing that's gone wrong in our product for every user. And then all the
+product for every user. And then all the
+product for every user. And then all the way to the bottom here we have shipped
+way to the bottom here we have shipped
+way to the bottom here we have shipped stuff. So has to make it all the way to
+stuff. So has to make it all the way to
+stuff. So has to make it all the way to the bottom not fall out of the funnel
+the bottom not fall out of the funnel
+the bottom not fall out of the funnel along the way. And each step along here
+along the way. And each step along here
+along the way. And each step along here required some level of refinement. So
+required some level of refinement. So
+required some level of refinement. So describe problem, write code, you get
+describe problem, write code, you get
+describe problem, write code, you get the idea. The funnel, we've all seen a
+the idea. The funnel, we've all seen a
+the idea. The funnel, we've all seen a funnel like this before. This is just
+funnel like this before. This is just
+funnel like this before. This is just kind of what reality looks like, at
+kind of what reality looks like, at
+kind of what reality looks like, at least looked like. As you go further and
+least looked like. As you go further and
+least looked like. As you go further and further down, the number of things left
+further down, the number of things left
+further down, the number of things left would decrease. And the really [&nbsp;__&nbsp;]
+would decrease. And the really [&nbsp;__&nbsp;]
+would decrease. And the really [&nbsp;__&nbsp;] strange thing that is going on right now
+strange thing that is going on right now
+strange thing that is going on right now is that this looks like this now. There
+is that this looks like this now. There
+is that this looks like this now. There is no longer a funnel at the line that
+is no longer a funnel at the line that
+is no longer a funnel at the line that we own as devs. That's over. That is a
+we own as devs. That's over. That is a
+we own as devs. That's over. That is a very different world we live in where if
+very different world we live in where if
+very different world we live in where if you've gotten to the point where you can
+you've gotten to the point where you can
+you've gotten to the point where you can describe the work as tickets, you've
+describe the work as tickets, you've
+describe the work as tickets, you've gotten to the point where the work can
+gotten to the point where the work can
+gotten to the point where the work can be completed for the vast majority of
+be completed for the vast majority of
+be completed for the vast majority of development work the vast majority of
+development work the vast majority of
+development work the vast majority of the time. The majority of apps are just
+the time. The majority of apps are just
+the time. The majority of apps are just shitty crud apps that need small one-off
+shitty crud apps that need small one-off
+shitty crud apps that need small one-off bug fixes and features done constantly.
+bug fixes and features done constantly.
+bug fixes and features done constantly. And for almost all work, things just
+And for almost all work, things just
+And for almost all work, things just shifted fundamentally. And if you have
+shifted fundamentally. And if you have
+shifted fundamentally. And if you have had this realization, you know that this
+had this realization, you know that this
+had this realization, you know that this step here, writing the code is no longer
+step here, writing the code is no longer
+step here, writing the code is no longer the edge. That having enough engineers
+the edge. That having enough engineers
+the edge. That having enough engineers is your win. That like realistically
+is your win. That like realistically
+is your win. That like realistically speaking, I could not have competed with
+speaking, I could not have competed with
+speaking, I could not have competed with Frame.io 2 years ago. It would have been
+Frame.io 2 years ago. It would have been
+Frame.io 2 years ago. It would have been way too much work for me and my team to
+way too much work for me and my team to
+way too much work for me and my team to build and maintain, especially all the
+build and maintain, especially all the
+build and maintain, especially all the integrations across all the different
+integrations across all the different
+integrations across all the different platforms. Like if it turned out that
+platforms. Like if it turned out that
+platforms. Like if it turned out that product could do well and I wanted to go
+product could do well and I wanted to go
+product could do well and I wanted to go build the integrations for things like
+build the integrations for things like
+build the integrations for things like Premiere Pro and Final Cut and other
+Premiere Pro and Final Cut and other
+Premiere Pro and Final Cut and other editors, that type of thing just wasn't
+editors, that type of thing just wasn't
+editors, that type of thing just wasn't worth it before. And suddenly it
+worth it before. And suddenly it
+worth it before. And suddenly it absolutely is. If anything, having the
+absolutely is. If anything, having the
+absolutely is. If anything, having the smaller team puts me at an advantage.
+smaller team puts me at an advantage.
+smaller team puts me at an advantage. Since Frame.io is part of Adobe and has
+Since Frame.io is part of Adobe and has
+Since Frame.io is part of Adobe and has a giant team, every change requires
+a giant team, every change requires
+a giant team, every change requires touching lots of different teams things
+touching lots of different teams things
+touching lots of different teams things and getting all of them to approve. If
+and getting all of them to approve. If
+and getting all of them to approve. If you have more engineers, there are more
+you have more engineers, there are more
+you have more engineers, there are more people that have to give you a thumbs up
+people that have to give you a thumbs up
+people that have to give you a thumbs up before you're allowed to ship the thing.
+before you're allowed to ship the thing.
+before you're allowed to ship the thing. So if writing code is free now let's
+So if writing code is free now let's
+So if writing code is free now let's take this diagram because this is what a
+take this diagram because this is what a
+take this diagram because this is what a lot of companies are about to look like.
+lot of companies are about to look like.
+lot of companies are about to look like. So the writing code step is now flat. So
+So the writing code step is now flat. So
+So the writing code step is now flat. So we now have the straight lines there.
+we now have the straight lines there.
+we now have the straight lines there. But with the devs having to approve
+But with the devs having to approve
+But with the devs having to approve things it's going to look like this.
+things it's going to look like this.
+things it's going to look like this. It's going to be an even steeper
+It's going to be an even steeper
+It's going to be an even steeper gradient making it even harder to
+gradient making it even harder to
+gradient making it even harder to actually ship the things that have been
+actually ship the things that have been
+actually ship the things that have been made. And this is going to piss off
+made. And this is going to piss off
+made. And this is going to piss off everyone. Every product manager, every
+everyone. Every product manager, every
+everyone. Every product manager, every exec, every person at a company that
+exec, every person at a company that
+exec, every person at a company that knows anything about what their
+knows anything about what their
+knows anything about what their competition is doing is going to look at
+competition is doing is going to look at
+competition is doing is going to look at this. They're going to experience this.
+this. They're going to experience this.
+this. They're going to experience this. They're going to feel this and they're
+They're going to feel this and they're
+They're going to feel this and they're going to realize, wait, writing code
+going to realize, wait, writing code
+going to realize, wait, writing code just got so much cheaper. Everything we
+just got so much cheaper. Everything we
+just got so much cheaper. Everything we spec gets written. Why is none of this
+spec gets written. Why is none of this
+spec gets written. Why is none of this shipping? And more than anything here, I
+shipping? And more than anything here, I
+shipping? And more than anything here, I am saying this part out of experience
+am saying this part out of experience
+am saying this part out of experience because we had this happen, too. We had
+because we had this happen, too. We had
+because we had this happen, too. We had users report problems in T3 chat. We
+users report problems in T3 chat. We
+users report problems in T3 chat. We clearly described what the problem was.
+clearly described what the problem was.
+clearly described what the problem was. We came up with a solution. We started
+We came up with a solution. We started
+We came up with a solution. We started planning out that work. We would not
+planning out that work. We would not
+planning out that work. We would not necessarily always make tickets. We
+necessarily always make tickets. We
+necessarily always make tickets. We don't always use linear for things.
+don't always use linear for things.
+don't always use linear for things. Sometimes we just use notion and write
+Sometimes we just use notion and write
+Sometimes we just use notion and write out what we want to do. Sometimes we
+out what we want to do. Sometimes we
+out what we want to do. Sometimes we just message each other on Discord. We
+just message each other on Discord. We
+just message each other on Discord. We would get pretty far in and then
+would get pretty far in and then
+would get pretty far in and then eventually when an engine had the time
+eventually when an engine had the time
+eventually when an engine had the time they would go write the code. Then we
+they would go write the code. Then we
+they would go write the code. Then we just started kicking those things off in
+just started kicking those things off in
+just started kicking those things off in the background and ended up with
+the background and ended up with
+the background and ended up with hundreds of PRs just kind of sitting
+hundreds of PRs just kind of sitting
+hundreds of PRs just kind of sitting there not shipping because everything
+there not shipping because everything
+there not shipping because everything else didn't get easier. And having more
+else didn't get easier. And having more
+else didn't get easier. And having more people that have to approve of things
+people that have to approve of things
+people that have to approve of things made it even less likely to ship. So we
+made it even less likely to ship. So we
+made it even less likely to ship. So we had to make changes to our process. We
+had to make changes to our process. We
+had to make changes to our process. We had to decide how much do we actually
+had to decide how much do we actually
+had to decide how much do we actually care about the thoroughess of the review
+care about the thoroughess of the review
+care about the thoroughess of the review of our code. We had to decide what
+of our code. We had to decide what
+of our code. We had to decide what cadence do we want to ship at? What do
+cadence do we want to ship at? What do
+cadence do we want to ship at? What do we want our rollback systems to look
+we want our rollback systems to look
+we want our rollback systems to look like when we do break things? How do we
+like when we do break things? How do we
+like when we do break things? How do we get more prepared for the way our
+get more prepared for the way our
+get more prepared for the way our workflows are shifting here? And that's
+workflows are shifting here? And that's
+workflows are shifting here? And that's also why we did the launch week a few
+also why we did the launch week a few
+also why we did the launch week a few weeks ago because we wanted to get all
+weeks ago because we wanted to get all
+weeks ago because we wanted to get all this stuff out. In order to do that, we
+this stuff out. In order to do that, we
+this stuff out. In order to do that, we needed different process, different
+needed different process, different
+needed different process, different deadlines, different incentives. I had
+deadlines, different incentives. I had
+deadlines, different incentives. I had to rethink everything below the writing
+to rethink everything below the writing
+to rethink everything below the writing code part in order for us to actually
+code part in order for us to actually
+code part in order for us to actually ship the things that were being
+ship the things that were being
+ship the things that were being generated. And that's a lot harder when
+generated. And that's a lot harder when
+generated. And that's a lot harder when you have a big team. Big teams are kind
+you have a big team. Big teams are kind
+you have a big team. Big teams are kind of like aircraft carriers where they can
+of like aircraft carriers where they can
+of like aircraft carriers where they can ship a ton of stuff at once, insane
+ship a ton of stuff at once, insane
+ship a ton of stuff at once, insane distances in relatively absurd speeds.
+distances in relatively absurd speeds.
+distances in relatively absurd speeds. But if they have to change course, if
+But if they have to change course, if
+But if they have to change course, if they have to change direction, it takes
+they have to change direction, it takes
+they have to change direction, it takes days for them to just do a turn because
+days for them to just do a turn because
+days for them to just do a turn because the ship has so much inertia that
+the ship has so much inertia that
+the ship has so much inertia that shifting becomes n impossible. But if
+shifting becomes n impossible. But if
+shifting becomes n impossible. But if you have a small team, that type of
+you have a small team, that type of
+you have a small team, that type of shifting becomes much easier. When
+shifting becomes much easier. When
+shifting becomes much easier. When individual things have a person who owns
+individual things have a person who owns
+individual things have a person who owns them instead of a team who owns them and
+them instead of a team who owns them and
+them instead of a team who owns them and that person owns more and more, things
+that person owns more and more, things
+that person owns more and more, things get easier. Like if T3 code had
+get easier. Like if T3 code had
+get easier. Like if T3 code had different parts of the codebase that
+different parts of the codebase that
+different parts of the codebase that different people owned and we wanted to
+different people owned and we wanted to
+different people owned and we wanted to do a big feature change, getting that
+do a big feature change, getting that
+do a big feature change, getting that approved is going to suck. But if we
+approved is going to suck. But if we
+approved is going to suck. But if we take turns owning it and one person can
+take turns owning it and one person can
+take turns owning it and one person can come in and change a bunch of [&nbsp;__&nbsp;] in
+come in and change a bunch of [&nbsp;__&nbsp;] in
+come in and change a bunch of [&nbsp;__&nbsp;] in one day and the next day someone else
+one day and the next day someone else
+one day and the next day someone else can come in and change a bunch of [&nbsp;__&nbsp;]
+can come in and change a bunch of [&nbsp;__&nbsp;]
+can come in and change a bunch of [&nbsp;__&nbsp;] then we can ship fast. And all of our
+then we can ship fast. And all of our
+then we can ship fast. And all of our process is built for a world where the
+process is built for a world where the
+process is built for a world where the only really expensive part was writing
+only really expensive part was writing
+only really expensive part was writing code. Writing code went from the most
+code. Writing code went from the most
+code. Writing code went from the most expensive to the cheapest part of this
+expensive to the cheapest part of this
+expensive to the cheapest part of this process. Everything is going to change
+process. Everything is going to change
+process. Everything is going to change as a result. I don't know what that's
+as a result. I don't know what that's
+as a result. I don't know what that's going to look like. I'm not going to sit
+going to look like. I'm not going to sit
+going to look like. I'm not going to sit here and tell you that our jobs are
+here and tell you that our jobs are
+here and tell you that our jobs are going away or that we're totally fine. I
+going away or that we're totally fine. I
+going away or that we're totally fine. I don't know yet. I don't know what the
+don't know yet. I don't know what the
+don't know yet. I don't know what the world looks like after code becomes so
+world looks like after code becomes so
+world looks like after code becomes so cheap it's nearly free. I know a lot of
+cheap it's nearly free. I know a lot of
+cheap it's nearly free. I know a lot of the things that are valuable now like
+the things that are valuable now like
+the things that are valuable now like turning user problems into clear concise
+turning user problems into clear concise
+turning user problems into clear concise plans, making sure written code is ready
+plans, making sure written code is ready
+plans, making sure written code is ready to ship, having good methods and good
+to ship, having good methods and good
+to ship, having good methods and good alerting systems to do automatic roll
+alerting systems to do automatic roll
+alerting systems to do automatic roll backs, and having good safety nets in
+backs, and having good safety nets in
+backs, and having good safety nets in place for when things do go wrong,
+place for when things do go wrong,
+place for when things do go wrong, writing really thorough tests, and doing
+writing really thorough tests, and doing
+writing really thorough tests, and doing really thorough QA. All of these things
+really thorough QA. All of these things
+really thorough QA. All of these things are more valuable now than ever, and
+are more valuable now than ever, and
+are more valuable now than ever, and developers hate all of them. The average
+developers hate all of them. The average
+developers hate all of them. The average developer is going to have a really
+developer is going to have a really
+developer is going to have a really rough time. This isn't because vibe
+rough time. This isn't because vibe
+rough time. This isn't because vibe coding isn't fun. To be clear, I've seen
+coding isn't fun. To be clear, I've seen
+coding isn't fun. To be clear, I've seen a lot of people saying they missed the
+a lot of people saying they missed the
+a lot of people saying they missed the craft. I don't think they do. I
+craft. I don't think they do. I
+craft. I don't think they do. I genuinely believe they're wrong. I think
+genuinely believe they're wrong. I think
+genuinely believe they're wrong. I think if you were to rank all the stuff that
+if you were to rank all the stuff that
+if you were to rank all the stuff that we do in a given day as a developer,
+we do in a given day as a developer,
+we do in a given day as a developer, writing code is one of the more fun
+writing code is one of the more fun
+writing code is one of the more fun ones, reviewing code is one of the less
+ones, reviewing code is one of the less
+ones, reviewing code is one of the less fun ones. So, if we have shifted
+fun ones. So, if we have shifted
+fun ones. So, if we have shifted everything so that we're writing code
+everything so that we're writing code
+everything so that we're writing code way less, and now we're reviewing code
+way less, and now we're reviewing code
+way less, and now we're reviewing code way more. Yeah, that's going to feel
+way more. Yeah, that's going to feel
+way more. Yeah, that's going to feel worse. Not because writing code was the
+worse. Not because writing code was the
+worse. Not because writing code was the fun part and we lost it. Just because we
+fun part and we lost it. Just because we
+fun part and we lost it. Just because we have shifted meaningfully in where our
+have shifted meaningfully in where our
+have shifted meaningfully in where our interests are and where our time is
+interests are and where our time is
+interests are and where our time is spent. Our time is now spent much more
+spent. Our time is now spent much more
+spent. Our time is now spent much more so dealing with the consequences of our
+so dealing with the consequences of our
+so dealing with the consequences of our code because the code got so much easier
+code because the code got so much easier
+code because the code got so much easier to put out. But if you can flip that in
+to put out. But if you can flip that in
+to put out. But if you can flip that in your head a bit, it becomes really
+your head a bit, it becomes really
+your head a bit, it becomes really empowering. I personally have never
+empowering. I personally have never
+empowering. I personally have never enjoyed writing code more. Yeah, I'm not
+enjoyed writing code more. Yeah, I'm not
+enjoyed writing code more. Yeah, I'm not writing the code myself, but there's
+writing the code myself, but there's
+writing the code myself, but there's something so rewarding about cracking
+something so rewarding about cracking
+something so rewarding about cracking the code, so to speak, finding the right
+the code, so to speak, finding the right
+the code, so to speak, finding the right combination of description of the
+combination of description of the
+combination of description of the problem, technologies that the agents
+problem, technologies that the agents
+problem, technologies that the agents can use, harnesses that can be steered
+can use, harnesses that can be steered
+can use, harnesses that can be steered in a way to build in the right
+in a way to build in the right
+in a way to build in the right direction, ending in a product that's
+direction, ending in a product that's
+direction, ending in a product that's actually useful. I've never built more.
+actually useful. I've never built more.
+actually useful. I've never built more. I have so many projects that I'm working
+I have so many projects that I'm working
+I have so many projects that I'm working on right now, and I'm going to actually
+on right now, and I'm going to actually
+on right now, and I'm going to actually ship a bunch of them. I'm so hyped. But
+ship a bunch of them. I'm so hyped. But
+ship a bunch of them. I'm so hyped. But you have to change your mindset a ton
+you have to change your mindset a ton
+you have to change your mindset a ton for that. And not just you and me as
+for that. And not just you and me as
+for that. And not just you and me as devs, the people running these companies
+devs, the people running these companies
+devs, the people running these companies and paying us our salaries, too. That's
+and paying us our salaries, too. That's
+and paying us our salaries, too. That's a big deal. And that's where the next
+a big deal. And that's where the next
+a big deal. And that's where the next paragraph in the statement comes in.
+paragraph in the statement comes in.
+paragraph in the statement comes in. Jack had two options. Cut gradually over
+Jack had two options. Cut gradually over
+Jack had two options. Cut gradually over months or years as the shift plays out,
+months or years as the shift plays out,
+months or years as the shift plays out, or be honest about where they are and
+or be honest about where they are and
+or be honest about where they are and act on it. Now, this is something I
+act on it. Now, this is something I
+act on it. Now, this is something I really like about the way he chose to do
+really like about the way he chose to do
+really like about the way he chose to do this. It is clear that this is where
+this. It is clear that this is where
+this. It is clear that this is where things are going. that having too many
+things are going. that having too many
+things are going. that having too many people in the pipeline approving things
+people in the pipeline approving things
+people in the pipeline approving things is going to make you slower, not faster.
+is going to make you slower, not faster.
+is going to make you slower, not faster. That the benefit of having a lot of
+That the benefit of having a lot of
+That the benefit of having a lot of engineers being a lot more code is no
+engineers being a lot more code is no
+engineers being a lot more code is no longer that valuable at all. So they
+longer that valuable at all. So they
+longer that valuable at all. So they could slowly realize this and have
+could slowly realize this and have
+could slowly realize this and have individual teams and orgs realize this
+individual teams and orgs realize this
+individual teams and orgs realize this and every few months lay off 5 to 10% of
+and every few months lay off 5 to 10% of
+and every few months lay off 5 to 10% of people and never actually see the
+people and never actually see the
+people and never actually see the benefits. Because if your team goes from
+benefits. Because if your team goes from
+benefits. Because if your team goes from 10 people to eight people, your process
+10 people to eight people, your process
+10 people to eight people, your process isn't going to change much. You're just
+isn't going to change much. You're just
+isn't going to change much. You're just going to move around assignments. But if
+going to move around assignments. But if
+going to move around assignments. But if your team goes from 10 people to two
+your team goes from 10 people to two
+your team goes from 10 people to two people, you're going to start rethinking
+people, you're going to start rethinking
+people, you're going to start rethinking [&nbsp;__&nbsp;] That's that's what he's going for
+[&nbsp;__&nbsp;] That's that's what he's going for
+[&nbsp;__&nbsp;] That's that's what he's going for here. And I have a lot of respect for
+here. And I have a lot of respect for
+here. And I have a lot of respect for the way he did it because the
+the way he did it because the
+the way he did it because the alternatives just aren't going to move
+alternatives just aren't going to move
+alternatives just aren't going to move that fast. Let's use GitHub as an
+that fast. Let's use GitHub as an
+that fast. Let's use GitHub as an example. GitHub's a relatively big
+example. GitHub's a relatively big
+example. GitHub's a relatively big organization. If a new AI model drops,
+organization. If a new AI model drops,
+organization. If a new AI model drops, there's an approval process that has to
+there's an approval process that has to
+there's an approval process that has to be gone through before they can ship
+be gone through before they can ship
+be gone through before they can ship that in Copilot. When Gemini 3.1 Pro
+that in Copilot. When Gemini 3.1 Pro
+that in Copilot. When Gemini 3.1 Pro came out, they managed to sneak it in
+came out, they managed to sneak it in
+came out, they managed to sneak it in relatively quickly into Cop-lot. I was
+relatively quickly into Cop-lot. I was
+relatively quickly into Cop-lot. I was impressed that they actually got this
+impressed that they actually got this
+impressed that they actually got this out this fast. You could use Gemini 3.1
+out this fast. You could use Gemini 3.1
+out this fast. You could use Gemini 3.1 Pro in the Copilot extension thing built
+Pro in the Copilot extension thing built
+Pro in the Copilot extension thing built into VS Code. I was trying to find a way
+into VS Code. I was trying to find a way
+into VS Code. I was trying to find a way to use Gemini 3.1 Pro reliably cuz there
+to use Gemini 3.1 Pro reliably cuz there
+to use Gemini 3.1 Pro reliably cuz there were issues with provisioning for it.
+were issues with provisioning for it.
+were issues with provisioning for it. Even the official Gemini CLI could not
+Even the official Gemini CLI could not
+Even the official Gemini CLI could not use it because again, Google's a massive
+use it because again, Google's a massive
+use it because again, Google's a massive company. Getting things updated is
+company. Getting things updated is
+company. Getting things updated is nearly impossible there. Microsoft is
+nearly impossible there. Microsoft is
+nearly impossible there. Microsoft is similar. Somebody told me that even the
+similar. Somebody told me that even the
+similar. Somebody told me that even the co-pilot CLI has 3.1 Pro. They lied. I
+co-pilot CLI has 3.1 Pro. They lied. I
+co-pilot CLI has 3.1 Pro. They lied. I just moved from the C-pilot CLI to
+just moved from the C-pilot CLI to
+just moved from the C-pilot CLI to Gemini because it didn't have it. I
+Gemini because it didn't have it. I
+Gemini because it didn't have it. I tagged Burke, who's one of the higher up
+tagged Burke, who's one of the higher up
+tagged Burke, who's one of the higher up people working on VS Code and Copilot
+people working on VS Code and Copilot
+people working on VS Code and Copilot stuff at Microsoft, asking for help. He
+stuff at Microsoft, asking for help. He
+stuff at Microsoft, asking for help. He said it should be there for you. Tagged
+said it should be there for you. Tagged
+said it should be there for you. Tagged in two additional people who work on the
+in two additional people who work on the
+in two additional people who work on the CLI to help saying what tier I'm on. How
+CLI to help saying what tier I'm on. How
+CLI to help saying what tier I'm on. How can we make sure it's there for him day
+can we make sure it's there for him day
+can we make sure it's there for him day zero? Unfortunately, this model is only
+zero? Unfortunately, this model is only
+zero? Unfortunately, this model is only available in VS Code and not in the
+available in VS Code and not in the
+available in VS Code and not in the Copilot CLI. We are working on it, but
+Copilot CLI. We are working on it, but
+Copilot CLI. We are working on it, but not an easy thing. I'm not trying to
+not an easy thing. I'm not trying to
+not an easy thing. I'm not trying to call out Evan here. I'm not trying to
+call out Evan here. I'm not trying to
+call out Evan here. I'm not trying to shame any employees or anything here. I
+shame any employees or anything here. I
+shame any employees or anything here. I just need us to have an honest moment.
+just need us to have an honest moment.
+just need us to have an honest moment. What the [&nbsp;__&nbsp;] do you mean it's not an
+What the [&nbsp;__&nbsp;] do you mean it's not an
+What the [&nbsp;__&nbsp;] do you mean it's not an easy thing? What the [&nbsp;__&nbsp;] does that even
+easy thing? What the [&nbsp;__&nbsp;] does that even
+easy thing? What the [&nbsp;__&nbsp;] does that even mean? I know what it means. It means the
+mean? I know what it means. It means the
+mean? I know what it means. It means the company's too big. It means that there
+company's too big. It means that there
+company's too big. It means that there are 10erson teams when there should be a
+are 10erson teams when there should be a
+are 10erson teams when there should be a one person managing the three other
+one person managing the three other
+one person managing the three other projects. Not only is this addition one
+projects. Not only is this addition one
+projects. Not only is this addition one prompt away, it's one line of [&nbsp;__&nbsp;]
+prompt away, it's one line of [&nbsp;__&nbsp;]
+prompt away, it's one line of [&nbsp;__&nbsp;] code. I hate to put it this way, but
+code. I hate to put it this way, but
+code. I hate to put it this way, but Jack's ahead of them right now. There's
+Jack's ahead of them right now. There's
+Jack's ahead of them right now. There's a very real future coming soon where the
+a very real future coming soon where the
+a very real future coming soon where the entire team is laid off and replaced
+entire team is laid off and replaced
+entire team is laid off and replaced with two people that can submit the
+with two people that can submit the
+with two people that can submit the right prompt to prevent [&nbsp;__&nbsp;] like this
+right prompt to prevent [&nbsp;__&nbsp;] like this
+right prompt to prevent [&nbsp;__&nbsp;] like this from happening. This is a very real case
+from happening. This is a very real case
+from happening. This is a very real case where more people is making the thing
+where more people is making the thing
+where more people is making the thing less likely to ship. And this is just
+less likely to ship. And this is just
+less likely to ship. And this is just one I encountered a few days ago. There
+one I encountered a few days ago. There
+one I encountered a few days ago. There are hundreds of these every [&nbsp;__&nbsp;] day
+are hundreds of these every [&nbsp;__&nbsp;] day
+are hundreds of these every [&nbsp;__&nbsp;] day at every [&nbsp;__&nbsp;] company. I promise. And
+at every [&nbsp;__&nbsp;] company. I promise. And
+at every [&nbsp;__&nbsp;] company. I promise. And to be even harsher with this, the
+to be even harsher with this, the
+to be even harsher with this, the companies that don't make this change
+companies that don't make this change
+companies that don't make this change are going to get absolutely lapped by
+are going to get absolutely lapped by
+are going to get absolutely lapped by the ones that do. My little threeperson
+the ones that do. My little threeperson
+the ones that do. My little threeperson dev team should not be able to out ship
+dev team should not be able to out ship
+dev team should not be able to out ship OpenAI on web with chatgpt in the
+OpenAI on web with chatgpt in the
+OpenAI on web with chatgpt in the desktop app with codeex app versus T3
+desktop app with codeex app versus T3
+desktop app with codeex app versus T3 code. Just wait. We're going to ship so
+code. Just wait. We're going to ship so
+code. Just wait. We're going to ship so much faster once we drop. I want to make
+much faster once we drop. I want to make
+much faster once we drop. I want to make sure that we're at feature parody for
+sure that we're at feature parody for
+sure that we're at feature parody for the core things before we launch and
+the core things before we launch and
+the core things before we launch and then we're going to way outpace them.
+then we're going to way outpace them.
+then we're going to way outpace them. The fact that we're now out shipping
+The fact that we're now out shipping
+The fact that we're now out shipping frame.io. I'm sorry. And this is all
+frame.io. I'm sorry. And this is all
+frame.io. I'm sorry. And this is all just us three hopping between [&nbsp;__&nbsp;] The
+just us three hopping between [&nbsp;__&nbsp;] The
+just us three hopping between [&nbsp;__&nbsp;] The shape of teams has to change if these
+shape of teams has to change if these
+shape of teams has to change if these big companies want to maintain pace with
+big companies want to maintain pace with
+big companies want to maintain pace with the smaller ones. And to be more blunt,
+the smaller ones. And to be more blunt,
+the smaller ones. And to be more blunt, most places have not figured this out
+most places have not figured this out
+most places have not figured this out yet. For every company like Block that
+yet. For every company like Block that
+yet. For every company like Block that realiz this is where we're going and has
+realiz this is where we're going and has
+realiz this is where we're going and has made this change, there's 10 that
+made this change, there's 10 that
+made this change, there's 10 that haven't, and they're going to be
+haven't, and they're going to be
+haven't, and they're going to be screwed. The few companies that don't do
+screwed. The few companies that don't do
+screwed. The few companies that don't do this should be looked at very closely by
+this should be looked at very closely by
+this should be looked at very closely by you as opportunity. Any company that
+you as opportunity. Any company that
+you as opportunity. Any company that hasn't entirely rethought their
+hasn't entirely rethought their
+hasn't entirely rethought their engineering or by the end of this year
+engineering or by the end of this year
+engineering or by the end of this year is a company you should build an
+is a company you should build an
+is a company you should build an alternative to because you will ship
+alternative to because you will ship
+alternative to because you will ship faster than them. The structure of
+faster than them. The structure of
+faster than them. The structure of companies that worked last year is a
+companies that worked last year is a
+companies that worked last year is a structure that puts them behind this
+structure that puts them behind this
+structure that puts them behind this year. You got to take the opportunity.
+year. You got to take the opportunity.
+year. You got to take the opportunity. There is so much room up for grabs right
+There is so much room up for grabs right
+There is so much room up for grabs right now. This is arguably comparable to the
+now. This is arguably comparable to the
+now. This is arguably comparable to the internet where like Amazon crushed
+internet where like Amazon crushed
+internet where like Amazon crushed Barnes &amp; Noble and then crushed
+Barnes &amp; Noble and then crushed
+Barnes &amp; Noble and then crushed everyone. I think we are at that moment
+everyone. I think we are at that moment
+everyone. I think we are at that moment again. And that means our jobs at
+again. And that means our jobs at
+again. And that means our jobs at existing industries are not sacred like
+existing industries are not sacred like
+existing industries are not sacred like they used to be. If your company
+they used to be. If your company
+they used to be. If your company currently has more engineers than they
+currently has more engineers than they
+currently has more engineers than they had last year, there's a very high
+had last year, there's a very high
+had last year, there's a very high chance there will be layoffs by the end
+chance there will be layoffs by the end
+chance there will be layoffs by the end of the year. Everything is changing.
+of the year. Everything is changing.
+of the year. Everything is changing. Block is just the start here. We're at
+Block is just the start here. We're at
+Block is just the start here. We're at the beginning of the end. I don't know
+the beginning of the end. I don't know
+the beginning of the end. I don't know what is ending and I don't know what
+what is ending and I don't know what
+what is ending and I don't know what it'll be replaced with. I just want to
+it'll be replaced with. I just want to
+it'll be replaced with. I just want to make sure I raise the alarm bells cuz I
+make sure I raise the alarm bells cuz I
+make sure I raise the alarm bells cuz I know other creators just make memes
+know other creators just make memes
+know other creators just make memes about how we're like we're 36 months
+about how we're like we're 36 months
+about how we're like we're 36 months into 6 months until NG is dead. Being
+into 6 months until NG is dead. Being
+into 6 months until NG is dead. Being paid to type in lines of code is over.
+paid to type in lines of code is over.
+paid to type in lines of code is over. Any place that hasn't realized that is
+Any place that hasn't realized that is
+Any place that hasn't realized that is just behind now. And that includes the
+just behind now. And that includes the
+just behind now. And that includes the major labs, too. To be fully clear. I'm
+major labs, too. To be fully clear. I'm
+major labs, too. To be fully clear. I'm very thankful to be at a threeperson
+very thankful to be at a threeperson
+very thankful to be at a threeperson startup and maintaining about 15 people
+startup and maintaining about 15 people
+startup and maintaining about 15 people across all of my teams instead of one of
+across all of my teams instead of one of
+across all of my teams instead of one of these 10,000 plus person companies that
+these 10,000 plus person companies that
+these 10,000 plus person companies that needs to rethink everything. Yeah, I
+needs to rethink everything. Yeah, I
+needs to rethink everything. Yeah, I don't got any wisdom here. I just I want
+don't got any wisdom here. I just I want
+don't got any wisdom here. I just I want to make sure we are being realistic
+to make sure we are being realistic
+to make sure we are being realistic about where shit's going. And I'm really
+about where shit's going. And I'm really
+about where shit's going. And I'm really not interested in the takes of the
+not interested in the takes of the
+not interested in the takes of the unemployed and people who aren't in
+unemployed and people who aren't in
+unemployed and people who aren't in industry and aren't watching this as it
+industry and aren't watching this as it
+industry and aren't watching this as it changes. I'm telling you guys this from
+changes. I'm telling you guys this from
+changes. I'm telling you guys this from the ground floor. I'm telling you this
+the ground floor. I'm telling you this
+the ground floor. I'm telling you this is somebody who spends a lot of time
+is somebody who spends a lot of time
+is somebody who spends a lot of time talking to startups and big businesses
+talking to startups and big businesses
+talking to startups and big businesses with all of the teams building all of
+with all of the teams building all of
+with all of the teams building all of these things and how clear it is which
+these things and how clear it is which
+these things and how clear it is which ones understand and which ones don't and
+ones understand and which ones don't and
+ones understand and which ones don't and how [&nbsp;__&nbsp;] the ones who don't understand
+how [&nbsp;__&nbsp;] the ones who don't understand
+how [&nbsp;__&nbsp;] the ones who don't understand currently are. If your company isn't
+currently are. If your company isn't
+currently are. If your company isn't forcing you to adopt tools like cloud
+forcing you to adopt tools like cloud
+forcing you to adopt tools like cloud code, codeex, cursor, and other things
+code, codeex, cursor, and other things
+code, codeex, cursor, and other things like that, they're already doomed and
+like that, they're already doomed and
+like that, they're already doomed and you should start hunting. Like it, we
+you should start hunting. Like it, we
+you should start hunting. Like it, we are there. Shout out to Jack for pushing
+are there. Shout out to Jack for pushing
+are there. Shout out to Jack for pushing me over the line here and making it even
+me over the line here and making it even
+me over the line here and making it even more obvious where things have gotten.
+more obvious where things have gotten.
+more obvious where things have gotten. And to all the devs in my audience,
+And to all the devs in my audience,
+And to all the devs in my audience, start talking to your users more. Start
+start talking to your users more. Start
+start talking to your users more. Start talking to your designers, your product
+talking to your designers, your product
+talking to your designers, your product team more. Start getting more involved
+team more. Start getting more involved
+team more. Start getting more involved in the release process. Start getting
+in the release process. Start getting
+in the release process. Start getting more involved in the systems that allow
+more involved in the systems that allow
+more involved in the systems that allow these things to work. and start trying
+these things to work. and start trying
+these things to work. and start trying to automate your own job because through
+to automate your own job because through
+to automate your own job because through the automation of your work, you will
+the automation of your work, you will
+the automation of your work, you will find everything around it and you'll be
+find everything around it and you'll be
+find everything around it and you'll be able to do more and more of that. Have
+able to do more and more of that. Have
+able to do more and more of that. Have more agency. Yes, this is the one thing
+more agency. Yes, this is the one thing
+more agency. Yes, this is the one thing the agents will never have. It's silly
+the agents will never have. It's silly
+the agents will never have. It's silly that agents won't have agency, but they
+that agents won't have agency, but they
+that agents won't have agency, but they won't. They won't have the initiative.
+won't. They won't have the initiative.
+won't. They won't have the initiative. They won't have the ownership. They
+They won't have the ownership. They
+They won't have the ownership. They won't have the focus, so to speak. They
+won't have the focus, so to speak. They
+won't have the focus, so to speak. They have to be given all of those things.
+have to be given all of those things.
+have to be given all of those things. And as long as you can provide that for
+And as long as you can provide that for
+And as long as you can provide that for them and as long as you have enough
+them and as long as you have enough
+them and as long as you have enough understanding to build the right
+understanding to build the right
+understanding to build the right environment for it, as long as you use
+environment for it, as long as you use
+environment for it, as long as you use the product enough to identify the
+the product enough to identify the
+the product enough to identify the problems when it doesn't do things
+problems when it doesn't do things
+problems when it doesn't do things right, as long as you're just [&nbsp;__&nbsp;]
+right, as long as you're just [&nbsp;__&nbsp;]
+right, as long as you're just [&nbsp;__&nbsp;] locked in enough, you will turn this
+locked in enough, you will turn this
+locked in enough, you will turn this into a win. But the reality is that most
+into a win. But the reality is that most
+into a win. But the reality is that most devs won't do that. Not only are most
+devs won't do that. Not only are most
+devs won't do that. Not only are most devs working on product that they don't
+devs working on product that they don't
+devs working on product that they don't use, they don't even like their users.
+use, they don't even like their users.
+use, they don't even like their users. They don't even know their users. I've
+They don't even know their users. I've
+They don't even know their users. I've talked to so many devs that can't even
+talked to so many devs that can't even
+talked to so many devs that can't even name one of their customers. It's
+name one of their customers. It's
+name one of their customers. It's hilarious. And those people are [&nbsp;__&nbsp;]
+hilarious. And those people are [&nbsp;__&nbsp;]
+hilarious. And those people are [&nbsp;__&nbsp;] If the agent knows more about your
+If the agent knows more about your
+If the agent knows more about your customers than you do, you don't have a
+customers than you do, you don't have a
+customers than you do, you don't have a job anymore. Get on it. I have no idea
+job anymore. Get on it. I have no idea
+job anymore. Get on it. I have no idea how this video is going to feel or what
+how this video is going to feel or what
+how this video is going to feel or what this sentiment's going to be. I just I'm
+this sentiment's going to be. I just I'm
+this sentiment's going to be. I just I'm going through it with this myself even.
+going through it with this myself even.
+going through it with this myself even. It's just that so much is changing,
+It's just that so much is changing,
+It's just that so much is changing, guys. I don't think anyone even I fully
+guys. I don't think anyone even I fully
+guys. I don't think anyone even I fully comprehend how much this is happening.
+comprehend how much this is happening.
+comprehend how much this is happening. But when I look at a product that I've
+But when I look at a product that I've
+But when I look at a product that I've used for years that I could rebuild in
+used for years that I could rebuild in
+used for years that I could rebuild in two weeks and then I check Twitter and
+two weeks and then I check Twitter and
+two weeks and then I check Twitter and see one of my favorite CEOs laying off
+see one of my favorite CEOs laying off
+see one of my favorite CEOs laying off half their company due to the same
+half their company due to the same
+half their company due to the same things I'm working on on the side. I
+things I'm working on on the side. I
+things I'm working on on the side. I can't just sit here and pretend
+can't just sit here and pretend
+can't just sit here and pretend everything's going to be the same. We
+everything's going to be the same. We
+everything's going to be the same. We all just have different slightly jobs in
+all just have different slightly jobs in
+all just have different slightly jobs in the dev. No, everything is changing and
+the dev. No, everything is changing and
+the dev. No, everything is changing and we need to be realistic about it. We're
+we need to be realistic about it. We're
+we need to be realistic about it. We're not in the middle. We're at the end.
+not in the middle. We're at the end.
+not in the middle. We're at the end. We're at the end of something. I don't
+We're at the end of something. I don't
+We're at the end of something. I don't know what it is yet, but I want to make
+know what it is yet, but I want to make
+know what it is yet, but I want to make sure we all know that at the very least
+sure we all know that at the very least
+sure we all know that at the very least so that we can be prepared for whatever
+so that we can be prepared for whatever
+so that we can be prepared for whatever ends up being next. Let me know how
+ends up being next. Let me know how
+ends up being next. Let me know how y'all feel. Am I going insane or is this
+y'all feel. Am I going insane or is this
+y'all feel. Am I going insane or is this actually change happening now?
