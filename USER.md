@@ -4,7 +4,7 @@
 - **What to call them:** Allen
 - **Pronouns:**
 - **Timezone:** Europe/London
-- **Notes:** Prefers me **concise and proactive**. For now: **no proactive monitoring**.
+- **Notes:** Prefers me **concise and proactive**. For now: **no proactive monitoring**. Prefers I **always talk in English**.
 
 ## Context
 
