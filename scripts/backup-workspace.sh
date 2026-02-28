@@ -4,6 +4,19 @@ set -euo pipefail
 WS_DIR="${OPENCLAW_WORKSPACE_DIR:-$HOME/.openclaw/workspace}"
 cd "$WS_DIR"
 
+# OBSIDIAN_VAULT_SYNC
+# Sync Windows Obsidian vault into workspace for Git backup
+WIN_VAULT="/mnt/c/Users/allen/Documents/Obsidian/Lily's vault"
+WS_VAULT="$WS_DIR/obsidian-vault"
+mkdir -p "$WS_VAULT"
+if command -v rsync >/dev/null 2>&1; then
+  rsync -a --delete --exclude '.obsidian/' --exclude '.trash/' "$WIN_VAULT/" "$WS_VAULT/"
+else
+  rm -rf "$WS_VAULT"/*
+  cp -a "$WIN_VAULT/." "$WS_VAULT/"
+fi
+
+
 # Ensure we're on a branch and have a remote.
 BRANCH="$(git branch --show-current)"
 if [[ -z "${BRANCH}" ]]; then
