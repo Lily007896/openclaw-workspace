@@ -1,0 +1,654 @@
+Last week, Anthropic released this
+Last week, Anthropic released this marketing video in which they're like,
+marketing video in which they're like,
+marketing video in which they're like, "Hey, we built a C compiler from
+"Hey, we built a C compiler from
+"Hey, we built a C compiler from scratch." You know, like we just walked
+scratch." You know, like we just walked
+scratch." You know, like we just walked away and two weeks later was like poof,
+away and two weeks later was like poof,
+away and two weeks later was like poof, C compiler and everything worked. I
+C compiler and everything worked. I
+C compiler and everything worked. I could build Linux. It was easy peasy.
+could build Linux. It was easy peasy.
+could build Linux. It was easy peasy. Engineering's over. Now, of course, this
+Engineering's over. Now, of course, this
+Engineering's over. Now, of course, this led a bunch of people to kind of
+led a bunch of people to kind of
+led a bunch of people to kind of actually say, well, hey, it wasn't
+actually say, well, hey, it wasn't
+actually say, well, hey, it wasn't really from scratch. He used a bunch of
+really from scratch. He used a bunch of
+really from scratch. He used a bunch of test suites and everything. But
+test suites and everything. But
+test suites and everything. But Cloudflare, when they saw that, they
+Cloudflare, when they saw that, they
+Cloudflare, when they saw that, they said, well, wait, wait, wait a second.
+said, well, wait, wait, wait a second.
+said, well, wait, wait, wait a second. Hold my beer. I got an idea. And they
+Hold my beer. I got an idea. And they
+Hold my beer. I got an idea. And they decided they're going to rebuild Nex.js,
+decided they're going to rebuild Nex.js,
+decided they're going to rebuild Nex.js, JS, which is if you don't know anything
+JS, which is if you don't know anything
+JS, which is if you don't know anything about Nex.js, just imagine a framework
+about Nex.js, just imagine a framework
+about Nex.js, just imagine a framework and you put a framework in a framework.
+and you put a framework in a framework.
+and you put a framework in a framework. That's effectively what Nex.js is. They
+That's effectively what Nex.js is. They
+That's effectively what Nex.js is. They call it a meta framework. Okay, very
+call it a meta framework. Okay, very
+call it a meta framework. Okay, very metaphysical. Okay, I actually I don't
+metaphysical. Okay, I actually I don't
+metaphysical. Okay, I actually I don't even get that joke. And they make
+even get that joke. And they make
+even get that joke. And they make outrageous claims about it. 57% smaller
+outrageous claims about it. 57% smaller
+outrageous claims about it. 57% smaller client bundles, 4x faster builds. All
+client bundles, 4x faster builds. All
+client bundles, 4x faster builds. All right, so we're going to obviously have
+right, so we're going to obviously have
+right, so we're going to obviously have to go over this. We're going to talk
+to go over this. We're going to talk
+to go over this. We're going to talk about these claims. We're going to
+about these claims. We're going to
+about these claims. We're going to actually kind of understand the whole
+actually kind of understand the whole
+actually kind of understand the whole purpose to everything. And even more so,
+purpose to everything. And even more so,
+purpose to everything. And even more so, we should probably talk about the
+we should probably talk about the
+we should probably talk about the implications of this. But first, I don't
+implications of this. But first, I don't
+implications of this. But first, I don't know if you know this, March 27th, I'm
+know if you know this, March 27th, I'm
+know if you know this, March 27th, I'm going to be in San Francisco. I'm going
+going to be in San Francisco. I'm going
+going to be in San Francisco. I'm going to be doing an event for Century. If you
+to be doing an event for Century. If you
+to be doing an event for Century. If you want to come sign up, the link will be
+want to come sign up, the link will be
+want to come sign up, the link will be in the description. It's going to be a
+in the description. It's going to be a
+in the description. It's going to be a lot of fun. A lot of founders and
+lot of fun. A lot of founders and
+lot of fun. A lot of founders and engineers are all going to be hanging
+engineers are all going to be hanging
+engineers are all going to be hanging out at the Chase Center. Sports ball. Am
+out at the Chase Center. Sports ball. Am
+out at the Chase Center. Sports ball. Am I right, boys?
+I right, boys?
+I right, boys? Yeah. You know me and that sports ball.
+Yeah. You know me and that sports ball.
+Yeah. You know me and that sports ball. Hey, but if we're talking pickle ball,
+Hey, but if we're talking pickle ball,
+Hey, but if we're talking pickle ball, dog, I'll see you on the court. Anyways,
+dog, I'll see you on the court. Anyways,
+dog, I'll see you on the court. Anyways, link will be in the description. Come
+link will be in the description. Come
+link will be in the description. Come hang out. It's going to be awesome. So,
+hang out. It's going to be awesome. So,
+hang out. It's going to be awesome. So, first to kind of understand what's
+first to kind of understand what's
+first to kind of understand what's happening, if you don't know anything
+happening, if you don't know anything
+happening, if you don't know anything about Nex.js, it's chronically been
+about Nex.js, it's chronically been
+about Nex.js, it's chronically been known on the internet as a very
+known on the internet as a very
+known on the internet as a very difficult thing to host if you're not on
+difficult thing to host if you're not on
+difficult thing to host if you're not on Versel. Open next right here, which was
+Versel. Open next right here, which was
+Versel. Open next right here, which was created, of course, by Dax. Look at Dax.
+created, of course, by Dax. Look at Dax.
+created, of course, by Dax. Look at Dax. Look at all that money on him. Classic
+Look at all that money on him. Classic
+Look at all that money on him. Classic DAX right there. It was created with the
+DAX right there. It was created with the
+DAX right there. It was created with the sole purpose of making hosting Nex.js
+sole purpose of making hosting Nex.js
+sole purpose of making hosting Nex.js not on Versel easier. And there's a lot
+not on Versel easier. And there's a lot
+not on Versel easier. And there's a lot of reasons why this is difficult. No
+of reasons why this is difficult. No
+of reasons why this is difficult. No need to go into them. Just know that
+need to go into them. Just know that
+need to go into them. Just know that there's some hurdles one has to jump
+there's some hurdles one has to jump
+there's some hurdles one has to jump over to make this easy. Now, what makes
+over to make this easy. Now, what makes
+over to make this easy. Now, what makes this really interesting is if you
+this really interesting is if you
+this really interesting is if you remember with Anthropic,
+remember with Anthropic,
+remember with Anthropic, they used the 37 years of engineering
+they used the 37 years of engineering
+they used the 37 years of engineering test to be able to produce a C compiler
+test to be able to produce a C compiler
+test to be able to produce a C compiler that they probably already had memorized
+that they probably already had memorized
+that they probably already had memorized in the weights. But this one is is
+in the weights. But this one is is
+in the weights. But this one is is different because Cloudflare used the
+different because Cloudflare used the
+different because Cloudflare used the 1700 viest tests and 380 playright
+1700 viest tests and 380 playright
+1700 viest tests and 380 playright endtoend test to effectively recreate
+endtoend test to effectively recreate
+endtoend test to effectively recreate Nex.js, JS, but instead of having kind
+Nex.js, JS, but instead of having kind
+Nex.js, JS, but instead of having kind of the proprietary or the turbo pack or
+of the proprietary or the turbo pack or
+of the proprietary or the turbo pack or whatever you would call that kind of
+whatever you would call that kind of
+whatever you would call that kind of build style, instead it was something
+build style, instead it was something
+build style, instead it was something that'd be a lot more friendly to say
+that'd be a lot more friendly to say
+that'd be a lot more friendly to say Netlfly or Cloudflare. And in one week,
+Netlfly or Cloudflare. And in one week,
+Netlfly or Cloudflare. And in one week, they were able to actually like get it
+they were able to actually like get it
+they were able to actually like get it to work. Now, this part actually right
+to work. Now, this part actually right
+to work. Now, this part actually right here terrified me. We've been working
+here terrified me. We've been working
+here terrified me. We've been working with the National Design Studio, a team
+with the National Design Studio, a team
+with the National Design Studio, a team aiming at modernizing every government
+aiming at modernizing every government
+aiming at modernizing every government interface on their beta sites, cio.gov.
+interface on their beta sites, cio.gov.
+interface on their beta sites, cio.gov. They're already running Vinex in
+They're already running Vinex in
+They're already running Vinex in production. Okay. Hey brothers. I mean,
+production. Okay. Hey brothers. I mean,
+production. Okay. Hey brothers. I mean, hey, Cloudflare, I love you, but
+hey, Cloudflare, I love you, but
+hey, Cloudflare, I love you, but [laughter]
+[laughter]
+[laughter] let's not use experimental frameworks on
+let's not use experimental frameworks on
+let's not use experimental frameworks on the government. Oh my gosh, what are we
+the government. Oh my gosh, what are we
+the government. Oh my gosh, what are we doing, dude? It's a fun time. Hey, we
+doing, dude? It's a fun time. Hey, we
+doing, dude? It's a fun time. Hey, we all get to laugh during the SL
+all get to laugh during the SL
+all get to laugh during the SL apocalypse. Okay. Uh, actually, I have
+apocalypse. Okay. Uh, actually, I have
+apocalypse. Okay. Uh, actually, I have to interrupt myself uh, quickly. A
+to interrupt myself uh, quickly. A
+to interrupt myself uh, quickly. A couple hours later, I was doing some
+couple hours later, I was doing some
+couple hours later, I was doing some more reading on this and I realized that
+more reading on this and I realized that
+more reading on this and I realized that I kind of misrepresented stuff right
+I kind of misrepresented stuff right
+I kind of misrepresented stuff right here. 94% of the NextJS 16 API surface
+here. 94% of the NextJS 16 API surface
+here. 94% of the NextJS 16 API surface sounds very intense, but if you go and
+sounds very intense, but if you go and
+sounds very intense, but if you go and look at how much of the actual Next.js
+look at how much of the actual Next.js
+look at how much of the actual Next.js JS test coverage this Cloudflare port
+JS test coverage this Cloudflare port
+JS test coverage this Cloudflare port actually has it's 13% dev 20% end to end
+actually has it's 13% dev 20% end to end
+actually has it's 13% dev 20% end to end and 10% production. There are 13,78
+and 10% production. There are 13,78
+and 10% production. There are 13,78 test cases and there's only 17380
+test cases and there's only 17380
+test cases and there's only 17380 end to end ones. So very interesting.
+end to end ones. So very interesting.
+end to end ones. So very interesting. One week of having an agent go hog wild.
+One week of having an agent go hog wild.
+One week of having an agent go hog wild. I mean it's impressive it's made it this
+I mean it's impressive it's made it this
+I mean it's impressive it's made it this far and people are actually using it.
+far and people are actually using it.
+far and people are actually using it. Still a little worried about that
+Still a little worried about that
+Still a little worried about that government thing though. Okay. I just
+government thing though. Okay. I just
+government thing though. Okay. I just just throw that out there. Okay, so
+just throw that out there. Okay, so
+just throw that out there. Okay, so let's talk about the claims. 4x faster
+let's talk about the claims. 4x faster
+let's talk about the claims. 4x faster builds and 57% smaller. So, we'll get to
+builds and 57% smaller. So, we'll get to
+builds and 57% smaller. So, we'll get to the second one in just a moment. The
+the second one in just a moment. The
+the second one in just a moment. The first one, I can understand why this
+first one, I can understand why this
+first one, I can understand why this happens. First off, they have just
+happens. First off, they have just
+happens. First off, they have just different build systems, so maybe roll
+different build systems, so maybe roll
+different build systems, so maybe roll down just truly is that much more
+down just truly is that much more
+down just truly is that much more performant than say Turbo Pack. I'm not
+performant than say Turbo Pack. I'm not
+performant than say Turbo Pack. I'm not saying which one's actually better here,
+saying which one's actually better here,
+saying which one's actually better here, but let's just pretend like that is a
+but let's just pretend like that is a
+but let's just pretend like that is a real thing. But there's a lot of things
+real thing. But there's a lot of things
+real thing. But there's a lot of things that it doesn't do. So, this is a very
+that it doesn't do. So, this is a very
+that it doesn't do. So, this is a very important part. this V next or whatever
+important part. this V next or whatever
+important part. this V next or whatever they're calling it uh this this new
+they're calling it uh this this new
+they're calling it uh this this new Nex.js Cloudflare edition. It doesn't do
+Nex.js Cloudflare edition. It doesn't do
+Nex.js Cloudflare edition. It doesn't do quite everything that Next.js does right
+quite everything that Next.js does right
+quite everything that Next.js does right here. Vex does not support static
+here. Vex does not support static
+here. Vex does not support static pre-rendering at buildtime. In Nex.js,
+pre-rendering at buildtime. In Nex.js,
+pre-rendering at buildtime. In Nex.js, pages without dynamic data get rendered
+pages without dynamic data get rendered
+pages without dynamic data get rendered during next build and served as static
+during next build and served as static
+during next build and served as static HTML. If you have dynamic routes, you
+HTML. If you have dynamic routes, you
+HTML. If you have dynamic routes, you use generate static params to enumerate
+use generate static params to enumerate
+use generate static params to enumerate which pages to build ahead of time. Vext
+which pages to build ahead of time. Vext
+which pages to build ahead of time. Vext doesn't do that yet. It's obviously
+doesn't do that yet. It's obviously
+doesn't do that yet. It's obviously doing less work, but that's not quite
+doing less work, but that's not quite
+doing less work, but that's not quite the whole story. This I actually find
+the whole story. This I actually find
+the whole story. This I actually find this part to be super interesting.
+this part to be super interesting.
+this part to be super interesting. Introducing trafficaw aare
+Introducing trafficaw aare
+Introducing trafficaw aare pre-rendering. Next.js pre-renders every
+pre-rendering. Next.js pre-renders every
+pre-rendering. Next.js pre-renders every page listed and generates static params
+page listed and generates static params
+page listed and generates static params during the build. A site with 10,000
+during the build. A site with 10,000
+during the build. A site with 10,000 product pages means 10,000 renders at
+product pages means 10,000 renders at
+product pages means 10,000 renders at build time even though 99% of those
+build time even though 99% of those
+build time even though 99% of those pages may never receive a request. Build
+pages may never receive a request. Build
+pages may never receive a request. Build scales linearly with page count. This is
+scales linearly with page count. This is
+scales linearly with page count. This is why Nex.js sites end up taking 30 minute
+why Nex.js sites end up taking 30 minute
+why Nex.js sites end up taking 30 minute builds. Okay, I ever been there. I
+builds. Okay, I ever been there. I
+builds. Okay, I ever been there. I didn't know about this. I have been in
+didn't know about this. I have been in
+didn't know about this. I have been in places where there are 45minut
+places where there are 45minut
+places where there are 45minut Typescript builds. I do get this. So, we
+Typescript builds. I do get this. So, we
+Typescript builds. I do get this. So, we take traffic aare pre-rendering TPR. By
+take traffic aare pre-rendering TPR. By
+take traffic aare pre-rendering TPR. By the way, front-end people love
+the way, front-end people love
+the way, front-end people love abbreviations. We already I mean, they
+abbreviations. We already I mean, they
+abbreviations. We already I mean, they just got done saying ISR just just a
+just got done saying ISR just just a
+just got done saying ISR just just a little bit ago. Okay, they're all about
+little bit ago. Okay, they're all about
+little bit ago. Okay, they're all about these things. So, we built traffic aware
+these things. So, we built traffic aware
+these things. So, we built traffic aware pre-rendering. It's experimental today
+pre-rendering. It's experimental today
+pre-rendering. It's experimental today and we plan to make it the default once
+and we plan to make it the default once
+and we plan to make it the default once we have a more real world testing. The
+we have a more real world testing. The
+we have a more real world testing. The idea is simple. Cloudflare already is a
+idea is simple. Cloudflare already is a
+idea is simple. Cloudflare already is a reverse proxy for your site. They
+reverse proxy for your site. They
+reverse proxy for your site. They already know everything that's being
+already know everything that's being
+already know everything that's being visited. So, why not use that
+visited. So, why not use that
+visited. So, why not use that information and just build the things
+information and just build the things
+information and just build the things you need? And as you can see right here,
+you need? And as you can see right here,
+you need? And as you can see right here, 12,000 unique paths, 184 pages cover 90%
+12,000 unique paths, 184 pages cover 90%
+12,000 unique paths, 184 pages cover 90% of the traffic. Actually, pretty cool.
+of the traffic. Actually, pretty cool.
+of the traffic. Actually, pretty cool. Pretty based, I'd say. All right, so the
+Pretty based, I'd say. All right, so the
+Pretty based, I'd say. All right, so the next two parts I'm actually very excited
+next two parts I'm actually very excited
+next two parts I'm actually very excited to talk about. So, the first one being
+to talk about. So, the first one being
+to talk about. So, the first one being the 57% smaller. Okay, I I'm just going
+the 57% smaller. Okay, I I'm just going
+the 57% smaller. Okay, I I'm just going to throw this out there. I don't believe
+to throw this out there. I don't believe
+to throw this out there. I don't believe you. And hold on, just let me just let
+you. And hold on, just let me just let
+you. And hold on, just let me just let me just let me just back that up for a
+me just let me just back that up for a
+me just let me just back that up for a second. Okay, I've been around the block
+second. Okay, I've been around the block
+second. Okay, I've been around the block for a while and I've seen a lot of
+for a while and I've seen a lot of
+for a while and I've seen a lot of performance claims and I have been a
+performance claims and I have been a
+performance claims and I have been a part of grand rewrites and I've seen
+part of grand rewrites and I've seen
+part of grand rewrites and I've seen things be super fantastic and then
+things be super fantastic and then
+things be super fantastic and then become well equal if not worse than the
+become well equal if not worse than the
+become well equal if not worse than the other one. So, there's only a couple
+other one. So, there's only a couple
+other one. So, there's only a couple possibilities that we're seeing. First,
+possibilities that we're seeing. First,
+possibilities that we're seeing. First, we are seeing the early days of V Next,
+we are seeing the early days of V Next,
+we are seeing the early days of V Next, meaning that not all the features are
+meaning that not all the features are
+meaning that not all the features are there, not all the things that made uh
+there, not all the things that made uh
+there, not all the things that made uh Next.js big are there. So, as time goes
+Next.js big are there. So, as time goes
+Next.js big are there. So, as time goes on, size will go up and then they'll
+on, size will go up and then they'll
+on, size will go up and then they'll become much closer, like within 5% of
+become much closer, like within 5% of
+become much closer, like within 5% of each other. I think this is probably the
+each other. I think this is probably the
+each other. I think this is probably the most likely answer is that Vinex is just
+most likely answer is that Vinex is just
+most likely answer is that Vinex is just not doing things and that saves them a
+not doing things and that saves them a
+not doing things and that saves them a lot because the only other answer is
+lot because the only other answer is
+lot because the only other answer is that Next.js has so thoroughly screwed
+that Next.js has so thoroughly screwed
+that Next.js has so thoroughly screwed up. They're sending effectively 2x more
+up. They're sending effectively 2x more
+up. They're sending effectively 2x more than they need to. And honestly, I
+than they need to. And honestly, I
+than they need to. And honestly, I refuse to believe that. Like, just a no
+refuse to believe that. Like, just a no
+refuse to believe that. Like, just a no way. I did corner a uh Cloudflare
+way. I did corner a uh Cloudflare
+way. I did corner a uh Cloudflare engineer and I did ask them uh many a
+engineer and I did ask them uh many a
+engineer and I did ask them uh many a times and at the end of the conversation
+times and at the end of the conversation
+times and at the end of the conversation he's like it's real and I was like I
+he's like it's real and I was like I
+he's like it's real and I was like I don't believe you. That was my only
+don't believe you. That was my only
+don't believe you. That was my only answer. I just no you can't just do you
+answer. I just no you can't just do you
+answer. I just no you can't just do you can't just have 50% smaller and
+can't just have 50% smaller and
+can't just have 50% smaller and everything else the same. I just not
+everything else the same. I just not
+everything else the same. I just not believe in it but in the small chance
+believe in it but in the small chance
+believe in it but in the small chance that it's actually true. That's
+that it's actually true. That's
+that it's actually true. That's incredible. What did MaxJS do to screw
+incredible. What did MaxJS do to screw
+incredible. What did MaxJS do to screw this up? But the performance does seem
+this up? But the performance does seem
+this up? But the performance does seem to be like something's going on because
+to be like something's going on because
+to be like something's going on because if you look right here, this slop fork
+if you look right here, this slop fork
+if you look right here, this slop fork is faster and smaller. You can see right
+is faster and smaller. You can see right
+is faster and smaller. You can see right here, people's P99 times are actually
+here, people's P99 times are actually
+here, people's P99 times are actually dropping. Okay, so there's a there
+dropping. Okay, so there's a there
+dropping. Okay, so there's a there there. I have no idea the validity of
+there. I have no idea the validity of
+there. I have no idea the validity of the data or anything. But if this is to
+the data or anything. But if this is to
+the data or anything. But if this is to be believed by this Cloudflare employee,
+be believed by this Cloudflare employee,
+be believed by this Cloudflare employee, which again, I mean, that's trusting,
+which again, I mean, that's trusting,
+which again, I mean, that's trusting, you know, the old fox with the hens as
+you know, the old fox with the hens as
+you know, the old fox with the hens as they say. But if this is to be uh true,
+they say. But if this is to be uh true,
+they say. But if this is to be uh true, then then oh my gosh, that's actually a
+then then oh my gosh, that's actually a
+then then oh my gosh, that's actually a dramatic improvement. But the most
+dramatic improvement. But the most
+dramatic improvement. But the most important topic is what are the
+important topic is what are the
+important topic is what are the implications from this? Because the C
+implications from this? Because the C
+implications from this? Because the C compiler was just like, oh, we all kind
+compiler was just like, oh, we all kind
+compiler was just like, oh, we all kind of laughed at anthropic because of how
+of laughed at anthropic because of how
+of laughed at anthropic because of how much they just misrepresented it.
+much they just misrepresented it.
+much they just misrepresented it. Whereas the Cloudflare one, they're
+Whereas the Cloudflare one, they're
+Whereas the Cloudflare one, they're like, no dog, we're running this in
+like, no dog, we're running this in
+like, no dog, we're running this in production. Yeah, people are just using
+production. Yeah, people are just using
+production. Yeah, people are just using it. Okay, so this one's a bit more real.
+it. Okay, so this one's a bit more real.
+it. Okay, so this one's a bit more real. And they did the exact same strategy.
+And they did the exact same strategy.
+And they did the exact same strategy. The tests were open. They took
+The tests were open. They took
+The tests were open. They took everything. They are effectively able to
+everything. They are effectively able to
+everything. They are effectively able to brain drain it like Silicon Valley. And
+brain drain it like Silicon Valley. And
+brain drain it like Silicon Valley. And boom, they have their own version. It
+boom, they have their own version. It
+boom, they have their own version. It makes me start thinking that maybe
+makes me start thinking that maybe
+makes me start thinking that maybe something like SQLite is what we're
+something like SQLite is what we're
+something like SQLite is what we're going to start seeing. So SQLite, for
+going to start seeing. So SQLite, for
+going to start seeing. So SQLite, for those that don't know, part of their
+those that don't know, part of their
+those that don't know, part of their quality assurance is this test harness
+quality assurance is this test harness
+quality assurance is this test harness number three. Now test harness number
+number three. Now test harness number
+number three. Now test harness number three or TH3 uh is the test suite is a
+three or TH3 uh is the test suite is a
+three or TH3 uh is the test suite is a private set of test cases used by the
+private set of test cases used by the
+private set of test cases used by the SQL light to 100% MC/DC in an asd
+SQL light to 100% MC/DC in an asd
+SQL light to 100% MC/DC in an asd delivered configuration. The TH3 sources
+delivered configuration. The TH3 sources
+delivered configuration. The TH3 sources are served on the same server as the
+are served on the same server as the
+are served on the same server as the other SQLite repositories but differ
+other SQLite repositories but differ
+other SQLite repositories but differ from the others in being proprietary.
+from the others in being proprietary.
+from the others in being proprietary. The TH3 code is only accessible to
+The TH3 code is only accessible to
+The TH3 code is only accessible to SQLite developers. So think about that.
+SQLite developers. So think about that.
+SQLite developers. So think about that. SQLite keeps a large part of their test
+SQLite keeps a large part of their test
+SQLite keeps a large part of their test private. Now, for a long time, did this
+private. Now, for a long time, did this
+private. Now, for a long time, did this make a lot of sense? Honestly, I don't
+make a lot of sense? Honestly, I don't
+make a lot of sense? Honestly, I don't really understand why they did that.
+really understand why they did that.
+really understand why they did that. That's not the only thing they keep
+That's not the only thing they keep
+That's not the only thing they keep private. They also have some other
+private. They also have some other
+private. They also have some other things that they keep private, such as
+things that they keep private, such as
+things that they keep private, such as this lib fuzzer. It's to kept private,
+this lib fuzzer. It's to kept private,
+this lib fuzzer. It's to kept private, so we do not want hackers gaining access
+so we do not want hackers gaining access
+so we do not want hackers gaining access to that technology. Sounds like I don't
+to that technology. Sounds like I don't
+to that technology. Sounds like I don't know what's going on there, but that
+know what's going on there, but that
+know what's going on there, but that sounds like Batman level going on.
+sounds like Batman level going on.
+sounds like Batman level going on. And the name of it looks just like a
+And the name of it looks just like a
+And the name of it looks just like a typo. Like, I mean, that looks
+typo. Like, I mean, that looks
+typo. Like, I mean, that looks fantastic. I want whatever's going on in
+fantastic. I want whatever's going on in
+fantastic. I want whatever's going on in there. But any this actually has kind of
+there. But any this actually has kind of
+there. But any this actually has kind of an interesting impact, right? Do you
+an interesting impact, right? Do you
+an interesting impact, right? Do you think we're going to see the day where
+think we're going to see the day where
+think we're going to see the day where say companybacked open source no longer
+say companybacked open source no longer
+say companybacked open source no longer like makes public any sort of testing
+like makes public any sort of testing
+like makes public any sort of testing because one can imagine that if you have
+because one can imagine that if you have
+because one can imagine that if you have a sufficiently large project, you can't
+a sufficiently large project, you can't
+a sufficiently large project, you can't just simply just say, "Hey AI, go make a
+just simply just say, "Hey AI, go make a
+just simply just say, "Hey AI, go make a copy." It'd be very very difficult. Will
+copy." It'd be very very difficult. Will
+copy." It'd be very very difficult. Will we just start seeing kind of a large
+we just start seeing kind of a large
+we just start seeing kind of a large change in open source? Because what's
+change in open source? Because what's
+change in open source? Because what's the purpose of producing all this stuff
+the purpose of producing all this stuff
+the purpose of producing all this stuff if somebody else can just say, "Hey,
+if somebody else can just say, "Hey,
+if somebody else can just say, "Hey, that's mine now." or even more
+that's mine now." or even more
+that's mine now." or even more importantly, your competitor can just
+importantly, your competitor can just
+importantly, your competitor can just say, "Oh, hey, that's mine now."
+say, "Oh, hey, that's mine now."
+say, "Oh, hey, that's mine now." Interesting. At least interesting to see
+Interesting. At least interesting to see
+Interesting. At least interesting to see what's going to happen over the course
+what's going to happen over the course
+what's going to happen over the course of the next couple years. I think we may
+of the next couple years. I think we may
+of the next couple years. I think we may end up seeing perhaps the end of making
+end up seeing perhaps the end of making
+end up seeing perhaps the end of making money off of open source by having a
+money off of open source by having a
+money off of open source by having a company also do something special with
+company also do something special with
+company also do something special with the open source because people so easily
+the open source because people so easily
+the open source because people so easily can now copy that. It's a very
+can now copy that. It's a very
+can now copy that. It's a very interesting future because this fork
+interesting future because this fork
+interesting future because this fork that they have created, I wonder how
+that they have created, I wonder how
+that they have created, I wonder how maintainable is it? Is it are they
+maintainable is it? Is it are they
+maintainable is it? Is it are they permanently just required to live in
+permanently just required to live in
+permanently just required to live in this slop universe until someone can
+this slop universe until someone can
+this slop universe until someone can finally wrangle their head around it?
+finally wrangle their head around it?
+finally wrangle their head around it? Because the attempt to rewrite Nex.js to
+Because the attempt to rewrite Nex.js to
+Because the attempt to rewrite Nex.js to be able to work on other platforms has
+be able to work on other platforms has
+be able to work on other platforms has been tried multiple times and has been a
+been tried multiple times and has been a
+been tried multiple times and has been a failure quite a few times. Cloudflare
+failure quite a few times. Cloudflare
+failure quite a few times. Cloudflare even mentions that they have attempted
+even mentions that they have attempted
+even mentions that they have attempted multiple times. And so what do you do
+multiple times. And so what do you do
+multiple times. And so what do you do with this just steaming hot pile of code
+with this just steaming hot pile of code
+with this just steaming hot pile of code that you've now been delivered? I don't
+that you've now been delivered? I don't
+that you've now been delivered? I don't know. There's a lot of just like weird
+know. There's a lot of just like weird
+know. There's a lot of just like weird world implications in this. We are
+world implications in this. We are
+world implications in this. We are seeing truly for the first time a major
+seeing truly for the first time a major
+seeing truly for the first time a major technology that's going to be used by a
+technology that's going to be used by a
+technology that's going to be used by a lot of people in which I don't think any
+lot of people in which I don't think any
+lot of people in which I don't think any individual can reason about what it's
+individual can reason about what it's
+individual can reason about what it's actually doing currently. The name
+actually doing currently. The name
+actually doing currently. The name well
+I don't even have a joke. I don't I I
+I don't even have a joke. I don't I I don't even have a joke to make. Okay.
+don't even have a joke to make. Okay.
+don't even have a joke to make. Okay. The name's the premigen. That's it.
+The name's the premigen. That's it.
+The name's the premigen. That's it. That's all I got for you. A gen. Hey, is
+That's all I got for you. A gen. Hey, is
+That's all I got for you. A gen. Hey, is that HTTP? Get that out of here. That's
+that HTTP? Get that out of here. That's
+that HTTP? Get that out of here. That's not how we order coffee. We order coffee
+not how we order coffee. We order coffee
+not how we order coffee. We order coffee via SSH terminal.shop. Yeah, you want a
+via SSH terminal.shop. Yeah, you want a
+via SSH terminal.shop. Yeah, you want a real experience. You want real coffee.
+real experience. You want real coffee.
+real experience. You want real coffee. You want awesome subscriptions so you
+You want awesome subscriptions so you
+You want awesome subscriptions so you never have to remember again? Oh, you
+never have to remember again? Oh, you
+never have to remember again? Oh, you want exclusive blends with exclusive
+want exclusive blends with exclusive
+want exclusive blends with exclusive coffee and exclusive [music] content?
+coffee and exclusive [music] content?
+coffee and exclusive [music] content? Then check out Cron. You don't know what
+Then check out Cron. You don't know what
+Then check out Cron. You don't know what SSH is?
+SSH is?
+SSH is? &gt;&gt; Well, maybe the coffee is not for you.
+&gt;&gt; Well, maybe the coffee is not for you.
+&gt;&gt; Well, maybe the coffee is not for you. [singing]
+[singing]
+[singing] &gt;&gt; [music]
+&gt;&gt; [music]
+&gt;&gt; [music] &gt;&gt; in hand.
+&gt;&gt; in hand.
+&gt;&gt; in hand. Living the dream.
