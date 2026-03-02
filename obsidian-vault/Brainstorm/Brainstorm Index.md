@@ -8,8 +8,10 @@
 
 ## Links
 - Problems:
+  - [[Problem - Shared family to-do + weekly planning friction]]
   - [[Problem - Hard to keep salt intake low]]
 - Ideas:
+  - [[Idea - Family weekly planning todo + calendar hybrid]]
   - [[Idea - Salt label scanner + daily budget]]
 - Experiments:
   - [[Experiment - Validate salt tracker interest]]
