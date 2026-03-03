@@ -5,6 +5,7 @@ This file is the curated long-term memory. Keep it short and high-signal.
 ## Index
 - [[memory/topics/brainstorm.md]] — Brainstorming system (signals → problems → ideas), Obsidian structure, and cron pipeline.
 - [[memory/topics/meta.md]] — Meta rules (memory hygiene, reporting formats).
+- [[memory/topics/openclaw-ops.md]] — Technical ops notes (cron reliability, filesystem constraints).
 
 ## Preferences (high level)
 - Allen: concise + proactive, but no proactive monitoring unless requested.

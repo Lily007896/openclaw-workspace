@@ -27,3 +27,10 @@ Build a product people use that generates income (solo developer, AI-assisted).
 - Collector/report may only read/write within `Brainstorm/`.
 - Keep everything clean; avoid creating extra folders/notes.
 - Avoid Brave rate limits (free plan): keep queries low.
+
+## Backlinking rule (Obsidian)
+When Lily creates/updates notes under `Brainstorm/`, add **2–5 intentional backlinks**:
+- Signal → link to 1 candidate Problem
+- Problem → link to 1–2 People + 1–2 Signals
+- Idea → link to exactly 1 Problem (+ optionally 1 Model and 1 API)
+Avoid link spam.

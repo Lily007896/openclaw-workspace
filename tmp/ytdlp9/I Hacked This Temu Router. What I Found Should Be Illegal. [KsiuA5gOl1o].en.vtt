@@ -1,0 +1,3616 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.590 align:start position:0%
+ 
+One<00:00:00.320><c> of</c><00:00:00.400><c> my</c><00:00:00.560><c> favorite</c><00:00:00.800><c> things</c><00:00:00.960><c> to</c><00:00:01.120><c> do</c><00:00:01.280><c> is</c><00:00:01.439><c> to</c>
+
+00:00:01.590 --> 00:00:01.600 align:start position:0%
+One of my favorite things to do is to
+ 
+
+00:00:01.600 --> 00:00:03.590 align:start position:0%
+One of my favorite things to do is to
+buy<00:00:01.839><c> weird</c><00:00:02.240><c> devices</c><00:00:02.639><c> and</c><00:00:02.879><c> see</c><00:00:03.040><c> if</c><00:00:03.200><c> I</c><00:00:03.280><c> can</c><00:00:03.439><c> find</c>
+
+00:00:03.590 --> 00:00:03.600 align:start position:0%
+buy weird devices and see if I can find
+ 
+
+00:00:03.600 --> 00:00:04.950 align:start position:0%
+buy weird devices and see if I can find
+vulnerabilities<00:00:04.240><c> in</c><00:00:04.480><c> them.</c><00:00:04.640><c> You</c><00:00:04.799><c> know,</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+vulnerabilities in them. You know,
+ 
+
+00:00:04.960 --> 00:00:06.470 align:start position:0%
+vulnerabilities in them. You know,
+typically<00:00:05.279><c> embedded</c><00:00:05.759><c> devices</c><00:00:06.080><c> tend</c><00:00:06.240><c> to</c><00:00:06.319><c> have</c>
+
+00:00:06.470 --> 00:00:06.480 align:start position:0%
+typically embedded devices tend to have
+ 
+
+00:00:06.480 --> 00:00:07.829 align:start position:0%
+typically embedded devices tend to have
+the<00:00:06.640><c> worst</c><00:00:06.799><c> security.</c><00:00:07.200><c> So,</c><00:00:07.359><c> it's</c><00:00:07.520><c> kind</c><00:00:07.600><c> of</c><00:00:07.680><c> a</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+the worst security. So, it's kind of a
+ 
+
+00:00:07.839 --> 00:00:09.990 align:start position:0%
+the worst security. So, it's kind of a
+fun<00:00:08.160><c> exercise</c><00:00:08.480><c> in</c><00:00:08.720><c> bug</c><00:00:08.960><c> hunting.</c><00:00:09.440><c> Now,</c><00:00:09.679><c> what</c><00:00:09.840><c> I</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+fun exercise in bug hunting. Now, what I
+ 
+
+00:00:10.000 --> 00:00:11.669 align:start position:0%
+fun exercise in bug hunting. Now, what I
+want<00:00:10.080><c> to</c><00:00:10.160><c> show</c><00:00:10.240><c> you</c><00:00:10.400><c> today</c><00:00:10.639><c> is</c><00:00:10.880><c> the</c><00:00:11.200><c> story</c><00:00:11.440><c> of</c>
+
+00:00:11.669 --> 00:00:11.679 align:start position:0%
+want to show you today is the story of
+ 
+
+00:00:11.679 --> 00:00:14.310 align:start position:0%
+want to show you today is the story of
+how<00:00:11.840><c> I</c><00:00:12.080><c> found</c><00:00:13.120><c> several</c><00:00:13.679><c> egregious</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+how I found several egregious
+ 
+
+00:00:14.320 --> 00:00:16.150 align:start position:0%
+how I found several egregious
+vulnerabilities.<00:00:15.200><c> And</c><00:00:15.440><c> this</c><00:00:15.599><c> device</c><00:00:15.839><c> here</c><00:00:16.000><c> on</c>
+
+00:00:16.150 --> 00:00:16.160 align:start position:0%
+vulnerabilities. And this device here on
+ 
+
+00:00:16.160 --> 00:00:17.830 align:start position:0%
+vulnerabilities. And this device here on
+Teimu,<00:00:16.720><c> you</c><00:00:16.800><c> know,</c><00:00:16.880><c> it's</c><00:00:17.039><c> kind</c><00:00:17.199><c> of</c><00:00:17.279><c> fun.</c><00:00:17.600><c> Go</c><00:00:17.680><c> on</c>
+
+00:00:17.830 --> 00:00:17.840 align:start position:0%
+Teimu, you know, it's kind of fun. Go on
+ 
+
+00:00:17.840 --> 00:00:19.750 align:start position:0%
+Teimu, you know, it's kind of fun. Go on
+T-Mo,<00:00:18.240><c> you</c><00:00:18.320><c> buy</c><00:00:18.480><c> a</c><00:00:18.640><c> $5</c><00:00:19.119><c> device</c><00:00:19.359><c> and</c><00:00:19.520><c> you</c><00:00:19.680><c> see</c>
+
+00:00:19.750 --> 00:00:19.760 align:start position:0%
+T-Mo, you buy a $5 device and you see
+ 
+
+00:00:19.760 --> 00:00:21.189 align:start position:0%
+T-Mo, you buy a $5 device and you see
+what<00:00:19.920><c> you</c><00:00:20.080><c> can</c><00:00:20.160><c> do.</c><00:00:20.720><c> Now,</c><00:00:20.880><c> I</c><00:00:21.039><c> want</c><00:00:21.119><c> to</c>
+
+00:00:21.189 --> 00:00:21.199 align:start position:0%
+what you can do. Now, I want to
+ 
+
+00:00:21.199 --> 00:00:23.269 align:start position:0%
+what you can do. Now, I want to
+highlight<00:00:21.520><c> here</c><00:00:21.840><c> uh</c><00:00:21.920><c> that</c><00:00:22.160><c> this</c><00:00:22.320><c> not</c><00:00:22.560><c> only</c><00:00:22.800><c> was</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+highlight here uh that this not only was
+ 
+
+00:00:23.279 --> 00:00:25.750 align:start position:0%
+highlight here uh that this not only was
+$30<00:00:23.680><c> and</c><00:00:23.920><c> now</c><00:00:24.000><c> it's</c><00:00:24.240><c> only</c><00:00:24.560><c> $5.</c><00:00:24.880><c> There's</c><00:00:25.119><c> 84%</c>
+
+00:00:25.750 --> 00:00:25.760 align:start position:0%
+$30 and now it's only $5. There's 84%
+ 
+
+00:00:25.760 --> 00:00:28.630 align:start position:0%
+$30 and now it's only $5. There's 84%
+savings,<00:00:26.480><c> but</c><00:00:26.720><c> also</c><00:00:27.119><c> it</c><00:00:27.359><c> is</c><00:00:27.519><c> the</c><00:00:27.760><c> number</c><00:00:28.080><c> one</c>
+
+00:00:28.630 --> 00:00:28.640 align:start position:0%
+savings, but also it is the number one
+ 
+
+00:00:28.640 --> 00:00:31.429 align:start position:0%
+savings, but also it is the number one
+bestselling<00:00:29.359><c> item</c><00:00:29.840><c> on</c><00:00:30.160><c> Teimu</c><00:00:30.720><c> in</c><00:00:30.880><c> Wi-Fi</c><00:00:31.279><c> and</c>
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+bestselling item on Teimu in Wi-Fi and
+ 
+
+00:00:31.439 --> 00:00:34.630 align:start position:0%
+bestselling item on Teimu in Wi-Fi and
+networking<00:00:31.840><c> with</c><00:00:32.160><c> over</c><00:00:32.559><c> a</c><00:00:32.719><c> 100,000</c><00:00:34.000><c> sold.</c><00:00:34.399><c> So,</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+networking with over a 100,000 sold. So,
+ 
+
+00:00:34.640 --> 00:00:36.870 align:start position:0%
+networking with over a 100,000 sold. So,
+from<00:00:34.880><c> a</c><00:00:35.120><c> general</c><00:00:36.000><c> security</c><00:00:36.399><c> of</c><00:00:36.480><c> the</c><00:00:36.640><c> world</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+from a general security of the world
+ 
+
+00:00:36.880 --> 00:00:38.950 align:start position:0%
+from a general security of the world
+perspective,<00:00:37.360><c> not</c><00:00:37.600><c> a</c><00:00:37.760><c> great</c><00:00:37.920><c> place</c><00:00:38.079><c> to</c><00:00:38.239><c> be.</c><00:00:38.719><c> In</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+perspective, not a great place to be. In
+ 
+
+00:00:38.960 --> 00:00:41.030 align:start position:0%
+perspective, not a great place to be. In
+this<00:00:39.120><c> video,</c><00:00:39.280><c> we're</c><00:00:39.520><c> going</c><00:00:39.520><c> to</c><00:00:39.680><c> go</c><00:00:39.760><c> into</c><00:00:40.079><c> how</c><00:00:40.719><c> I</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+this video, we're going to go into how I
+ 
+
+00:00:41.040 --> 00:00:42.470 align:start position:0%
+this video, we're going to go into how I
+took<00:00:41.200><c> the</c><00:00:41.440><c> device</c><00:00:41.680><c> apart,</c><00:00:42.160><c> opened</c><00:00:42.320><c> the</c>
+
+00:00:42.470 --> 00:00:42.480 align:start position:0%
+took the device apart, opened the
+ 
+
+00:00:42.480 --> 00:00:43.830 align:start position:0%
+took the device apart, opened the
+firmware,<00:00:42.879><c> and</c><00:00:43.040><c> found</c><00:00:43.280><c> some</c><00:00:43.520><c> pretty</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+firmware, and found some pretty
+ 
+
+00:00:43.840 --> 00:00:46.630 align:start position:0%
+firmware, and found some pretty
+egregious<00:00:44.480><c> issues.</c><00:00:45.360><c> And</c><00:00:45.520><c> watch</c><00:00:45.920><c> as</c><00:00:46.239><c> my</c><00:00:46.399><c> hair</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+egregious issues. And watch as my hair
+ 
+
+00:00:46.640 --> 00:00:48.790 align:start position:0%
+egregious issues. And watch as my hair
+grows<00:00:46.960><c> and</c><00:00:47.120><c> I</c><00:00:47.360><c> change</c><00:00:47.520><c> my</c><00:00:47.760><c> shirt.</c><00:00:48.320><c> So,</c><00:00:48.559><c> when</c>
+
+00:00:48.790 --> 00:00:48.800 align:start position:0%
+grows and I change my shirt. So, when
+ 
+
+00:00:48.800 --> 00:00:50.470 align:start position:0%
+grows and I change my shirt. So, when
+you<00:00:48.960><c> plug</c><00:00:49.200><c> in</c><00:00:49.440><c> this</c><00:00:49.600><c> device</c><00:00:49.840><c> and</c><00:00:50.079><c> you</c><00:00:50.239><c> navigate</c>
+
+00:00:50.470 --> 00:00:50.480 align:start position:0%
+you plug in this device and you navigate
+ 
+
+00:00:50.480 --> 00:00:52.389 align:start position:0%
+you plug in this device and you navigate
+to<00:00:50.640><c> the</c><00:00:50.800><c> IP</c><00:00:51.039><c> address</c><00:00:51.360><c> for</c><00:00:51.520><c> that</c><00:00:51.680><c> thing,</c><00:00:52.079><c> you'll</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+to the IP address for that thing, you'll
+ 
+
+00:00:52.399 --> 00:00:54.869 align:start position:0%
+to the IP address for that thing, you'll
+see<00:00:52.800><c> this</c><00:00:53.199><c> interface.</c><00:00:53.760><c> Now,</c><00:00:54.160><c> a</c><00:00:54.399><c> bad</c><00:00:54.640><c> habit</c>
+
+00:00:54.869 --> 00:00:54.879 align:start position:0%
+see this interface. Now, a bad habit
+ 
+
+00:00:54.879 --> 00:00:57.189 align:start position:0%
+see this interface. Now, a bad habit
+that<00:00:55.120><c> I</c><00:00:55.280><c> typically</c><00:00:55.600><c> have</c><00:00:55.840><c> when</c><00:00:56.079><c> I</c><00:00:56.480><c> audit</c><00:00:56.800><c> a</c><00:00:56.960><c> new</c>
+
+00:00:57.189 --> 00:00:57.199 align:start position:0%
+that I typically have when I audit a new
+ 
+
+00:00:57.199 --> 00:00:59.029 align:start position:0%
+that I typically have when I audit a new
+uh<00:00:57.360><c> weird</c><00:00:57.600><c> embedded</c><00:00:58.000><c> device</c><00:00:58.239><c> is</c><00:00:58.559><c> I</c><00:00:58.719><c> typically</c>
+
+00:00:59.029 --> 00:00:59.039 align:start position:0%
+uh weird embedded device is I typically
+ 
+
+00:00:59.039 --> 00:01:01.110 align:start position:0%
+uh weird embedded device is I typically
+try<00:00:59.280><c> to</c><00:00:59.440><c> put</c><00:00:59.680><c> this</c><00:00:59.920><c> little</c><00:01:00.160><c> oneliner</c><00:01:00.800><c> in</c><00:01:00.960><c> here.</c>
+
+00:01:01.110 --> 00:01:01.120 align:start position:0%
+try to put this little oneliner in here.
+ 
+
+00:01:01.120 --> 00:01:03.430 align:start position:0%
+try to put this little oneliner in here.
+And<00:01:01.280><c> you'll</c><00:01:01.520><c> see</c><00:01:02.000><c> why</c><00:01:02.320><c> this</c><00:01:02.559><c> is</c><00:01:02.719><c> bad.</c><00:01:03.120><c> So,</c><00:01:03.280><c> what</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+And you'll see why this is bad. So, what
+ 
+
+00:01:03.440 --> 00:01:05.509 align:start position:0%
+And you'll see why this is bad. So, what
+I'm<00:01:03.520><c> attempting</c><00:01:04.000><c> here</c><00:01:04.159><c> is</c><00:01:04.479><c> my</c><00:01:04.799><c> assumption</c><00:01:05.280><c> is</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+I'm attempting here is my assumption is
+ 
+
+00:01:05.519 --> 00:01:07.990 align:start position:0%
+I'm attempting here is my assumption is
+that<00:01:05.760><c> it's</c><00:01:05.920><c> a</c><00:01:06.240><c> piece</c><00:01:06.479><c> of</c><00:01:06.720><c> trash</c><00:01:07.439><c> embedded</c>
+
+00:01:07.990 --> 00:01:08.000 align:start position:0%
+that it's a piece of trash embedded
+ 
+
+00:01:08.000 --> 00:01:09.830 align:start position:0%
+that it's a piece of trash embedded
+device<00:01:08.240><c> and</c><00:01:08.400><c> they're</c><00:01:08.640><c> just</c><00:01:08.799><c> passing</c><00:01:09.439><c> this</c>
+
+00:01:09.830 --> 00:01:09.840 align:start position:0%
+device and they're just passing this
+ 
+
+00:01:09.840 --> 00:01:11.910 align:start position:0%
+device and they're just passing this
+Wi-Fi<00:01:10.320><c> password</c><00:01:10.720><c> parameter</c><00:01:11.119><c> to</c><00:01:11.360><c> a</c><00:01:11.600><c> system</c>
+
+00:01:11.910 --> 00:01:11.920 align:start position:0%
+Wi-Fi password parameter to a system
+ 
+
+00:01:11.920 --> 00:01:13.590 align:start position:0%
+Wi-Fi password parameter to a system
+call<00:01:12.240><c> and</c><00:01:12.479><c> they're</c><00:01:12.640><c> not</c><00:01:12.880><c> sanitizing</c><00:01:13.360><c> the</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+call and they're not sanitizing the
+ 
+
+00:01:13.600 --> 00:01:15.830 align:start position:0%
+call and they're not sanitizing the
+input.<00:01:14.159><c> A</c><00:01:14.320><c> way</c><00:01:14.479><c> that</c><00:01:14.560><c> I</c><00:01:14.799><c> can</c><00:01:14.960><c> quickly</c><00:01:15.439><c> validate</c>
+
+00:01:15.830 --> 00:01:15.840 align:start position:0%
+input. A way that I can quickly validate
+ 
+
+00:01:15.840 --> 00:01:17.830 align:start position:0%
+input. A way that I can quickly validate
+that<00:01:16.080><c> without</c><00:01:16.479><c> pulling</c><00:01:16.960><c> any</c><00:01:17.200><c> of</c><00:01:17.360><c> the</c><00:01:17.520><c> firmware</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+that without pulling any of the firmware
+ 
+
+00:01:17.840 --> 00:01:20.550 align:start position:0%
+that without pulling any of the firmware
+out<00:01:18.000><c> of</c><00:01:18.080><c> the</c><00:01:18.320><c> device</c><00:01:18.799><c> is</c><00:01:19.040><c> by</c><00:01:19.200><c> doing</c><00:01:19.520><c> a</c><00:01:20.000><c> reboot</c>
+
+00:01:20.550 --> 00:01:20.560 align:start position:0%
+out of the device is by doing a reboot
+ 
+
+00:01:20.560 --> 00:01:22.390 align:start position:0%
+out of the device is by doing a reboot
+command<00:01:20.880><c> injection</c><00:01:21.520><c> by</c><00:01:21.759><c> putting</c><00:01:22.000><c> the</c><00:01:22.159><c> dollar</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+command injection by putting the dollar
+ 
+
+00:01:22.400 --> 00:01:23.990 align:start position:0%
+command injection by putting the dollar
+sign<00:01:22.640><c> in</c><00:01:22.799><c> these</c><00:01:23.040><c> two</c><00:01:23.200><c> brackets.</c><00:01:23.680><c> It's</c><00:01:23.840><c> a</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+sign in these two brackets. It's a
+ 
+
+00:01:24.000 --> 00:01:25.109 align:start position:0%
+sign in these two brackets. It's a
+command<00:01:24.240><c> injection,</c><00:01:24.640><c> which</c><00:01:24.880><c> means</c><00:01:25.040><c> that</c>
+
+00:01:25.109 --> 00:01:25.119 align:start position:0%
+command injection, which means that
+ 
+
+00:01:25.119 --> 00:01:27.590 align:start position:0%
+command injection, which means that
+it'll<00:01:25.439><c> run</c><00:01:25.840><c> an</c><00:01:26.159><c> arbitrary</c><00:01:26.720><c> system</c><00:01:27.119><c> command</c><00:01:27.439><c> if</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+it'll run an arbitrary system command if
+ 
+
+00:01:27.600 --> 00:01:29.109 align:start position:0%
+it'll run an arbitrary system command if
+it's<00:01:27.840><c> vulnerable.</c><00:01:28.320><c> And</c><00:01:28.479><c> the</c><00:01:28.640><c> system</c><00:01:28.880><c> command</c>
+
+00:01:29.109 --> 00:01:29.119 align:start position:0%
+it's vulnerable. And the system command
+ 
+
+00:01:29.119 --> 00:01:31.190 align:start position:0%
+it's vulnerable. And the system command
+that<00:01:29.280><c> I</c><00:01:29.360><c> want</c><00:01:29.439><c> to</c><00:01:29.600><c> run</c><00:01:29.920><c> is</c><00:01:30.240><c> reboot.</c><00:01:30.880><c> Now,</c><00:01:31.040><c> what</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+that I want to run is reboot. Now, what
+ 
+
+00:01:31.200 --> 00:01:33.429 align:start position:0%
+that I want to run is reboot. Now, what
+you'll<00:01:31.439><c> see</c><00:01:31.600><c> here</c><00:01:31.840><c> is</c><00:01:32.159><c> I</c><00:01:32.479><c> go</c><00:01:32.640><c> to</c><00:01:32.880><c> restart</c><00:01:33.280><c> the</c>
+
+00:01:33.429 --> 00:01:33.439 align:start position:0%
+you'll see here is I go to restart the
+ 
+
+00:01:33.439 --> 00:01:34.630 align:start position:0%
+you'll see here is I go to restart the
+device,<00:01:33.680><c> which</c><00:01:33.920><c> is</c><00:01:34.000><c> intentional,</c><00:01:34.479><c> right?</c>
+
+00:01:34.630 --> 00:01:34.640 align:start position:0%
+device, which is intentional, right?
+ 
+
+00:01:34.640 --> 00:01:36.630 align:start position:0%
+device, which is intentional, right?
+I've<00:01:34.960><c> set</c><00:01:35.119><c> the</c><00:01:35.439><c> properties</c><00:01:35.840><c> of</c><00:01:36.000><c> the</c><00:01:36.240><c> device.</c>
+
+00:01:36.630 --> 00:01:36.640 align:start position:0%
+I've set the properties of the device.
+ 
+
+00:01:36.640 --> 00:01:38.230 align:start position:0%
+I've set the properties of the device.
+Uh,<00:01:36.799><c> but</c><00:01:36.960><c> we'll</c><00:01:37.200><c> see</c><00:01:37.360><c> here</c><00:01:37.600><c> after</c><00:01:37.840><c> a</c><00:01:38.000><c> couple</c>
+
+00:01:38.230 --> 00:01:38.240 align:start position:0%
+Uh, but we'll see here after a couple
+ 
+
+00:01:38.240 --> 00:01:40.469 align:start position:0%
+Uh, but we'll see here after a couple
+refreshes<00:01:38.720><c> that</c><00:01:39.040><c> uh</c><00:01:39.200><c> it</c><00:01:39.439><c> does</c><00:01:39.680><c> not</c><00:01:40.000><c> come</c><00:01:40.240><c> back</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+refreshes that uh it does not come back
+ 
+
+00:01:40.479 --> 00:01:43.749 align:start position:0%
+refreshes that uh it does not come back
+to<00:01:40.640><c> life.</c><00:01:41.360><c> What</c><00:01:41.680><c> this</c><00:01:41.920><c> means</c><00:01:42.320><c> is</c><00:01:42.880><c> I</c><00:01:43.119><c> have</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+to life. What this means is I have
+ 
+
+00:01:43.759 --> 00:01:47.109 align:start position:0%
+to life. What this means is I have
+rebooted<00:01:44.240><c> the</c><00:01:44.479><c> device</c><00:01:44.880><c> in</c><00:01:45.280><c> NVRAM.</c><00:01:46.079><c> I</c><00:01:46.320><c> put</c><00:01:46.560><c> the</c>
+
+00:01:47.109 --> 00:01:47.119 align:start position:0%
+rebooted the device in NVRAM. I put the
+ 
+
+00:01:47.119 --> 00:01:49.590 align:start position:0%
+rebooted the device in NVRAM. I put the
+password<00:01:47.600><c> of</c><00:01:47.840><c> the</c><00:01:48.000><c> device</c><00:01:48.320><c> in</c><00:01:48.640><c> NV</c><00:01:49.040><c> RAM</c><00:01:49.439><c> and</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+password of the device in NV RAM and
+ 
+
+00:01:49.600 --> 00:01:51.109 align:start position:0%
+password of the device in NV RAM and
+then<00:01:49.840><c> every</c><00:01:50.000><c> time</c><00:01:50.159><c> it</c><00:01:50.320><c> tries</c><00:01:50.560><c> to</c><00:01:50.720><c> come</c><00:01:50.960><c> back</c>
+
+00:01:51.109 --> 00:01:51.119 align:start position:0%
+then every time it tries to come back
+ 
+
+00:01:51.119 --> 00:01:53.350 align:start position:0%
+then every time it tries to come back
+up,<00:01:51.439><c> it's</c><00:01:51.680><c> pulling</c><00:01:52.000><c> that</c><00:01:52.240><c> password</c><00:01:52.960><c> out</c><00:01:53.200><c> from</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+up, it's pulling that password out from
+ 
+
+00:01:53.360 --> 00:01:55.670 align:start position:0%
+up, it's pulling that password out from
+NV<00:01:53.759><c> RAM</c><00:01:54.079><c> and</c><00:01:54.240><c> triggering</c><00:01:54.560><c> a</c><00:01:54.799><c> vulnerability,</c>
+
+00:01:55.670 --> 00:01:55.680 align:start position:0%
+NV RAM and triggering a vulnerability,
+ 
+
+00:01:55.680 --> 00:01:57.670 align:start position:0%
+NV RAM and triggering a vulnerability,
+rebooting<00:01:56.079><c> it.</c><00:01:56.320><c> I</c><00:01:56.479><c> have</c><00:01:56.640><c> now</c><00:01:56.960><c> soft</c><00:01:57.360><c> bricked</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+rebooting it. I have now soft bricked
+ 
+
+00:01:57.680 --> 00:01:59.510 align:start position:0%
+rebooting it. I have now soft bricked
+the<00:01:57.840><c> device.</c><00:01:58.320><c> But</c><00:01:58.479><c> what's</c><00:01:58.719><c> good</c><00:01:58.799><c> about</c><00:01:58.960><c> this</c>
+
+00:01:59.510 --> 00:01:59.520 align:start position:0%
+the device. But what's good about this
+ 
+
+00:01:59.520 --> 00:02:01.190 align:start position:0%
+the device. But what's good about this
+actually<00:01:59.759><c> led</c><00:02:00.000><c> me</c><00:02:00.079><c> to</c><00:02:00.240><c> the</c><00:02:00.479><c> next</c><00:02:00.640><c> piece</c><00:02:00.880><c> of</c><00:02:01.040><c> the</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+actually led me to the next piece of the
+ 
+
+00:02:01.200 --> 00:02:03.190 align:start position:0%
+actually led me to the next piece of the
+puzzle,<00:02:01.600><c> which</c><00:02:01.759><c> helped</c><00:02:02.000><c> me</c><00:02:02.240><c> get</c><00:02:02.479><c> the</c><00:02:02.640><c> firmware</c>
+
+00:02:03.190 --> 00:02:03.200 align:start position:0%
+puzzle, which helped me get the firmware
+ 
+
+00:02:03.200 --> 00:02:05.590 align:start position:0%
+puzzle, which helped me get the firmware
+out<00:02:03.360><c> of</c><00:02:03.520><c> the</c><00:02:03.680><c> device</c><00:02:04.399><c> on</c><00:02:04.719><c> accident.</c><00:02:05.280><c> Now,</c><00:02:05.439><c> when</c>
+
+00:02:05.590 --> 00:02:05.600 align:start position:0%
+out of the device on accident. Now, when
+ 
+
+00:02:05.600 --> 00:02:07.190 align:start position:0%
+out of the device on accident. Now, when
+I<00:02:05.759><c> typically</c><00:02:06.000><c> do</c><00:02:06.159><c> this</c><00:02:06.240><c> to</c><00:02:06.399><c> a</c><00:02:06.560><c> device,</c><00:02:06.880><c> what</c><00:02:07.040><c> I</c>
+
+00:02:07.190 --> 00:02:07.200 align:start position:0%
+I typically do this to a device, what I
+ 
+
+00:02:07.200 --> 00:02:08.710 align:start position:0%
+I typically do this to a device, what I
+like<00:02:07.280><c> to</c><00:02:07.439><c> do</c><00:02:07.520><c> is</c><00:02:07.680><c> go</c><00:02:07.840><c> to</c><00:02:07.920><c> the</c><00:02:08.080><c> device</c><00:02:08.319><c> and</c><00:02:08.560><c> hold</c>
+
+00:02:08.710 --> 00:02:08.720 align:start position:0%
+like to do is go to the device and hold
+ 
+
+00:02:08.720 --> 00:02:10.550 align:start position:0%
+like to do is go to the device and hold
+the<00:02:08.879><c> reset</c><00:02:09.280><c> button.</c><00:02:09.679><c> If</c><00:02:09.840><c> you</c><00:02:10.000><c> hold</c><00:02:10.160><c> it</c><00:02:10.399><c> for</c>
+
+00:02:10.550 --> 00:02:10.560 align:start position:0%
+the reset button. If you hold it for
+ 
+
+00:02:10.560 --> 00:02:12.470 align:start position:0%
+the reset button. If you hold it for
+long<00:02:10.800><c> enough,</c><00:02:11.120><c> what</c><00:02:11.280><c> that</c><00:02:11.520><c> typically</c><00:02:11.920><c> does</c><00:02:12.239><c> is</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+long enough, what that typically does is
+ 
+
+00:02:12.480 --> 00:02:14.150 align:start position:0%
+long enough, what that typically does is
+it<00:02:12.720><c> tells</c><00:02:12.959><c> the</c><00:02:13.120><c> device,</c><00:02:13.440><c> "Hey,</c><00:02:13.840><c> I</c><00:02:14.000><c> want</c><00:02:14.080><c> to</c>
+
+00:02:14.150 --> 00:02:14.160 align:start position:0%
+it tells the device, "Hey, I want to
+ 
+
+00:02:14.160 --> 00:02:16.470 align:start position:0%
+it tells the device, "Hey, I want to
+reset<00:02:14.480><c> to</c><00:02:14.720><c> factory</c><00:02:15.120><c> settings,</c><00:02:15.760><c> and</c><00:02:16.000><c> that</c><00:02:16.239><c> will</c>
+
+00:02:16.470 --> 00:02:16.480 align:start position:0%
+reset to factory settings, and that will
+ 
+
+00:02:16.480 --> 00:02:18.869 align:start position:0%
+reset to factory settings, and that will
+typically<00:02:17.280><c> erase</c><00:02:17.680><c> the</c><00:02:17.920><c> malicious</c><00:02:18.400><c> and</c><00:02:18.480><c> VRAM</c>
+
+00:02:18.869 --> 00:02:18.879 align:start position:0%
+typically erase the malicious and VRAM
+ 
+
+00:02:18.879 --> 00:02:20.710 align:start position:0%
+typically erase the malicious and VRAM
+that<00:02:19.040><c> I</c><00:02:19.120><c> put</c><00:02:19.280><c> in</c><00:02:19.440><c> there,</c><00:02:19.680><c> and</c><00:02:19.920><c> it</c><00:02:20.080><c> should</c><00:02:20.319><c> undo</c>
+
+00:02:20.710 --> 00:02:20.720 align:start position:0%
+that I put in there, and it should undo
+ 
+
+00:02:20.720 --> 00:02:22.470 align:start position:0%
+that I put in there, and it should undo
+the<00:02:20.879><c> soft</c><00:02:21.200><c> brick</c><00:02:21.440><c> that</c><00:02:21.520><c> I</c><00:02:21.680><c> did."</c><00:02:21.920><c> When</c><00:02:22.160><c> I</c><00:02:22.319><c> was</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+the soft brick that I did." When I was
+ 
+
+00:02:22.480 --> 00:02:24.309 align:start position:0%
+the soft brick that I did." When I was
+doing<00:02:22.640><c> this</c><00:02:22.879><c> myself,</c><00:02:23.440><c> I</c><00:02:23.599><c> held</c><00:02:23.840><c> the</c><00:02:24.000><c> reset</c>
+
+00:02:24.309 --> 00:02:24.319 align:start position:0%
+doing this myself, I held the reset
+ 
+
+00:02:24.319 --> 00:02:26.790 align:start position:0%
+doing this myself, I held the reset
+button<00:02:24.640><c> for</c><00:02:24.879><c> 60</c><00:02:25.280><c> seconds,</c><00:02:25.760><c> and</c><00:02:26.160><c> this</c><00:02:26.480><c> popped</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+button for 60 seconds, and this popped
+ 
+
+00:02:26.800 --> 00:02:28.630 align:start position:0%
+button for 60 seconds, and this popped
+up.<00:02:27.120><c> Now,</c><00:02:27.360><c> you</c><00:02:27.520><c> will</c><00:02:27.680><c> notice</c><00:02:27.920><c> that</c><00:02:28.080><c> the</c><00:02:28.319><c> IP</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+up. Now, you will notice that the IP
+ 
+
+00:02:28.640 --> 00:02:29.910 align:start position:0%
+up. Now, you will notice that the IP
+address<00:02:28.879><c> here</c><00:02:29.120><c> changed.</c><00:02:29.440><c> I</c><00:02:29.520><c> had</c><00:02:29.680><c> to</c><00:02:29.760><c> kind</c><00:02:29.840><c> of</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+address here changed. I had to kind of
+ 
+
+00:02:29.920 --> 00:02:31.190 align:start position:0%
+address here changed. I had to kind of
+fight<00:02:30.080><c> with</c><00:02:30.239><c> it</c><00:02:30.319><c> to</c><00:02:30.480><c> get</c><00:02:30.560><c> it</c><00:02:30.720><c> to</c><00:02:30.879><c> respond</c><00:02:31.120><c> to</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+fight with it to get it to respond to
+ 
+
+00:02:31.200 --> 00:02:32.550 align:start position:0%
+fight with it to get it to respond to
+me.<00:02:31.360><c> I</c><00:02:31.440><c> had</c><00:02:31.520><c> to</c><00:02:31.680><c> look</c><00:02:31.760><c> in</c><00:02:31.840><c> Wireshark</c><00:02:32.319><c> to</c><00:02:32.400><c> see</c><00:02:32.480><c> if</c>
+
+00:02:32.550 --> 00:02:32.560 align:start position:0%
+me. I had to look in Wireshark to see if
+ 
+
+00:02:32.560 --> 00:02:33.830 align:start position:0%
+me. I had to look in Wireshark to see if
+I<00:02:32.640><c> was</c><00:02:32.720><c> going</c><00:02:32.800><c> to</c><00:02:32.879><c> get</c><00:02:33.040><c> any</c><00:02:33.200><c> like</c><00:02:33.440><c> random</c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+I was going to get any like random
+ 
+
+00:02:33.840 --> 00:02:35.589 align:start position:0%
+I was going to get any like random
+broadcast<00:02:34.239><c> from</c><00:02:34.400><c> a</c><00:02:34.560><c> new</c><00:02:34.640><c> IP</c><00:02:34.959><c> address.</c><00:02:35.360><c> But</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+broadcast from a new IP address. But
+ 
+
+00:02:35.599 --> 00:02:37.990 align:start position:0%
+broadcast from a new IP address. But
+eventually<00:02:35.920><c> I</c><00:02:36.160><c> got</c><00:02:36.319><c> to</c><00:02:36.480><c> this</c><00:02:36.800><c> breed</c><00:02:37.599><c> web</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+eventually I got to this breed web
+ 
+
+00:02:38.000 --> 00:02:40.070 align:start position:0%
+eventually I got to this breed web
+interface<00:02:38.560><c> that</c><00:02:38.800><c> showed</c><00:02:39.120><c> a</c><00:02:39.360><c> fairly</c><00:02:39.599><c> low-level</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+interface that showed a fairly low-level
+ 
+
+00:02:40.080 --> 00:02:42.070 align:start position:0%
+interface that showed a fairly low-level
+diagnostic<00:02:40.720><c> of</c><00:02:40.879><c> the</c><00:02:41.040><c> board.</c><00:02:41.599><c> It</c><00:02:41.760><c> looks</c><00:02:41.920><c> like</c>
+
+00:02:42.070 --> 00:02:42.080 align:start position:0%
+diagnostic of the board. It looks like
+ 
+
+00:02:42.080 --> 00:02:43.910 align:start position:0%
+diagnostic of the board. It looks like
+the<00:02:42.319><c> build</c><00:02:42.560><c> date</c><00:02:42.800><c> and</c><00:02:43.040><c> like</c><00:02:43.200><c> the</c><00:02:43.360><c> git</c><00:02:43.599><c> commit</c>
+
+00:02:43.910 --> 00:02:43.920 align:start position:0%
+the build date and like the git commit
+ 
+
+00:02:43.920 --> 00:02:46.150 align:start position:0%
+the build date and like the git commit
+of<00:02:44.080><c> the</c><00:02:44.239><c> server</c><00:02:44.560><c> or</c><00:02:44.879><c> the</c><00:02:45.120><c> software</c><00:02:45.680><c> as</c><00:02:45.920><c> well</c><00:02:46.000><c> as</c>
+
+00:02:46.150 --> 00:02:46.160 align:start position:0%
+of the server or the software as well as
+ 
+
+00:02:46.160 --> 00:02:48.070 align:start position:0%
+of the server or the software as well as
+the<00:02:46.400><c> CPU</c><00:02:46.879><c> and</c><00:02:47.040><c> like</c><00:02:47.200><c> the</c><00:02:47.360><c> firmware</c><00:02:47.760><c> on</c><00:02:47.920><c> the</c>
+
+00:02:48.070 --> 00:02:48.080 align:start position:0%
+the CPU and like the firmware on the
+ 
+
+00:02:48.080 --> 00:02:49.990 align:start position:0%
+the CPU and like the firmware on the
+thing.<00:02:48.239><c> But</c><00:02:48.400><c> if</c><00:02:48.560><c> you</c><00:02:48.640><c> do</c><00:02:48.800><c> a</c><00:02:49.040><c> quick</c><00:02:49.280><c> little</c><00:02:49.840><c> uh</c>
+
+00:02:49.990 --> 00:02:50.000 align:start position:0%
+thing. But if you do a quick little uh
+ 
+
+00:02:50.000 --> 00:02:52.869 align:start position:0%
+thing. But if you do a quick little uh
+Chinese<00:02:50.400><c> to</c><00:02:50.720><c> English</c><00:02:51.360><c> uh</c><00:02:51.599><c> translation</c><00:02:52.239><c> here,</c>
+
+00:02:52.869 --> 00:02:52.879 align:start position:0%
+Chinese to English uh translation here,
+ 
+
+00:02:52.879 --> 00:02:54.790 align:start position:0%
+Chinese to English uh translation here,
+the<00:02:53.120><c> one</c><00:02:53.360><c> thing</c><00:02:53.519><c> that</c><00:02:53.760><c> caught</c><00:02:54.000><c> my</c><00:02:54.160><c> eye</c><00:02:54.400><c> as</c><00:02:54.640><c> a</c>
+
+00:02:54.790 --> 00:02:54.800 align:start position:0%
+the one thing that caught my eye as a
+ 
+
+00:02:54.800 --> 00:02:56.869 align:start position:0%
+the one thing that caught my eye as a
+vulnerability<00:02:55.440><c> researcher</c><00:02:56.000><c> is</c><00:02:56.400><c> firmware</c>
+
+00:02:56.869 --> 00:02:56.879 align:start position:0%
+vulnerability researcher is firmware
+ 
+
+00:02:56.879 --> 00:02:59.270 align:start position:0%
+vulnerability researcher is firmware
+backup.<00:02:57.599><c> Now</c><00:02:57.840><c> to</c><00:02:58.000><c> me,</c><00:02:58.160><c> this</c><00:02:58.400><c> meant</c><00:02:58.640><c> one</c><00:02:58.800><c> of</c><00:02:59.040><c> two</c>
+
+00:02:59.270 --> 00:02:59.280 align:start position:0%
+backup. Now to me, this meant one of two
+ 
+
+00:02:59.280 --> 00:03:01.589 align:start position:0%
+backup. Now to me, this meant one of two
+things.<00:02:59.440><c> Either</c><00:02:59.920><c> I</c><00:03:00.160><c> was</c><00:03:00.319><c> able</c><00:03:00.560><c> to</c><00:03:00.879><c> upload</c><00:03:01.360><c> new</c>
+
+00:03:01.589 --> 00:03:01.599 align:start position:0%
+things. Either I was able to upload new
+ 
+
+00:03:01.599 --> 00:03:04.630 align:start position:0%
+things. Either I was able to upload new
+firmware,<00:03:02.239><c> which</c><00:03:02.480><c> is</c><00:03:02.640><c> good,</c><00:03:03.280><c> or</c><00:03:03.920><c> I</c><00:03:04.239><c> was</c><00:03:04.400><c> able</c>
+
+00:03:04.630 --> 00:03:04.640 align:start position:0%
+firmware, which is good, or I was able
+ 
+
+00:03:04.640 --> 00:03:06.790 align:start position:0%
+firmware, which is good, or I was able
+to<00:03:05.040><c> download</c><00:03:05.440><c> the</c><00:03:05.680><c> firmware,</c><00:03:06.080><c> which</c><00:03:06.319><c> is</c><00:03:06.480><c> even</c>
+
+00:03:06.790 --> 00:03:06.800 align:start position:0%
+to download the firmware, which is even
+ 
+
+00:03:06.800 --> 00:03:08.550 align:start position:0%
+to download the firmware, which is even
+better.<00:03:07.280><c> And</c><00:03:07.440><c> luckily,</c><00:03:07.840><c> if</c><00:03:08.000><c> I</c><00:03:08.159><c> press</c><00:03:08.319><c> the</c>
+
+00:03:08.550 --> 00:03:08.560 align:start position:0%
+better. And luckily, if I press the
+ 
+
+00:03:08.560 --> 00:03:10.309 align:start position:0%
+better. And luckily, if I press the
+programmer<00:03:09.040><c> firmware</c><00:03:09.440><c> button,</c><00:03:09.920><c> I</c><00:03:10.159><c> can</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+programmer firmware button, I can
+ 
+
+00:03:10.319 --> 00:03:13.430 align:start position:0%
+programmer firmware button, I can
+download<00:03:10.959><c> the</c><00:03:11.280><c> entire</c><00:03:12.239><c> system</c><00:03:12.720><c> full.bin.</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+download the entire system full.bin.
+ 
+
+00:03:13.440 --> 00:03:14.710 align:start position:0%
+download the entire system full.bin.
+You'll<00:03:13.599><c> see</c><00:03:13.760><c> I've</c><00:03:13.920><c> done</c><00:03:14.000><c> this</c><00:03:14.239><c> other</c><00:03:14.480><c> times</c>
+
+00:03:14.710 --> 00:03:14.720 align:start position:0%
+You'll see I've done this other times
+ 
+
+00:03:14.720 --> 00:03:16.630 align:start position:0%
+You'll see I've done this other times
+for<00:03:14.959><c> previous</c><00:03:15.440><c> takes</c><00:03:15.680><c> of</c><00:03:15.840><c> the</c><00:03:16.000><c> video.</c><00:03:16.319><c> Uh,</c><00:03:16.480><c> but</c>
+
+00:03:16.630 --> 00:03:16.640 align:start position:0%
+for previous takes of the video. Uh, but
+ 
+
+00:03:16.640 --> 00:03:18.229 align:start position:0%
+for previous takes of the video. Uh, but
+I'm<00:03:16.879><c> able</c><00:03:17.040><c> to</c><00:03:17.200><c> download</c><00:03:17.519><c> the</c><00:03:17.760><c> firmware</c><00:03:18.080><c> for</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+I'm able to download the firmware for
+ 
+
+00:03:18.239 --> 00:03:19.670 align:start position:0%
+I'm able to download the firmware for
+the<00:03:18.400><c> device,</c><00:03:18.560><c> which</c><00:03:18.800><c> is</c><00:03:18.879><c> great.</c><00:03:19.200><c> A</c><00:03:19.360><c> lot</c><00:03:19.440><c> of</c><00:03:19.519><c> the</c>
+
+00:03:19.670 --> 00:03:19.680 align:start position:0%
+the device, which is great. A lot of the
+ 
+
+00:03:19.680 --> 00:03:21.270 align:start position:0%
+the device, which is great. A lot of the
+times<00:03:19.840><c> that</c><00:03:20.000><c> you</c><00:03:20.159><c> have</c><00:03:20.239><c> to</c><00:03:20.400><c> do</c><00:03:20.560><c> is</c><00:03:20.800><c> like</c>
+
+00:03:21.270 --> 00:03:21.280 align:start position:0%
+times that you have to do is like
+ 
+
+00:03:21.280 --> 00:03:23.830 align:start position:0%
+times that you have to do is like
+desolder<00:03:22.319><c> a</c><00:03:22.640><c> chip</c><00:03:23.040><c> off</c><00:03:23.280><c> the</c><00:03:23.440><c> board,</c><00:03:23.760><c> for</c>
+
+00:03:23.830 --> 00:03:23.840 align:start position:0%
+desolder a chip off the board, for
+ 
+
+00:03:23.840 --> 00:03:25.750 align:start position:0%
+desolder a chip off the board, for
+example,<00:03:24.239><c> like</c><00:03:24.400><c> maybe</c><00:03:24.640><c> like</c><00:03:24.720><c> a</c><00:03:25.040><c> a</c><00:03:25.280><c> flash</c><00:03:25.519><c> chip</c>
+
+00:03:25.750 --> 00:03:25.760 align:start position:0%
+example, like maybe like a a flash chip
+ 
+
+00:03:25.760 --> 00:03:27.030 align:start position:0%
+example, like maybe like a a flash chip
+like<00:03:25.920><c> one</c><00:03:26.000><c> of</c><00:03:26.080><c> these,</c><00:03:26.319><c> and</c><00:03:26.480><c> then</c><00:03:26.640><c> put</c><00:03:26.800><c> it</c><00:03:26.879><c> into</c>
+
+00:03:27.030 --> 00:03:27.040 align:start position:0%
+like one of these, and then put it into
+ 
+
+00:03:27.040 --> 00:03:28.790 align:start position:0%
+like one of these, and then put it into
+a<00:03:27.200><c> flash</c><00:03:27.440><c> reader.</c><00:03:27.920><c> Maybe</c><00:03:28.080><c> there's</c><00:03:28.319><c> some</c><00:03:28.480><c> weird</c>
+
+00:03:28.790 --> 00:03:28.800 align:start position:0%
+a flash reader. Maybe there's some weird
+ 
+
+00:03:28.800 --> 00:03:30.949 align:start position:0%
+a flash reader. Maybe there's some weird
+like<00:03:29.040><c> locking</c><00:03:29.519><c> going</c><00:03:29.680><c> on.</c><00:03:30.080><c> The</c><00:03:30.319><c> ability</c><00:03:30.640><c> to</c>
+
+00:03:30.949 --> 00:03:30.959 align:start position:0%
+like locking going on. The ability to
+ 
+
+00:03:30.959 --> 00:03:33.190 align:start position:0%
+like locking going on. The ability to
+just<00:03:31.360><c> download</c><00:03:31.760><c> the</c><00:03:32.000><c> firmware</c><00:03:32.480><c> automatically</c>
+
+00:03:33.190 --> 00:03:33.200 align:start position:0%
+just download the firmware automatically
+ 
+
+00:03:33.200 --> 00:03:35.990 align:start position:0%
+just download the firmware automatically
+like<00:03:33.440><c> this</c><00:03:33.760><c> is</c><00:03:34.560><c> super</c><00:03:35.040><c> cool.</c><00:03:35.519><c> So,</c><00:03:35.599><c> what</c><00:03:35.680><c> we</c><00:03:35.840><c> can</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+like this is super cool. So, what we can
+ 
+
+00:03:36.000 --> 00:03:38.630 align:start position:0%
+like this is super cool. So, what we can
+actually<00:03:36.159><c> do</c><00:03:36.400><c> now</c><00:03:36.560><c> is</c><00:03:36.879><c> go</c><00:03:37.200><c> into</c><00:03:37.760><c> our</c><00:03:38.159><c> downloads</c>
+
+00:03:38.630 --> 00:03:38.640 align:start position:0%
+actually do now is go into our downloads
+ 
+
+00:03:38.640 --> 00:03:40.869 align:start position:0%
+actually do now is go into our downloads
+here.<00:03:38.959><c> Let's</c><00:03:39.200><c> go</c><00:03:39.280><c> to</c><00:03:39.440><c> downloads</c><00:03:40.319><c> and</c><00:03:40.560><c> we</c><00:03:40.720><c> can</c>
+
+00:03:40.869 --> 00:03:40.879 align:start position:0%
+here. Let's go to downloads and we can
+ 
+
+00:03:40.879 --> 00:03:43.270 align:start position:0%
+here. Let's go to downloads and we can
+do<00:03:40.959><c> a</c><00:03:41.040><c> little</c><00:03:41.200><c> bin.</c><00:03:41.760><c> Binwalk</c><00:03:42.480><c> uh</c><00:03:42.640><c> recursive</c>
+
+00:03:43.270 --> 00:03:43.280 align:start position:0%
+do a little bin. Binwalk uh recursive
+ 
+
+00:03:43.280 --> 00:03:46.630 align:start position:0%
+do a little bin. Binwalk uh recursive
+extraction<00:03:43.840><c> of</c><00:03:44.239><c> full</c><00:03:44.720><c> 2.bin.</c>
+
+00:03:46.630 --> 00:03:46.640 align:start position:0%
+extraction of full 2.bin.
+ 
+
+00:03:46.640 --> 00:03:48.229 align:start position:0%
+extraction of full 2.bin.
+And<00:03:46.879><c> what</c><00:03:47.040><c> we</c><00:03:47.280><c> should</c><00:03:47.440><c> get</c><00:03:47.599><c> at</c><00:03:47.840><c> a</c><00:03:48.000><c> certain</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+And what we should get at a certain
+ 
+
+00:03:48.239 --> 00:03:50.789 align:start position:0%
+And what we should get at a certain
+level<00:03:48.480><c> is</c><00:03:49.200><c> the</c><00:03:49.599><c> file</c><00:03:49.920><c> system</c><00:03:50.159><c> for</c><00:03:50.319><c> the</c><00:03:50.480><c> device.</c>
+
+00:03:50.789 --> 00:03:50.799 align:start position:0%
+level is the file system for the device.
+ 
+
+00:03:50.799 --> 00:03:51.990 align:start position:0%
+level is the file system for the device.
+Typically,<00:03:51.040><c> these</c><00:03:51.280><c> things</c><00:03:51.519><c> contain</c><00:03:51.760><c> file</c>
+
+00:03:51.990 --> 00:03:52.000 align:start position:0%
+Typically, these things contain file
+ 
+
+00:03:52.000 --> 00:03:54.390 align:start position:0%
+Typically, these things contain file
+system.<00:03:52.319><c> So,</c><00:03:52.480><c> if</c><00:03:52.560><c> I</c><00:03:52.720><c> go</c><00:03:52.799><c> into</c><00:03:53.680><c> extractions</c>
+
+00:03:54.390 --> 00:03:54.400 align:start position:0%
+system. So, if I go into extractions
+ 
+
+00:03:54.400 --> 00:03:59.350 align:start position:0%
+system. So, if I go into extractions
+here<00:03:54.959><c> and</c><00:03:55.200><c> I</c><00:03:55.440><c> go</c><00:03:55.599><c> to</c><00:03:55.840><c> the</c><00:03:56.000><c> SquashFest</c><00:03:56.720><c> route,</c>
+
+00:03:59.350 --> 00:03:59.360 align:start position:0%
+here and I go to the SquashFest route,
+ 
+
+00:03:59.360 --> 00:04:02.229 align:start position:0%
+here and I go to the SquashFest route,
+I<00:03:59.599><c> now</c><00:03:59.840><c> have</c><00:04:00.080><c> the</c><00:04:00.560><c> entire</c><00:04:01.519><c> file</c><00:04:01.840><c> system</c><00:04:02.080><c> for</c>
+
+00:04:02.229 --> 00:04:02.239 align:start position:0%
+I now have the entire file system for
+ 
+
+00:04:02.239 --> 00:04:04.229 align:start position:0%
+I now have the entire file system for
+the<00:04:02.400><c> device.</c><00:04:02.879><c> This</c><00:04:03.040><c> is</c><00:04:03.200><c> great.</c><00:04:03.680><c> Now,</c><00:04:04.000><c> after</c>
+
+00:04:04.229 --> 00:04:04.239 align:start position:0%
+the device. This is great. Now, after
+ 
+
+00:04:04.239 --> 00:04:05.509 align:start position:0%
+the device. This is great. Now, after
+resetting<00:04:04.640><c> the</c><00:04:04.799><c> device,</c><00:04:05.040><c> getting</c><00:04:05.200><c> it</c><00:04:05.360><c> back</c><00:04:05.439><c> to</c>
+
+00:04:05.509 --> 00:04:05.519 align:start position:0%
+resetting the device, getting it back to
+ 
+
+00:04:05.519 --> 00:04:06.869 align:start position:0%
+resetting the device, getting it back to
+its<00:04:05.760><c> normal</c><00:04:06.000><c> configuration,</c><00:04:06.560><c> doing</c><00:04:06.720><c> a</c>
+
+00:04:06.869 --> 00:04:06.879 align:start position:0%
+its normal configuration, doing a
+ 
+
+00:04:06.879 --> 00:04:09.110 align:start position:0%
+its normal configuration, doing a
+factory<00:04:07.200><c> reset,</c><00:04:07.599><c> I'm</c><00:04:07.840><c> back</c><00:04:08.239><c> into</c><00:04:08.480><c> the</c><00:04:08.720><c> device.</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+factory reset, I'm back into the device.
+ 
+
+00:04:09.120 --> 00:04:10.550 align:start position:0%
+factory reset, I'm back into the device.
+So,<00:04:09.360><c> now</c><00:04:09.439><c> the</c><00:04:09.680><c> question</c><00:04:09.840><c> is</c><00:04:10.080><c> like,</c><00:04:10.319><c> where</c><00:04:10.480><c> do</c>
+
+00:04:10.550 --> 00:04:10.560 align:start position:0%
+So, now the question is like, where do
+ 
+
+00:04:10.560 --> 00:04:11.990 align:start position:0%
+So, now the question is like, where do
+we<00:04:10.640><c> go</c><00:04:10.799><c> from</c><00:04:10.959><c> here?</c><00:04:11.200><c> We</c><00:04:11.360><c> have</c><00:04:11.439><c> the</c><00:04:11.599><c> firmware</c>
+
+00:04:11.990 --> 00:04:12.000 align:start position:0%
+we go from here? We have the firmware
+ 
+
+00:04:12.000 --> 00:04:13.429 align:start position:0%
+we go from here? We have the firmware
+over<00:04:12.159><c> here</c><00:04:12.319><c> on</c><00:04:12.480><c> this</c><00:04:12.640><c> tab,</c><00:04:12.879><c> and</c><00:04:13.040><c> I</c><00:04:13.200><c> have</c><00:04:13.280><c> like</c>
+
+00:04:13.429 --> 00:04:13.439 align:start position:0%
+over here on this tab, and I have like
+ 
+
+00:04:13.439 --> 00:04:15.190 align:start position:0%
+over here on this tab, and I have like
+the<00:04:13.599><c> web</c><00:04:13.840><c> interface</c><00:04:14.159><c> on</c><00:04:14.319><c> this</c><00:04:14.480><c> tab.</c><00:04:14.720><c> What</c><00:04:15.040><c> when</c>
+
+00:04:15.190 --> 00:04:15.200 align:start position:0%
+the web interface on this tab. What when
+ 
+
+00:04:15.200 --> 00:04:16.550 align:start position:0%
+the web interface on this tab. What when
+we're<00:04:15.360><c> doing</c><00:04:15.599><c> research</c><00:04:15.840><c> on</c><00:04:16.000><c> this</c><00:04:16.160><c> thing,</c><00:04:16.400><c> what</c>
+
+00:04:16.550 --> 00:04:16.560 align:start position:0%
+we're doing research on this thing, what
+ 
+
+00:04:16.560 --> 00:04:18.789 align:start position:0%
+we're doing research on this thing, what
+do<00:04:16.639><c> we</c><00:04:16.799><c> do?</c><00:04:17.199><c> Well,</c><00:04:17.519><c> what</c><00:04:17.759><c> I'm</c><00:04:18.079><c> interested</c><00:04:18.479><c> in</c>
+
+00:04:18.789 --> 00:04:18.799 align:start position:0%
+do we do? Well, what I'm interested in
+ 
+
+00:04:18.799 --> 00:04:21.270 align:start position:0%
+do we do? Well, what I'm interested in
+is<00:04:19.120><c> vulnerabilities</c><00:04:19.840><c> that</c><00:04:20.079><c> arise</c><00:04:20.639><c> from</c><00:04:20.880><c> a</c>
+
+00:04:21.270 --> 00:04:21.280 align:start position:0%
+is vulnerabilities that arise from a
+ 
+
+00:04:21.280 --> 00:04:23.430 align:start position:0%
+is vulnerabilities that arise from a
+user<00:04:21.840><c> sending</c><00:04:22.240><c> data</c><00:04:22.479><c> to</c><00:04:22.720><c> a</c><00:04:22.880><c> server</c><00:04:23.120><c> somewhere</c>
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+user sending data to a server somewhere
+ 
+
+00:04:23.440 --> 00:04:24.950 align:start position:0%
+user sending data to a server somewhere
+and<00:04:23.600><c> there</c><00:04:23.759><c> being</c><00:04:23.919><c> a</c><00:04:24.080><c> vulnerability</c><00:04:24.560><c> in</c><00:04:24.800><c> that</c>
+
+00:04:24.950 --> 00:04:24.960 align:start position:0%
+and there being a vulnerability in that
+ 
+
+00:04:24.960 --> 00:04:26.550 align:start position:0%
+and there being a vulnerability in that
+server.<00:04:25.280><c> The</c><00:04:25.440><c> server</c><00:04:25.759><c> we</c><00:04:25.919><c> have</c><00:04:26.000><c> access</c><00:04:26.240><c> to</c>
+
+00:04:26.550 --> 00:04:26.560 align:start position:0%
+server. The server we have access to
+ 
+
+00:04:26.560 --> 00:04:27.990 align:start position:0%
+server. The server we have access to
+right<00:04:26.800><c> now</c><00:04:26.960><c> is</c><00:04:27.120><c> the</c><00:04:27.280><c> web</c><00:04:27.440><c> server.</c><00:04:27.680><c> So,</c><00:04:27.840><c> let's</c>
+
+00:04:27.990 --> 00:04:28.000 align:start position:0%
+right now is the web server. So, let's
+ 
+
+00:04:28.000 --> 00:04:30.150 align:start position:0%
+right now is the web server. So, let's
+see<00:04:28.080><c> if</c><00:04:28.240><c> we</c><00:04:28.400><c> can</c><00:04:28.639><c> identify</c><00:04:29.440><c> maybe</c><00:04:29.759><c> some</c>
+
+00:04:30.150 --> 00:04:30.160 align:start position:0%
+see if we can identify maybe some
+ 
+
+00:04:30.160 --> 00:04:32.790 align:start position:0%
+see if we can identify maybe some
+methods<00:04:30.560><c> that</c><00:04:30.800><c> we</c><00:04:31.120><c> can</c><00:04:31.280><c> use</c><00:04:31.520><c> to</c><00:04:31.759><c> trace</c><00:04:32.320><c> in</c><00:04:32.639><c> the</c>
+
+00:04:32.790 --> 00:04:32.800 align:start position:0%
+methods that we can use to trace in the
+ 
+
+00:04:32.800 --> 00:04:35.270 align:start position:0%
+methods that we can use to trace in the
+firmware<00:04:33.680><c> where</c><00:04:34.000><c> this</c><00:04:34.240><c> data</c><00:04:34.479><c> is</c><00:04:34.720><c> processed.</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+firmware where this data is processed.
+ 
+
+00:04:35.280 --> 00:04:36.550 align:start position:0%
+firmware where this data is processed.
+Typically,<00:04:35.600><c> I</c><00:04:35.759><c> like</c><00:04:35.919><c> to</c><00:04:36.000><c> go</c><00:04:36.080><c> to</c><00:04:36.160><c> the</c><00:04:36.320><c> network</c>
+
+00:04:36.550 --> 00:04:36.560 align:start position:0%
+Typically, I like to go to the network
+ 
+
+00:04:36.560 --> 00:04:38.469 align:start position:0%
+Typically, I like to go to the network
+tab<00:04:36.720><c> and</c><00:04:36.880><c> when</c><00:04:37.040><c> I</c><00:04:37.120><c> reload</c><00:04:37.440><c> a</c><00:04:37.680><c> page,</c><00:04:37.840><c> I</c><00:04:38.080><c> see</c><00:04:38.240><c> like</c>
+
+00:04:38.469 --> 00:04:38.479 align:start position:0%
+tab and when I reload a page, I see like
+ 
+
+00:04:38.479 --> 00:04:41.110 align:start position:0%
+tab and when I reload a page, I see like
+are<00:04:38.639><c> there</c><00:04:38.880><c> any</c><00:04:39.600><c> strings</c><00:04:40.080><c> that</c><00:04:40.320><c> pop</c><00:04:40.560><c> out</c><00:04:40.800><c> as</c>
+
+00:04:41.110 --> 00:04:41.120 align:start position:0%
+are there any strings that pop out as
+ 
+
+00:04:41.120 --> 00:04:44.070 align:start position:0%
+are there any strings that pop out as
+something<00:04:41.360><c> that</c><00:04:41.680><c> may</c><00:04:42.320><c> be</c><00:04:42.960><c> uh</c><00:04:43.120><c> custom</c><00:04:43.600><c> or</c>
+
+00:04:44.070 --> 00:04:44.080 align:start position:0%
+something that may be uh custom or
+ 
+
+00:04:44.080 --> 00:04:45.990 align:start position:0%
+something that may be uh custom or
+something<00:04:44.320><c> that</c><00:04:44.560><c> may</c><00:04:44.800><c> be</c><00:04:45.040><c> interesting.</c><00:04:45.840><c> The</c>
+
+00:04:45.990 --> 00:04:46.000 align:start position:0%
+something that may be interesting. The
+ 
+
+00:04:46.000 --> 00:04:47.590 align:start position:0%
+something that may be interesting. The
+first<00:04:46.160><c> thing</c><00:04:46.240><c> you</c><00:04:46.400><c> may</c><00:04:46.560><c> see</c><00:04:46.800><c> very</c><00:04:47.120><c> obviously</c>
+
+00:04:47.590 --> 00:04:47.600 align:start position:0%
+first thing you may see very obviously
+ 
+
+00:04:47.600 --> 00:04:49.430 align:start position:0%
+first thing you may see very obviously
+pretty<00:04:47.840><c> quickly</c><00:04:48.080><c> is</c><00:04:48.400><c> this</c><00:04:48.639><c> post</c><00:04:48.960><c> request</c><00:04:49.280><c> to</c>
+
+00:04:49.430 --> 00:04:49.440 align:start position:0%
+pretty quickly is this post request to
+ 
+
+00:04:49.440 --> 00:04:51.510 align:start position:0%
+pretty quickly is this post request to
+this<00:04:49.759><c> protocol.csp</c>
+
+00:04:51.510 --> 00:04:51.520 align:start position:0%
+this protocol.csp
+ 
+
+00:04:51.520 --> 00:04:53.590 align:start position:0%
+this protocol.csp
+fname<00:04:51.919><c> equals</c><00:04:52.320><c> net</c><00:04:52.720><c> option</c><00:04:53.040><c> equals</c><00:04:53.280><c> wizard</c>
+
+00:04:53.590 --> 00:04:53.600 align:start position:0%
+fname equals net option equals wizard
+ 
+
+00:04:53.600 --> 00:04:55.110 align:start position:0%
+fname equals net option equals wizard
+config.<00:04:53.919><c> There's</c><00:04:54.080><c> a</c><00:04:54.240><c> bunch</c><00:04:54.320><c> of</c><00:04:54.560><c> it</c><00:04:54.720><c> looks</c><00:04:54.880><c> like</c>
+
+00:04:55.110 --> 00:04:55.120 align:start position:0%
+config. There's a bunch of it looks like
+ 
+
+00:04:55.120 --> 00:04:57.990 align:start position:0%
+config. There's a bunch of it looks like
+custom<00:04:55.840><c> stuff</c><00:04:56.160><c> going</c><00:04:56.400><c> to</c><00:04:56.479><c> this</c><00:04:56.720><c> protocol.csp</c>
+
+00:04:57.990 --> 00:04:58.000 align:start position:0%
+custom stuff going to this protocol.csp
+ 
+
+00:04:58.000 --> 00:04:59.749 align:start position:0%
+custom stuff going to this protocol.csp
+function.<00:04:58.479><c> So</c><00:04:58.639><c> what</c><00:04:58.800><c> I'm</c><00:04:58.880><c> going</c><00:04:59.040><c> to</c><00:04:59.120><c> do</c><00:04:59.280><c> now</c><00:04:59.520><c> is</c>
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+function. So what I'm going to do now is
+ 
+
+00:04:59.759 --> 00:05:02.070 align:start position:0%
+function. So what I'm going to do now is
+go<00:05:00.080><c> into</c><00:05:00.400><c> the</c><00:05:00.639><c> root</c><00:05:00.880><c> directory</c><00:05:01.199><c> and</c><00:05:01.440><c> just</c><00:05:01.680><c> grap</c>
+
+00:05:02.070 --> 00:05:02.080 align:start position:0%
+go into the root directory and just grap
+ 
+
+00:05:02.080 --> 00:05:05.030 align:start position:0%
+go into the root directory and just grap
+around<00:05:02.639><c> for</c><00:05:03.120><c> protocol.csp.</c><00:05:04.479><c> Maybe</c><00:05:04.720><c> there's</c><00:05:04.880><c> a</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+around for protocol.csp. Maybe there's a
+ 
+
+00:05:05.040 --> 00:05:06.870 align:start position:0%
+around for protocol.csp. Maybe there's a
+binary<00:05:05.520><c> name</c><00:05:05.680><c> to</c><00:05:05.840><c> this.</c><00:05:06.160><c> And</c><00:05:06.320><c> pretty</c><00:05:06.560><c> quickly</c>
+
+00:05:06.870 --> 00:05:06.880 align:start position:0%
+binary name to this. And pretty quickly
+ 
+
+00:05:06.880 --> 00:05:08.870 align:start position:0%
+binary name to this. And pretty quickly
+we<00:05:07.039><c> see</c><00:05:07.120><c> that</c><00:05:07.280><c> we</c><00:05:07.520><c> have</c><00:05:07.680><c> an</c><00:05:08.080><c> etsy</c>
+
+00:05:08.870 --> 00:05:08.880 align:start position:0%
+we see that we have an etsy
+ 
+
+00:05:08.880 --> 00:05:10.790 align:start position:0%
+we see that we have an etsy
+lightyroxy.com
+
+00:05:10.790 --> 00:05:10.800 align:start position:0%
+lightyroxy.com
+ 
+
+00:05:10.800 --> 00:05:12.710 align:start position:0%
+lightyroxy.com
+and<00:05:10.960><c> we</c><00:05:11.199><c> could</c><00:05:11.440><c> see</c><00:05:11.840><c> what's</c><00:05:12.160><c> going</c><00:05:12.320><c> on</c><00:05:12.479><c> in</c>
+
+00:05:12.710 --> 00:05:12.720 align:start position:0%
+and we could see what's going on in
+ 
+
+00:05:12.720 --> 00:05:15.110 align:start position:0%
+and we could see what's going on in
+here.<00:05:13.280><c> So,</c><00:05:13.440><c> what</c><00:05:13.680><c> this</c><00:05:13.840><c> means</c><00:05:14.000><c> is</c><00:05:14.160><c> that</c><00:05:14.479><c> every</c>
+
+00:05:15.110 --> 00:05:15.120 align:start position:0%
+here. So, what this means is that every
+ 
+
+00:05:15.120 --> 00:05:17.670 align:start position:0%
+here. So, what this means is that every
+request<00:05:15.680><c> that</c><00:05:16.000><c> goes</c><00:05:16.320><c> to</c><00:05:16.880><c> this</c><00:05:17.120><c> protocol</c><00:05:17.440><c> that</c>
+
+00:05:17.670 --> 00:05:17.680 align:start position:0%
+request that goes to this protocol that
+ 
+
+00:05:17.680 --> 00:05:20.550 align:start position:0%
+request that goes to this protocol that
+CSP,<00:05:18.320><c> we</c><00:05:18.479><c> go</c><00:05:18.560><c> to</c><00:05:18.720><c> an</c><00:05:18.960><c> internal</c><00:05:19.440><c> port</c><00:05:19.840><c> 81.</c>
+
+00:05:20.550 --> 00:05:20.560 align:start position:0%
+CSP, we go to an internal port 81.
+ 
+
+00:05:20.560 --> 00:05:22.150 align:start position:0%
+CSP, we go to an internal port 81.
+Interesting.<00:05:21.360><c> That's</c><00:05:21.600><c> not</c><00:05:21.840><c> super</c>
+
+00:05:22.150 --> 00:05:22.160 align:start position:0%
+Interesting. That's not super
+ 
+
+00:05:22.160 --> 00:05:23.189 align:start position:0%
+Interesting. That's not super
+interesting,<00:05:22.479><c> though,</c><00:05:22.720><c> because</c><00:05:22.880><c> I</c><00:05:23.039><c> don't</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+interesting, though, because I don't
+ 
+
+00:05:23.199 --> 00:05:25.270 align:start position:0%
+interesting, though, because I don't
+really<00:05:23.440><c> know</c><00:05:23.680><c> right</c><00:05:23.840><c> now</c><00:05:24.160><c> what</c><00:05:24.479><c> binary</c><00:05:24.960><c> binds</c>
+
+00:05:25.270 --> 00:05:25.280 align:start position:0%
+really know right now what binary binds
+ 
+
+00:05:25.280 --> 00:05:26.629 align:start position:0%
+really know right now what binary binds
+to<00:05:25.440><c> port</c><00:05:25.600><c> 81.</c><00:05:26.000><c> So,</c><00:05:26.160><c> let's</c><00:05:26.240><c> see</c><00:05:26.320><c> if</c><00:05:26.400><c> there</c><00:05:26.560><c> are</c>
+
+00:05:26.629 --> 00:05:26.639 align:start position:0%
+to port 81. So, let's see if there are
+ 
+
+00:05:26.639 --> 00:05:27.830 align:start position:0%
+to port 81. So, let's see if there are
+any<00:05:26.800><c> other</c><00:05:27.039><c> strings</c><00:05:27.360><c> near</c><00:05:27.520><c> that</c><00:05:27.680><c> are</c>
+
+00:05:27.830 --> 00:05:27.840 align:start position:0%
+any other strings near that are
+ 
+
+00:05:27.840 --> 00:05:29.749 align:start position:0%
+any other strings near that are
+interesting.<00:05:28.320><c> What</c><00:05:28.560><c> about</c><00:05:28.800><c> wizard</c><00:05:29.440><c> comp?</c>
+
+00:05:29.749 --> 00:05:29.759 align:start position:0%
+interesting. What about wizard comp?
+ 
+
+00:05:29.759 --> 00:05:31.510 align:start position:0%
+interesting. What about wizard comp?
+Let's<00:05:29.919><c> see</c><00:05:30.000><c> if</c><00:05:30.160><c> we</c><00:05:30.240><c> can</c><00:05:30.320><c> copy</c><00:05:30.639><c> that</c><00:05:30.880><c> value</c><00:05:31.360><c> and</c>
+
+00:05:31.510 --> 00:05:31.520 align:start position:0%
+Let's see if we can copy that value and
+ 
+
+00:05:31.520 --> 00:05:32.790 align:start position:0%
+Let's see if we can copy that value and
+do<00:05:31.680><c> the</c><00:05:31.840><c> same</c><00:05:32.000><c> kind</c><00:05:32.080><c> of</c><00:05:32.240><c> thing.</c><00:05:32.400><c> Again,</c><00:05:32.639><c> we're</c>
+
+00:05:32.790 --> 00:05:32.800 align:start position:0%
+do the same kind of thing. Again, we're
+ 
+
+00:05:32.800 --> 00:05:34.070 align:start position:0%
+do the same kind of thing. Again, we're
+literally<00:05:33.039><c> just</c><00:05:33.280><c> doing</c><00:05:33.520><c> searches</c><00:05:33.840><c> for</c>
+
+00:05:34.070 --> 00:05:34.080 align:start position:0%
+literally just doing searches for
+ 
+
+00:05:34.080 --> 00:05:35.909 align:start position:0%
+literally just doing searches for
+strings<00:05:34.560><c> because</c><00:05:34.800><c> the</c><00:05:35.039><c> strings,</c><00:05:35.440><c> we</c><00:05:35.600><c> see</c><00:05:35.759><c> them</c>
+
+00:05:35.909 --> 00:05:35.919 align:start position:0%
+strings because the strings, we see them
+ 
+
+00:05:35.919 --> 00:05:37.430 align:start position:0%
+strings because the strings, we see them
+in<00:05:36.080><c> the</c><00:05:36.240><c> request,</c><00:05:36.560><c> so</c><00:05:36.720><c> they</c><00:05:36.880><c> kind</c><00:05:37.039><c> of</c><00:05:37.120><c> have</c><00:05:37.280><c> to</c>
+
+00:05:37.430 --> 00:05:37.440 align:start position:0%
+in the request, so they kind of have to
+ 
+
+00:05:37.440 --> 00:05:39.510 align:start position:0%
+in the request, so they kind of have to
+exist<00:05:37.680><c> on</c><00:05:37.840><c> the</c><00:05:38.000><c> system.</c><00:05:38.639><c> And</c><00:05:38.960><c> pretty</c><00:05:39.280><c> quickly,</c>
+
+00:05:39.510 --> 00:05:39.520 align:start position:0%
+exist on the system. And pretty quickly,
+ 
+
+00:05:39.520 --> 00:05:42.230 align:start position:0%
+exist on the system. And pretty quickly,
+we<00:05:39.680><c> see</c><00:05:39.840><c> they</c><00:05:40.000><c> exist</c><00:05:40.240><c> in</c><00:05:40.400><c> two</c><00:05:40.560><c> places.</c><00:05:41.440><c> one</c><00:05:41.840><c> the</c>
+
+00:05:42.230 --> 00:05:42.240 align:start position:0%
+we see they exist in two places. one the
+ 
+
+00:05:42.240 --> 00:05:44.390 align:start position:0%
+we see they exist in two places. one the
+router.js<00:05:42.960><c> JS</c><00:05:43.280><c> which</c><00:05:43.520><c> gets</c><00:05:43.759><c> served</c><00:05:44.000><c> to</c><00:05:44.160><c> us</c><00:05:44.240><c> and</c>
+
+00:05:44.390 --> 00:05:44.400 align:start position:0%
+router.js JS which gets served to us and
+ 
+
+00:05:44.400 --> 00:05:46.310 align:start position:0%
+router.js JS which gets served to us and
+we<00:05:44.639><c> use</c><00:05:44.720><c> it</c><00:05:44.880><c> to</c><00:05:45.039><c> talk</c><00:05:45.199><c> to</c><00:05:45.360><c> the</c><00:05:45.520><c> device.</c><00:05:46.080><c> But</c>
+
+00:05:46.310 --> 00:05:46.320 align:start position:0%
+we use it to talk to the device. But
+ 
+
+00:05:46.320 --> 00:05:49.749 align:start position:0%
+we use it to talk to the device. But
+more<00:05:46.479><c> importantly</c><00:05:47.039><c> this</c><00:05:47.360><c> user</c><00:05:47.759><c> espin</c><00:05:48.560><c> commuos</c>
+
+00:05:49.749 --> 00:05:49.759 align:start position:0%
+more importantly this user espin commuos
+ 
+
+00:05:49.759 --> 00:05:51.350 align:start position:0%
+more importantly this user espin commuos
+little<00:05:50.080><c> little</c><00:05:50.400><c> communism</c><00:05:50.960><c> reference</c><00:05:51.199><c> in</c>
+
+00:05:51.350 --> 00:05:51.360 align:start position:0%
+little little communism reference in
+ 
+
+00:05:51.360 --> 00:05:52.950 align:start position:0%
+little little communism reference in
+there<00:05:51.600><c> kind</c><00:05:51.759><c> of</c><00:05:51.840><c> interesting.</c><00:05:52.400><c> Uh</c><00:05:52.560><c> so</c><00:05:52.720><c> what</c><00:05:52.880><c> we</c>
+
+00:05:52.950 --> 00:05:52.960 align:start position:0%
+there kind of interesting. Uh so what we
+ 
+
+00:05:52.960 --> 00:05:55.749 align:start position:0%
+there kind of interesting. Uh so what we
+can<00:05:53.039><c> do</c><00:05:53.199><c> now</c><00:05:53.360><c> is</c><00:05:53.680><c> use</c><00:05:54.000><c> this</c><00:05:54.240><c> comm</c><00:05:54.960><c> binary.</c><00:05:55.600><c> We</c>
+
+00:05:55.749 --> 00:05:55.759 align:start position:0%
+can do now is use this comm binary. We
+ 
+
+00:05:55.759 --> 00:05:57.909 align:start position:0%
+can do now is use this comm binary. We
+can<00:05:55.919><c> put</c><00:05:56.080><c> it</c><00:05:56.240><c> into</c><00:05:56.560><c> a</c><00:05:56.880><c> decompilation</c><00:05:57.680><c> and</c>
+
+00:05:57.909 --> 00:05:57.919 align:start position:0%
+can put it into a decompilation and
+ 
+
+00:05:57.919 --> 00:06:00.070 align:start position:0%
+can put it into a decompilation and
+analysis<00:05:58.400><c> framework</c><00:05:59.039><c> and</c><00:05:59.280><c> maybe</c><00:05:59.600><c> find</c><00:05:59.919><c> some</c>
+
+00:06:00.070 --> 00:06:00.080 align:start position:0%
+analysis framework and maybe find some
+ 
+
+00:06:00.080 --> 00:06:01.350 align:start position:0%
+analysis framework and maybe find some
+weird<00:06:00.320><c> vulnerabilities.</c><00:06:00.880><c> Let's</c><00:06:01.039><c> go</c><00:06:01.199><c> try</c><00:06:01.280><c> that</c>
+
+00:06:01.350 --> 00:06:01.360 align:start position:0%
+weird vulnerabilities. Let's go try that
+ 
+
+00:06:01.360 --> 00:06:02.550 align:start position:0%
+weird vulnerabilities. Let's go try that
+out<00:06:01.520><c> right</c><00:06:01.680><c> now.</c><00:06:01.919><c> And</c><00:06:02.000><c> what</c><00:06:02.160><c> I've</c><00:06:02.320><c> done</c><00:06:02.400><c> is</c>
+
+00:06:02.550 --> 00:06:02.560 align:start position:0%
+out right now. And what I've done is
+ 
+
+00:06:02.560 --> 00:06:05.189 align:start position:0%
+out right now. And what I've done is
+I've<00:06:02.880><c> opened</c><00:06:03.280><c> this</c><00:06:03.520><c> com</c><00:06:04.160><c> binary.</c><00:06:04.639><c> The</c><00:06:04.800><c> binary</c>
+
+00:06:05.189 --> 00:06:05.199 align:start position:0%
+I've opened this com binary. The binary
+ 
+
+00:06:05.199 --> 00:06:07.270 align:start position:0%
+I've opened this com binary. The binary
+literally<00:06:05.600><c> hosts</c><00:06:06.000><c> the</c><00:06:06.160><c> web</c><00:06:06.400><c> server</c><00:06:06.800><c> on</c><00:06:07.120><c> our</c>
+
+00:06:07.270 --> 00:06:07.280 align:start position:0%
+literally hosts the web server on our
+ 
+
+00:06:07.280 --> 00:06:10.070 align:start position:0%
+literally hosts the web server on our
+device.<00:06:07.600><c> I</c><00:06:07.840><c> put</c><00:06:07.919><c> it</c><00:06:08.080><c> into</c><00:06:08.400><c> gedra.</c><00:06:08.960><c> GEDra</c><00:06:09.520><c> is</c><00:06:09.680><c> a</c>
+
+00:06:10.070 --> 00:06:10.080 align:start position:0%
+device. I put it into gedra. GEDra is a
+ 
+
+00:06:10.080 --> 00:06:12.150 align:start position:0%
+device. I put it into gedra. GEDra is a
+reverse<00:06:10.560><c> engineering</c><00:06:11.039><c> and</c><00:06:11.440><c> decompilation</c>
+
+00:06:12.150 --> 00:06:12.160 align:start position:0%
+reverse engineering and decompilation
+ 
+
+00:06:12.160 --> 00:06:14.070 align:start position:0%
+reverse engineering and decompilation
+and<00:06:12.400><c> disassembly</c><00:06:12.960><c> framework.</c><00:06:13.520><c> So</c><00:06:13.680><c> we</c><00:06:13.840><c> kind</c><00:06:14.000><c> of</c>
+
+00:06:14.070 --> 00:06:14.080 align:start position:0%
+and disassembly framework. So we kind of
+ 
+
+00:06:14.080 --> 00:06:15.749 align:start position:0%
+and disassembly framework. So we kind of
+have<00:06:14.319><c> two</c><00:06:14.639><c> main</c><00:06:14.880><c> columns</c><00:06:15.199><c> here</c><00:06:15.360><c> if</c><00:06:15.520><c> you're</c><00:06:15.600><c> new</c>
+
+00:06:15.749 --> 00:06:15.759 align:start position:0%
+have two main columns here if you're new
+ 
+
+00:06:15.759 --> 00:06:17.590 align:start position:0%
+have two main columns here if you're new
+to<00:06:15.840><c> this</c><00:06:16.080><c> world.</c><00:06:16.319><c> Basically</c><00:06:16.960><c> here</c><00:06:17.199><c> in</c><00:06:17.440><c> the</c>
+
+00:06:17.590 --> 00:06:17.600 align:start position:0%
+to this world. Basically here in the
+ 
+
+00:06:17.600 --> 00:06:19.749 align:start position:0%
+to this world. Basically here in the
+middle<00:06:17.840><c> we</c><00:06:18.080><c> have</c><00:06:18.160><c> the</c><00:06:18.479><c> assembly,</c><00:06:19.039><c> the</c><00:06:19.360><c> machine</c>
+
+00:06:19.749 --> 00:06:19.759 align:start position:0%
+middle we have the assembly, the machine
+ 
+
+00:06:19.759 --> 00:06:21.749 align:start position:0%
+middle we have the assembly, the machine
+code<00:06:20.080><c> that</c><00:06:20.319><c> is</c><00:06:20.479><c> being</c><00:06:20.720><c> run</c><00:06:21.039><c> on</c><00:06:21.360><c> the</c><00:06:21.520><c> device</c>
+
+00:06:21.749 --> 00:06:21.759 align:start position:0%
+code that is being run on the device
+ 
+
+00:06:21.759 --> 00:06:23.430 align:start position:0%
+code that is being run on the device
+when<00:06:21.919><c> this</c><00:06:22.160><c> binary</c><00:06:22.639><c> operates.</c><00:06:23.120><c> And</c><00:06:23.199><c> then</c><00:06:23.360><c> on</c>
+
+00:06:23.430 --> 00:06:23.440 align:start position:0%
+when this binary operates. And then on
+ 
+
+00:06:23.440 --> 00:06:24.870 align:start position:0%
+when this binary operates. And then on
+the<00:06:23.600><c> right</c><00:06:23.680><c> we</c><00:06:23.840><c> have</c><00:06:23.919><c> the</c><00:06:24.080><c> decompilation.</c><00:06:24.720><c> The</c>
+
+00:06:24.870 --> 00:06:24.880 align:start position:0%
+the right we have the decompilation. The
+ 
+
+00:06:24.880 --> 00:06:27.830 align:start position:0%
+the right we have the decompilation. The
+decompilation<00:06:25.600><c> is</c><00:06:26.240><c> Gedra's</c><00:06:26.880><c> best</c><00:06:27.120><c> guess</c><00:06:27.520><c> at</c>
+
+00:06:27.830 --> 00:06:27.840 align:start position:0%
+decompilation is Gedra's best guess at
+ 
+
+00:06:27.840 --> 00:06:29.670 align:start position:0%
+decompilation is Gedra's best guess at
+what<00:06:28.080><c> the</c><00:06:28.319><c> C</c><00:06:28.639><c> code</c><00:06:28.880><c> looked</c><00:06:29.120><c> like</c><00:06:29.280><c> for</c><00:06:29.520><c> the</c>
+
+00:06:29.670 --> 00:06:29.680 align:start position:0%
+what the C code looked like for the
+ 
+
+00:06:29.680 --> 00:06:31.110 align:start position:0%
+what the C code looked like for the
+device.<00:06:29.919><c> I'm</c><00:06:30.160><c> zoom</c><00:06:30.319><c> in</c><00:06:30.479><c> a</c><00:06:30.639><c> little</c><00:06:30.720><c> bit</c><00:06:30.800><c> here</c><00:06:30.960><c> to</c>
+
+00:06:31.110 --> 00:06:31.120 align:start position:0%
+device. I'm zoom in a little bit here to
+ 
+
+00:06:31.120 --> 00:06:32.150 align:start position:0%
+device. I'm zoom in a little bit here to
+see<00:06:31.199><c> if</c><00:06:31.280><c> I</c><00:06:31.360><c> can</c><00:06:31.440><c> make</c><00:06:31.520><c> it</c><00:06:31.680><c> bigger</c><00:06:31.840><c> for</c><00:06:32.000><c> you</c>
+
+00:06:32.150 --> 00:06:32.160 align:start position:0%
+see if I can make it bigger for you
+ 
+
+00:06:32.160 --> 00:06:33.510 align:start position:0%
+see if I can make it bigger for you
+guys.<00:06:32.319><c> And</c><00:06:32.479><c> so</c><00:06:32.639><c> what</c><00:06:32.800><c> we</c><00:06:32.880><c> have</c><00:06:33.039><c> to</c><00:06:33.120><c> do</c><00:06:33.199><c> now</c><00:06:33.360><c> is</c>
+
+00:06:33.510 --> 00:06:33.520 align:start position:0%
+guys. And so what we have to do now is
+ 
+
+00:06:33.520 --> 00:06:36.230 align:start position:0%
+guys. And so what we have to do now is
+figure<00:06:33.759><c> out,</c><00:06:34.000><c> okay,</c><00:06:34.800><c> where</c><00:06:35.199><c> do</c><00:06:35.680><c> these</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+figure out, okay, where do these
+ 
+
+00:06:36.240 --> 00:06:37.909 align:start position:0%
+figure out, okay, where do these
+parameters<00:06:36.720><c> that</c><00:06:36.960><c> are</c><00:06:37.120><c> getting</c><00:06:37.280><c> put</c><00:06:37.440><c> into</c><00:06:37.680><c> the</c>
+
+00:06:37.909 --> 00:06:37.919 align:start position:0%
+parameters that are getting put into the
+ 
+
+00:06:37.919 --> 00:06:40.390 align:start position:0%
+parameters that are getting put into the
+program<00:06:38.639><c> get</c><00:06:38.880><c> parsed?</c><00:06:39.360><c> How</c><00:06:39.440><c> do</c><00:06:39.600><c> we</c><00:06:39.759><c> know</c><00:06:40.160><c> what</c>
+
+00:06:40.390 --> 00:06:40.400 align:start position:0%
+program get parsed? How do we know what
+ 
+
+00:06:40.400 --> 00:06:42.070 align:start position:0%
+program get parsed? How do we know what
+they<00:06:40.560><c> do?</c><00:06:40.800><c> And</c><00:06:40.960><c> can</c><00:06:41.120><c> we</c><00:06:41.280><c> find</c><00:06:41.520><c> maybe</c><00:06:41.759><c> either</c>
+
+00:06:42.070 --> 00:06:42.080 align:start position:0%
+they do? And can we find maybe either
+ 
+
+00:06:42.080 --> 00:06:44.309 align:start position:0%
+they do? And can we find maybe either
+other<00:06:42.319><c> hidden</c><00:06:42.639><c> features</c><00:06:42.960><c> like</c><00:06:43.199><c> back</c><00:06:43.440><c> doors</c><00:06:44.000><c> or</c>
+
+00:06:44.309 --> 00:06:44.319 align:start position:0%
+other hidden features like back doors or
+ 
+
+00:06:44.319 --> 00:06:46.790 align:start position:0%
+other hidden features like back doors or
+vulnerabilities<00:06:45.360><c> in</c><00:06:45.680><c> this</c><00:06:45.919><c> program</c><00:06:46.400><c> that</c><00:06:46.639><c> we</c>
+
+00:06:46.790 --> 00:06:46.800 align:start position:0%
+vulnerabilities in this program that we
+ 
+
+00:06:46.800 --> 00:06:48.629 align:start position:0%
+vulnerabilities in this program that we
+can<00:06:46.960><c> exploit</c><00:06:47.360><c> for</c><00:06:47.520><c> this</c><00:06:47.759><c> device?</c><00:06:48.240><c> So</c><00:06:48.400><c> we</c><00:06:48.560><c> can</c>
+
+00:06:48.629 --> 00:06:48.639 align:start position:0%
+can exploit for this device? So we can
+ 
+
+00:06:48.639 --> 00:06:50.390 align:start position:0%
+can exploit for this device? So we can
+do<00:06:48.800><c> now</c><00:06:48.960><c> is</c><00:06:49.199><c> go</c><00:06:49.280><c> to</c><00:06:49.440><c> the</c><00:06:49.600><c> defined</c><00:06:49.919><c> strings.</c>
+
+00:06:50.390 --> 00:06:50.400 align:start position:0%
+do now is go to the defined strings.
+ 
+
+00:06:50.400 --> 00:06:52.390 align:start position:0%
+do now is go to the defined strings.
+Let's<00:06:50.560><c> just</c><00:06:50.800><c> search</c><00:06:51.039><c> for</c><00:06:51.759><c> this</c><00:06:52.000><c> wizard</c>
+
+00:06:52.390 --> 00:06:52.400 align:start position:0%
+Let's just search for this wizard
+ 
+
+00:06:52.400 --> 00:06:53.670 align:start position:0%
+Let's just search for this wizard
+string,<00:06:52.720><c> right?</c><00:06:52.880><c> And</c><00:06:53.039><c> we</c><00:06:53.199><c> can</c><00:06:53.280><c> see</c><00:06:53.440><c> pretty</c>
+
+00:06:53.670 --> 00:06:53.680 align:start position:0%
+string, right? And we can see pretty
+ 
+
+00:06:53.680 --> 00:06:55.749 align:start position:0%
+string, right? And we can see pretty
+quickly<00:06:54.160><c> Gedra</c><00:06:54.639><c> has</c><00:06:54.800><c> found</c><00:06:55.039><c> the</c><00:06:55.280><c> wizard</c>
+
+00:06:55.749 --> 00:06:55.759 align:start position:0%
+quickly Gedra has found the wizard
+ 
+
+00:06:55.759 --> 00:06:57.990 align:start position:0%
+quickly Gedra has found the wizard
+config<00:06:56.240><c> string</c><00:06:56.880><c> right</c><00:06:57.120><c> here.</c><00:06:57.520><c> Now</c><00:06:57.759><c> you'll</c>
+
+00:06:57.990 --> 00:06:58.000 align:start position:0%
+config string right here. Now you'll
+ 
+
+00:06:58.000 --> 00:06:59.510 align:start position:0%
+config string right here. Now you'll
+notice<00:06:58.160><c> there</c><00:06:58.400><c> is</c><00:06:58.479><c> a</c><00:06:58.720><c> cross</c><00:06:58.960><c> reference</c><00:06:59.360><c> to</c>
+
+00:06:59.510 --> 00:06:59.520 align:start position:0%
+notice there is a cross reference to
+ 
+
+00:06:59.520 --> 00:07:01.830 align:start position:0%
+notice there is a cross reference to
+this<00:06:59.680><c> and</c><00:06:59.919><c> it</c><00:07:00.240><c> exists</c><00:07:00.720><c> inside</c><00:07:01.120><c> of</c><00:07:01.360><c> what</c><00:07:01.599><c> looks</c>
+
+00:07:01.830 --> 00:07:01.840 align:start position:0%
+this and it exists inside of what looks
+ 
+
+00:07:01.840 --> 00:07:04.309 align:start position:0%
+this and it exists inside of what looks
+like<00:07:02.000><c> a</c><00:07:02.319><c> table.</c><00:07:03.199><c> This</c><00:07:03.360><c> is</c><00:07:03.520><c> a</c><00:07:03.759><c> table</c><00:07:04.080><c> because</c>
+
+00:07:04.309 --> 00:07:04.319 align:start position:0%
+like a table. This is a table because
+ 
+
+00:07:04.319 --> 00:07:07.270 align:start position:0%
+like a table. This is a table because
+there<00:07:04.560><c> is</c><00:07:04.720><c> a</c><00:07:04.880><c> series</c><00:07:05.280><c> of</c><00:07:05.680><c> pointers</c><00:07:06.240><c> to</c><00:07:06.639><c> strings</c>
+
+00:07:07.270 --> 00:07:07.280 align:start position:0%
+there is a series of pointers to strings
+ 
+
+00:07:07.280 --> 00:07:09.270 align:start position:0%
+there is a series of pointers to strings
+and<00:07:07.520><c> then</c><00:07:07.759><c> after</c><00:07:08.080><c> the</c><00:07:08.240><c> pointer</c><00:07:08.639><c> to</c><00:07:08.800><c> string</c>
+
+00:07:09.270 --> 00:07:09.280 align:start position:0%
+and then after the pointer to string
+ 
+
+00:07:09.280 --> 00:07:11.589 align:start position:0%
+and then after the pointer to string
+there<00:07:09.520><c> is</c><00:07:09.599><c> a</c><00:07:09.759><c> pointer</c><00:07:10.080><c> to</c><00:07:10.319><c> a</c><00:07:10.560><c> function.</c><00:07:11.120><c> Now</c><00:07:11.360><c> it</c>
+
+00:07:11.589 --> 00:07:11.599 align:start position:0%
+there is a pointer to a function. Now it
+ 
+
+00:07:11.599 --> 00:07:12.950 align:start position:0%
+there is a pointer to a function. Now it
+may<00:07:11.759><c> be</c><00:07:11.919><c> the</c><00:07:12.080><c> case</c><00:07:12.240><c> that</c><00:07:12.400><c> this</c><00:07:12.560><c> is</c><00:07:12.639><c> just</c><00:07:12.800><c> a</c>
+
+00:07:12.950 --> 00:07:12.960 align:start position:0%
+may be the case that this is just a
+ 
+
+00:07:12.960 --> 00:07:14.710 align:start position:0%
+may be the case that this is just a
+lookup<00:07:13.280><c> table.</c><00:07:13.599><c> If</c><00:07:13.759><c> I</c><00:07:13.919><c> go</c><00:07:14.000><c> to</c><00:07:14.080><c> the</c><00:07:14.319><c> wizard</c>
+
+00:07:14.710 --> 00:07:14.720 align:start position:0%
+lookup table. If I go to the wizard
+ 
+
+00:07:14.720 --> 00:07:16.710 align:start position:0%
+lookup table. If I go to the wizard
+string<00:07:15.120><c> config</c><00:07:15.759><c> right</c><00:07:15.919><c> there,</c><00:07:16.240><c> this</c><00:07:16.400><c> wizard</c>
+
+00:07:16.710 --> 00:07:16.720 align:start position:0%
+string config right there, this wizard
+ 
+
+00:07:16.720 --> 00:07:18.870 align:start position:0%
+string config right there, this wizard
+config<00:07:17.199><c> string,</c><00:07:17.599><c> I'm</c><00:07:17.840><c> going</c><00:07:18.000><c> to</c><00:07:18.160><c> run</c><00:07:18.639><c> this</c>
+
+00:07:18.870 --> 00:07:18.880 align:start position:0%
+config string, I'm going to run this
+ 
+
+00:07:18.880 --> 00:07:20.150 align:start position:0%
+config string, I'm going to run this
+function.<00:07:19.360><c> What</c><00:07:19.520><c> we</c><00:07:19.599><c> can</c><00:07:19.759><c> do</c><00:07:19.840><c> to</c><00:07:20.000><c> kind</c><00:07:20.080><c> of</c>
+
+00:07:20.150 --> 00:07:20.160 align:start position:0%
+function. What we can do to kind of
+ 
+
+00:07:20.160 --> 00:07:22.150 align:start position:0%
+function. What we can do to kind of
+validate<00:07:20.560><c> this</c><00:07:20.720><c> assumption</c><00:07:21.039><c> is</c><00:07:21.440><c> go</c><00:07:21.759><c> into</c>
+
+00:07:22.150 --> 00:07:22.160 align:start position:0%
+validate this assumption is go into
+ 
+
+00:07:22.160 --> 00:07:24.309 align:start position:0%
+validate this assumption is go into
+Gedra's<00:07:22.800><c> decompilation</c><00:07:23.440><c> of</c><00:07:23.599><c> it</c><00:07:24.000><c> and</c><00:07:24.160><c> then</c>
+
+00:07:24.309 --> 00:07:24.319 align:start position:0%
+Gedra's decompilation of it and then
+ 
+
+00:07:24.319 --> 00:07:26.230 align:start position:0%
+Gedra's decompilation of it and then
+maybe<00:07:24.639><c> read</c><00:07:24.880><c> what</c><00:07:25.039><c> it</c><00:07:25.199><c> does.</c><00:07:25.360><c> we</c><00:07:25.599><c> can</c><00:07:25.759><c> read</c>
+
+00:07:26.230 --> 00:07:26.240 align:start position:0%
+maybe read what it does. we can read
+ 
+
+00:07:26.240 --> 00:07:28.230 align:start position:0%
+maybe read what it does. we can read
+some<00:07:26.479><c> of</c><00:07:26.560><c> the</c><00:07:26.800><c> strings</c><00:07:27.199><c> inside</c><00:07:27.599><c> of</c><00:07:27.759><c> this.</c><00:07:28.000><c> We</c>
+
+00:07:28.230 --> 00:07:28.240 align:start position:0%
+some of the strings inside of this. We
+ 
+
+00:07:28.240 --> 00:07:30.230 align:start position:0%
+some of the strings inside of this. We
+have<00:07:28.479><c> some</c><00:07:28.720><c> function</c><00:07:29.199><c> on</c><00:07:29.440><c> this</c><00:07:29.680><c> work</c><00:07:29.919><c> mode</c>
+
+00:07:30.230 --> 00:07:30.240 align:start position:0%
+have some function on this work mode
+ 
+
+00:07:30.240 --> 00:07:32.309 align:start position:0%
+have some function on this work mode
+string,<00:07:30.880><c> some</c><00:07:31.120><c> function</c><00:07:31.360><c> on</c><00:07:31.520><c> this</c><00:07:31.680><c> WAN</c><00:07:32.000><c> mode</c>
+
+00:07:32.309 --> 00:07:32.319 align:start position:0%
+string, some function on this WAN mode
+ 
+
+00:07:32.319 --> 00:07:34.550 align:start position:0%
+string, some function on this WAN mode
+string,<00:07:32.800><c> and</c><00:07:33.039><c> then</c><00:07:33.280><c> compare</c><00:07:33.680><c> this</c><00:07:34.240><c> to</c>
+
+00:07:34.550 --> 00:07:34.560 align:start position:0%
+string, and then compare this to
+ 
+
+00:07:34.560 --> 00:07:37.189 align:start position:0%
+string, and then compare this to
+reality,<00:07:35.199><c> right?</c><00:07:35.680><c> If</c><00:07:35.919><c> we</c><00:07:36.080><c> compare</c><00:07:36.319><c> this</c><00:07:36.560><c> to</c>
+
+00:07:37.189 --> 00:07:37.199 align:start position:0%
+reality, right? If we compare this to
+ 
+
+00:07:37.199 --> 00:07:39.510 align:start position:0%
+reality, right? If we compare this to
+the<00:07:37.520><c> other,</c><00:07:38.000><c> you</c><00:07:38.160><c> know,</c><00:07:38.479><c> like</c><00:07:38.639><c> pieces</c><00:07:38.960><c> of</c><00:07:39.199><c> data</c>
+
+00:07:39.510 --> 00:07:39.520 align:start position:0%
+the other, you know, like pieces of data
+ 
+
+00:07:39.520 --> 00:07:42.309 align:start position:0%
+the other, you know, like pieces of data
+in<00:07:39.759><c> this</c><00:07:40.000><c> request,</c><00:07:40.880><c> maybe</c><00:07:41.199><c> we</c><00:07:41.440><c> can</c><00:07:41.599><c> see</c><00:07:41.840><c> if</c>
+
+00:07:42.309 --> 00:07:42.319 align:start position:0%
+in this request, maybe we can see if
+ 
+
+00:07:42.319 --> 00:07:43.990 align:start position:0%
+in this request, maybe we can see if
+this<00:07:42.560><c> is</c><00:07:42.720><c> like</c><00:07:42.960><c> what's</c><00:07:43.280><c> actually</c><00:07:43.520><c> going</c><00:07:43.680><c> on.</c>
+
+00:07:43.990 --> 00:07:44.000 align:start position:0%
+this is like what's actually going on.
+ 
+
+00:07:44.000 --> 00:07:45.830 align:start position:0%
+this is like what's actually going on.
+So,<00:07:44.240><c> as</c><00:07:44.400><c> I</c><00:07:44.639><c> was</c><00:07:44.720><c> going</c><00:07:44.960><c> through</c><00:07:45.280><c> all</c><00:07:45.520><c> of</c><00:07:45.599><c> the</c>
+
+00:07:45.830 --> 00:07:45.840 align:start position:0%
+So, as I was going through all of the
+ 
+
+00:07:45.840 --> 00:07:47.189 align:start position:0%
+So, as I was going through all of the
+available<00:07:46.319><c> options</c><00:07:46.639><c> we</c><00:07:46.800><c> have,</c><00:07:46.960><c> all</c><00:07:47.120><c> the</c>
+
+00:07:47.189 --> 00:07:47.199 align:start position:0%
+available options we have, all the
+ 
+
+00:07:47.199 --> 00:07:48.950 align:start position:0%
+available options we have, all the
+available<00:07:47.599><c> commands</c><00:07:47.919><c> that</c><00:07:48.080><c> we</c><00:07:48.240><c> have</c><00:07:48.400><c> here,</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+available commands that we have here,
+ 
+
+00:07:48.960 --> 00:07:51.029 align:start position:0%
+available commands that we have here,
+this<00:07:49.199><c> one</c><00:07:49.440><c> caught</c><00:07:49.759><c> my</c><00:07:49.919><c> eye.</c><00:07:50.319><c> So,</c><00:07:50.479><c> you</c><00:07:50.720><c> see</c><00:07:50.880><c> this</c>
+
+00:07:51.029 --> 00:07:51.039 align:start position:0%
+this one caught my eye. So, you see this
+ 
+
+00:07:51.039 --> 00:07:52.870 align:start position:0%
+this one caught my eye. So, you see this
+is<00:07:51.360><c> time</c><00:07:51.759><c> config,</c><00:07:52.160><c> right?</c><00:07:52.319><c> This</c><00:07:52.479><c> is</c><00:07:52.639><c> likely</c>
+
+00:07:52.870 --> 00:07:52.880 align:start position:0%
+is time config, right? This is likely
+ 
+
+00:07:52.880 --> 00:07:54.629 align:start position:0%
+is time config, right? This is likely
+what<00:07:52.960><c> we</c><00:07:53.120><c> can</c><00:07:53.280><c> use</c><00:07:53.440><c> to</c><00:07:53.599><c> configure</c><00:07:54.000><c> the</c><00:07:54.240><c> time</c><00:07:54.479><c> of</c>
+
+00:07:54.629 --> 00:07:54.639 align:start position:0%
+what we can use to configure the time of
+ 
+
+00:07:54.639 --> 00:07:56.710 align:start position:0%
+what we can use to configure the time of
+the<00:07:54.879><c> device.</c><00:07:55.440><c> But</c><00:07:55.520><c> if</c><00:07:55.680><c> you</c><00:07:55.840><c> go</c><00:07:56.000><c> into</c><00:07:56.240><c> here</c><00:07:56.400><c> and</c>
+
+00:07:56.710 --> 00:07:56.720 align:start position:0%
+the device. But if you go into here and
+ 
+
+00:07:56.720 --> 00:07:59.189 align:start position:0%
+the device. But if you go into here and
+start<00:07:56.879><c> to</c><00:07:57.199><c> read</c><00:07:57.520><c> some</c><00:07:57.759><c> of</c><00:07:57.840><c> the</c><00:07:58.000><c> code,</c><00:07:58.560><c> you</c><00:07:58.800><c> may</c>
+
+00:07:59.189 --> 00:07:59.199 align:start position:0%
+start to read some of the code, you may
+ 
+
+00:07:59.199 --> 00:08:00.629 align:start position:0%
+start to read some of the code, you may
+uh<00:07:59.280><c> if</c><00:07:59.440><c> you</c><00:07:59.599><c> have</c><00:07:59.680><c> any</c><00:07:59.919><c> experience</c><00:08:00.240><c> in</c><00:08:00.479><c> this</c>
+
+00:08:00.629 --> 00:08:00.639 align:start position:0%
+uh if you have any experience in this
+ 
+
+00:08:00.639 --> 00:08:03.110 align:start position:0%
+uh if you have any experience in this
+world,<00:08:01.039><c> uh</c><00:08:01.280><c> immediately</c><00:08:01.919><c> see</c><00:08:02.160><c> a</c><00:08:02.400><c> variety</c><00:08:02.879><c> of</c>
+
+00:08:03.110 --> 00:08:03.120 align:start position:0%
+world, uh immediately see a variety of
+ 
+
+00:08:03.120 --> 00:08:05.990 align:start position:0%
+world, uh immediately see a variety of
+issues.<00:08:03.919><c> So</c><00:08:04.319><c> first</c><00:08:04.560><c> of</c><00:08:04.720><c> all,</c><00:08:05.199><c> we</c><00:08:05.520><c> have</c><00:08:05.680><c> this</c>
+
+00:08:05.990 --> 00:08:06.000 align:start position:0%
+issues. So first of all, we have this
+ 
+
+00:08:06.000 --> 00:08:07.830 align:start position:0%
+issues. So first of all, we have this
+statically<00:08:06.560><c> defined</c><00:08:07.039><c> user</c><00:08:07.360><c> buffer.</c><00:08:07.759><c> I'm</c>
+
+00:08:07.830 --> 00:08:07.840 align:start position:0%
+statically defined user buffer. I'm
+ 
+
+00:08:07.840 --> 00:08:09.589 align:start position:0%
+statically defined user buffer. I'm
+going<00:08:07.919><c> to</c><00:08:08.000><c> call</c><00:08:08.160><c> this</c><00:08:08.560><c> uh</c><00:08:08.800><c> time</c><00:08:09.120><c> buff</c><00:08:09.440><c> for</c><00:08:09.520><c> a</c>
+
+00:08:09.589 --> 00:08:09.599 align:start position:0%
+going to call this uh time buff for a
+ 
+
+00:08:09.599 --> 00:08:11.430 align:start position:0%
+going to call this uh time buff for a
+reason<00:08:09.759><c> you'll</c><00:08:10.000><c> see</c><00:08:10.080><c> here</c><00:08:10.160><c> in</c><00:08:10.319><c> a</c><00:08:10.479><c> second.</c><00:08:11.039><c> We</c>
+
+00:08:11.430 --> 00:08:11.440 align:start position:0%
+reason you'll see here in a second. We
+ 
+
+00:08:11.440 --> 00:08:14.550 align:start position:0%
+reason you'll see here in a second. We
+take<00:08:12.160><c> some</c><00:08:12.560><c> data</c><00:08:13.199><c> that</c><00:08:13.520><c> likely</c><00:08:13.919><c> comes</c><00:08:14.240><c> out</c><00:08:14.400><c> of</c>
+
+00:08:14.550 --> 00:08:14.560 align:start position:0%
+take some data that likely comes out of
+ 
+
+00:08:14.560 --> 00:08:16.710 align:start position:0%
+take some data that likely comes out of
+the<00:08:15.280><c> time</c><00:08:15.680><c> variable.</c><00:08:16.080><c> You'll</c><00:08:16.319><c> see</c><00:08:16.400><c> we</c><00:08:16.639><c> have</c>
+
+00:08:16.710 --> 00:08:16.720 align:start position:0%
+the time variable. You'll see we have
+ 
+
+00:08:16.720 --> 00:08:18.309 align:start position:0%
+the time variable. You'll see we have
+the<00:08:16.879><c> time</c><00:08:17.199><c> string</c><00:08:17.440><c> here.</c><00:08:17.680><c> We</c><00:08:17.840><c> have</c><00:08:18.000><c> to</c><00:08:18.080><c> set</c>
+
+00:08:18.309 --> 00:08:18.319 align:start position:0%
+the time string here. We have to set
+ 
+
+00:08:18.319 --> 00:08:20.550 align:start position:0%
+the time string here. We have to set
+this<00:08:18.560><c> data</c><00:08:18.879><c> to</c><00:08:19.120><c> be</c><00:08:19.280><c> a</c><00:08:19.599><c> string</c><00:08:20.000><c> for</c><00:08:20.240><c> it</c><00:08:20.400><c> to</c>
+
+00:08:20.550 --> 00:08:20.560 align:start position:0%
+this data to be a string for it to
+ 
+
+00:08:20.560 --> 00:08:22.950 align:start position:0%
+this data to be a string for it to
+resolve<00:08:20.960><c> properly.</c><00:08:21.520><c> Right?</c><00:08:21.840><c> we</c><00:08:22.160><c> have</c><00:08:22.720><c> some</c>
+
+00:08:22.950 --> 00:08:22.960 align:start position:0%
+resolve properly. Right? we have some
+ 
+
+00:08:22.960 --> 00:08:25.670 align:start position:0%
+resolve properly. Right? we have some
+function<00:08:23.360><c> of</c><00:08:23.759><c> time</c><00:08:24.400><c> from</c><00:08:24.720><c> param</c><00:08:25.199><c> 2</c><00:08:25.360><c> which</c><00:08:25.599><c> is</c>
+
+00:08:25.670 --> 00:08:25.680 align:start position:0%
+function of time from param 2 which is
+ 
+
+00:08:25.680 --> 00:08:27.670 align:start position:0%
+function of time from param 2 which is
+going<00:08:25.759><c> to</c><00:08:25.840><c> be</c><00:08:25.919><c> likely</c><00:08:26.240><c> our</c><00:08:26.479><c> request.</c><00:08:27.199><c> So</c><00:08:27.440><c> if</c>
+
+00:08:27.670 --> 00:08:27.680 align:start position:0%
+going to be likely our request. So if
+ 
+
+00:08:27.680 --> 00:08:29.670 align:start position:0%
+going to be likely our request. So if
+this<00:08:27.840><c> is</c><00:08:28.000><c> the</c><00:08:28.240><c> function</c><00:08:28.560><c> that</c><00:08:28.800><c> we</c><00:08:28.960><c> use,</c><00:08:29.440><c> if</c>
+
+00:08:29.670 --> 00:08:29.680 align:start position:0%
+this is the function that we use, if
+ 
+
+00:08:29.680 --> 00:08:31.029 align:start position:0%
+this is the function that we use, if
+this<00:08:29.759><c> is</c><00:08:29.919><c> us</c><00:08:30.080><c> pulling</c><00:08:30.400><c> all</c><00:08:30.560><c> these</c><00:08:30.800><c> little</c>
+
+00:08:31.029 --> 00:08:31.039 align:start position:0%
+this is us pulling all these little
+ 
+
+00:08:31.039 --> 00:08:33.029 align:start position:0%
+this is us pulling all these little
+extra<00:08:31.360><c> pieces</c><00:08:31.840><c> out</c><00:08:32.080><c> of</c><00:08:32.240><c> this</c><00:08:32.479><c> request,</c><00:08:32.880><c> right?</c>
+
+00:08:33.029 --> 00:08:33.039 align:start position:0%
+extra pieces out of this request, right?
+ 
+
+00:08:33.039 --> 00:08:34.790 align:start position:0%
+extra pieces out of this request, right?
+We<00:08:33.200><c> have</c><00:08:33.360><c> function</c><00:08:33.680><c> equals</c><00:08:33.919><c> get</c><00:08:34.240><c> math</c><00:08:34.560><c> all</c><00:08:34.719><c> of</c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+We have function equals get math all of
+ 
+
+00:08:34.800 --> 00:08:37.350 align:start position:0%
+We have function equals get math all of
+these<00:08:35.120><c> parameters</c><00:08:35.440><c> in</c><00:08:35.599><c> the</c><00:08:35.760><c> URL.</c><00:08:36.560><c> If</c><00:08:36.880><c> that</c><00:08:37.120><c> is</c>
+
+00:08:37.350 --> 00:08:37.360 align:start position:0%
+these parameters in the URL. If that is
+ 
+
+00:08:37.360 --> 00:08:39.829 align:start position:0%
+these parameters in the URL. If that is
+how<00:08:37.599><c> we</c><00:08:37.919><c> assume</c><00:08:38.560><c> that</c><00:08:38.880><c> this</c><00:08:39.039><c> is</c><00:08:39.200><c> being</c><00:08:39.360><c> ran,</c><00:08:39.680><c> we</c>
+
+00:08:39.829 --> 00:08:39.839 align:start position:0%
+how we assume that this is being ran, we
+ 
+
+00:08:39.839 --> 00:08:41.350 align:start position:0%
+how we assume that this is being ran, we
+can<00:08:39.919><c> assume</c><00:08:40.080><c> that</c><00:08:40.240><c> this</c><00:08:40.399><c> is</c><00:08:40.560><c> pulling</c><00:08:40.800><c> the</c><00:08:41.039><c> time</c>
+
+00:08:41.350 --> 00:08:41.360 align:start position:0%
+can assume that this is pulling the time
+ 
+
+00:08:41.360 --> 00:08:43.430 align:start position:0%
+can assume that this is pulling the time
+parameter<00:08:42.159><c> out</c><00:08:42.320><c> of</c><00:08:42.399><c> the</c><00:08:42.560><c> URL.</c><00:08:42.959><c> And</c><00:08:43.120><c> this</c><00:08:43.279><c> makes</c>
+
+00:08:43.430 --> 00:08:43.440 align:start position:0%
+parameter out of the URL. And this makes
+ 
+
+00:08:43.440 --> 00:08:44.790 align:start position:0%
+parameter out of the URL. And this makes
+sense,<00:08:43.680><c> right?</c><00:08:43.839><c> Because</c><00:08:44.000><c> the</c><00:08:44.159><c> time</c><00:08:44.399><c> parameter</c>
+
+00:08:44.790 --> 00:08:44.800 align:start position:0%
+sense, right? Because the time parameter
+ 
+
+00:08:44.800 --> 00:08:46.389 align:start position:0%
+sense, right? Because the time parameter
+is<00:08:44.959><c> likely</c><00:08:45.200><c> what</c><00:08:45.360><c> we're</c><00:08:45.519><c> going</c><00:08:45.600><c> to</c><00:08:45.760><c> need</c><00:08:46.000><c> to</c>
+
+00:08:46.389 --> 00:08:46.399 align:start position:0%
+is likely what we're going to need to
+ 
+
+00:08:46.399 --> 00:08:48.070 align:start position:0%
+is likely what we're going to need to
+configure<00:08:46.800><c> the</c><00:08:47.040><c> time.</c><00:08:47.360><c> This</c><00:08:47.519><c> is</c><00:08:47.600><c> the</c><00:08:47.760><c> time</c>
+
+00:08:48.070 --> 00:08:48.080 align:start position:0%
+configure the time. This is the time
+ 
+
+00:08:48.080 --> 00:08:49.910 align:start position:0%
+configure the time. This is the time
+comp<00:08:48.480><c> function.</c><00:08:48.959><c> So</c><00:08:49.040><c> I'm</c><00:08:49.200><c> going</c><00:08:49.279><c> to</c><00:08:49.360><c> name</c><00:08:49.519><c> this</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+comp function. So I'm going to name this
+ 
+
+00:08:49.920 --> 00:08:52.310 align:start position:0%
+comp function. So I'm going to name this
+time<00:08:50.320><c> comp.</c><00:08:51.440><c> And</c><00:08:51.600><c> I'm</c><00:08:51.760><c> going</c><00:08:51.760><c> to</c><00:08:51.839><c> call</c><00:08:52.080><c> this</c>
+
+00:08:52.310 --> 00:08:52.320 align:start position:0%
+time comp. And I'm going to call this
+ 
+
+00:08:52.320 --> 00:08:54.790 align:start position:0%
+time comp. And I'm going to call this
+little<00:08:52.560><c> function</c><00:08:52.880><c> here</c><00:08:53.440><c> uh</c><00:08:53.600><c> get</c><00:08:53.920><c> param.</c>
+
+00:08:54.790 --> 00:08:54.800 align:start position:0%
+little function here uh get param.
+ 
+
+00:08:54.800 --> 00:08:57.269 align:start position:0%
+little function here uh get param.
+Right?<00:08:55.440><c> So</c><00:08:55.600><c> we</c><00:08:55.760><c> have</c><00:08:55.920><c> get</c><00:08:56.160><c> param</c><00:08:56.640><c> from</c><00:08:56.880><c> the</c>
+
+00:08:57.269 --> 00:08:57.279 align:start position:0%
+Right? So we have get param from the
+ 
+
+00:08:57.279 --> 00:08:59.509 align:start position:0%
+Right? So we have get param from the
+request<00:08:58.160><c> s</c><00:08:58.240><c> sprintf</c><00:08:58.800><c> that</c><00:08:58.959><c> into</c><00:08:59.120><c> the</c><00:08:59.279><c> time</c>
+
+00:08:59.509 --> 00:08:59.519 align:start position:0%
+request s sprintf that into the time
+ 
+
+00:08:59.519 --> 00:09:01.590 align:start position:0%
+request s sprintf that into the time
+buffer<00:09:00.000><c> date</c><00:09:00.320><c> s.</c><00:09:00.640><c> So</c><00:09:00.720><c> we're</c><00:09:00.880><c> going</c><00:09:00.959><c> to</c><00:09:01.200><c> set</c><00:09:01.440><c> the</c>
+
+00:09:01.590 --> 00:09:01.600 align:start position:0%
+buffer date s. So we're going to set the
+ 
+
+00:09:01.600 --> 00:09:04.870 align:start position:0%
+buffer date s. So we're going to set the
+date<00:09:02.080><c> to</c><00:09:02.399><c> our</c><00:09:02.720><c> little</c><00:09:02.959><c> input</c><00:09:03.680><c> and</c><00:09:03.920><c> then</c><00:09:04.160><c> do</c>
+
+00:09:04.870 --> 00:09:04.880 align:start position:0%
+date to our little input and then do
+ 
+
+00:09:04.880 --> 00:09:07.990 align:start position:0%
+date to our little input and then do
+system<00:09:05.360><c> command</c><00:09:06.000><c> on</c><00:09:06.240><c> that</c><00:09:06.480><c> time</c><00:09:06.720><c> buffer.</c><00:09:07.360><c> Now</c>
+
+00:09:07.990 --> 00:09:08.000 align:start position:0%
+system command on that time buffer. Now
+ 
+
+00:09:08.000 --> 00:09:11.110 align:start position:0%
+system command on that time buffer. Now
+this<00:09:08.160><c> is</c><00:09:08.320><c> a</c><00:09:08.560><c> wrapper</c><00:09:09.120><c> for</c><00:09:09.440><c> system.</c><00:09:10.160><c> So</c><00:09:10.640><c> what</c><00:09:10.880><c> we</c>
+
+00:09:11.110 --> 00:09:11.120 align:start position:0%
+this is a wrapper for system. So what we
+ 
+
+00:09:11.120 --> 00:09:13.750 align:start position:0%
+this is a wrapper for system. So what we
+could<00:09:11.440><c> assume</c><00:09:12.240><c> is</c><00:09:12.480><c> that</c><00:09:12.720><c> this</c><00:09:12.959><c> is</c><00:09:13.120><c> going</c><00:09:13.360><c> to</c>
+
+00:09:13.750 --> 00:09:13.760 align:start position:0%
+could assume is that this is going to
+ 
+
+00:09:13.760 --> 00:09:15.990 align:start position:0%
+could assume is that this is going to
+properly<00:09:14.240><c> sanitize</c><00:09:14.800><c> the</c><00:09:15.040><c> input.</c><00:09:15.600><c> But</c><00:09:15.760><c> like</c>
+
+00:09:15.990 --> 00:09:16.000 align:start position:0%
+properly sanitize the input. But like
+ 
+
+00:09:16.000 --> 00:09:18.470 align:start position:0%
+properly sanitize the input. But like
+any<00:09:16.240><c> good</c><00:09:16.399><c> hacker,</c><00:09:17.040><c> we're</c><00:09:17.360><c> going</c><00:09:17.600><c> to</c><00:09:18.080><c> uh</c><00:09:18.240><c> we're</c>
+
+00:09:18.470 --> 00:09:18.480 align:start position:0%
+any good hacker, we're going to uh we're
+ 
+
+00:09:18.480 --> 00:09:20.550 align:start position:0%
+any good hacker, we're going to uh we're
+going<00:09:18.640><c> to</c><00:09:18.800><c> test</c><00:09:19.360><c> that</c><00:09:19.600><c> assumption.</c><00:09:20.160><c> Right?</c><00:09:20.399><c> So</c>
+
+00:09:20.550 --> 00:09:20.560 align:start position:0%
+going to test that assumption. Right? So
+ 
+
+00:09:20.560 --> 00:09:21.829 align:start position:0%
+going to test that assumption. Right? So
+what<00:09:20.720><c> we</c><00:09:20.800><c> can</c><00:09:20.880><c> do</c><00:09:20.959><c> to</c><00:09:21.120><c> test</c><00:09:21.279><c> this</c><00:09:21.440><c> is</c><00:09:21.600><c> literally</c>
+
+00:09:21.829 --> 00:09:21.839 align:start position:0%
+what we can do to test this is literally
+ 
+
+00:09:21.839 --> 00:09:23.110 align:start position:0%
+what we can do to test this is literally
+just<00:09:22.000><c> write</c><00:09:22.160><c> the</c><00:09:22.320><c> command</c><00:09:22.560><c> ourselves.</c><00:09:22.959><c> So</c>
+
+00:09:23.110 --> 00:09:23.120 align:start position:0%
+just write the command ourselves. So
+ 
+
+00:09:23.120 --> 00:09:26.310 align:start position:0%
+just write the command ourselves. So
+curl<00:09:23.600><c> 192.16811.1</c>
+
+00:09:26.310 --> 00:09:26.320 align:start position:0%
+curl 192.16811.1
+ 
+
+00:09:26.320 --> 00:09:28.070 align:start position:0%
+curl 192.16811.1
+protocol.csp
+
+00:09:28.070 --> 00:09:28.080 align:start position:0%
+protocol.csp
+ 
+
+00:09:28.080 --> 00:09:30.550 align:start position:0%
+protocol.csp
+it<00:09:28.320><c> was</c><00:09:28.800><c> um</c><00:09:29.040><c> fname</c><00:09:29.519><c> equals</c><00:09:29.839><c> net</c><00:09:30.160><c> from</c><00:09:30.320><c> that</c>
+
+00:09:30.550 --> 00:09:30.560 align:start position:0%
+it was um fname equals net from that
+ 
+
+00:09:30.560 --> 00:09:33.430 align:start position:0%
+it was um fname equals net from that
+first<00:09:30.720><c> request</c><00:09:31.120><c> here</c><00:09:31.680><c> and</c><00:09:31.839><c> we</c><00:09:32.000><c> want</c><00:09:32.080><c> to</c><00:09:32.240><c> do</c><00:09:32.800><c> and</c>
+
+00:09:33.430 --> 00:09:33.440 align:start position:0%
+first request here and we want to do and
+ 
+
+00:09:33.440 --> 00:09:37.750 align:start position:0%
+first request here and we want to do and
+opt<00:09:34.240><c> equals</c><00:09:35.040><c> time</c><00:09:35.440><c> comp</c><00:09:36.240><c> and</c><00:09:36.800><c> the</c><00:09:37.200><c> time</c><00:09:37.519><c> is</c>
+
+00:09:37.750 --> 00:09:37.760 align:start position:0%
+opt equals time comp and the time is
+ 
+
+00:09:37.760 --> 00:09:39.590 align:start position:0%
+opt equals time comp and the time is
+equal<00:09:37.920><c> to</c><00:09:38.160><c> let's</c><00:09:38.320><c> just</c><00:09:38.480><c> do</c><00:09:38.800><c> garbage</c><00:09:39.279><c> for</c><00:09:39.440><c> right</c>
+
+00:09:39.590 --> 00:09:39.600 align:start position:0%
+equal to let's just do garbage for right
+ 
+
+00:09:39.600 --> 00:09:42.150 align:start position:0%
+equal to let's just do garbage for right
+now<00:09:40.320><c> and</c><00:09:40.640><c> there</c><00:09:40.880><c> was</c><00:09:41.040><c> some</c><00:09:41.279><c> random</c><00:09:41.839><c> math</c>
+
+00:09:42.150 --> 00:09:42.160 align:start position:0%
+now and there was some random math
+ 
+
+00:09:42.160 --> 00:09:43.910 align:start position:0%
+now and there was some random math
+variable<00:09:42.560><c> that</c><00:09:42.800><c> maybe</c><00:09:43.120><c> like</c><00:09:43.360><c> their</c><00:09:43.680><c> bad</c>
+
+00:09:43.910 --> 00:09:43.920 align:start position:0%
+variable that maybe like their bad
+ 
+
+00:09:43.920 --> 00:09:47.190 align:start position:0%
+variable that maybe like their bad
+attempt<00:09:44.320><c> at</c><00:09:44.640><c> a</c><00:09:45.200><c> CSRF</c><00:09:46.000><c> or</c><00:09:46.320><c> like</c><00:09:46.480><c> a</c><00:09:46.720><c> seed.</c><00:09:47.040><c> So</c>
+
+00:09:47.190 --> 00:09:47.200 align:start position:0%
+attempt at a CSRF or like a seed. So
+ 
+
+00:09:47.200 --> 00:09:48.470 align:start position:0%
+attempt at a CSRF or like a seed. So
+we're<00:09:47.279><c> just</c><00:09:47.440><c> going</c><00:09:47.519><c> to</c><00:09:47.600><c> steal</c><00:09:47.920><c> that</c><00:09:48.160><c> for</c><00:09:48.320><c> right</c>
+
+00:09:48.470 --> 00:09:48.480 align:start position:0%
+we're just going to steal that for right
+ 
+
+00:09:48.480 --> 00:09:52.070 align:start position:0%
+we're just going to steal that for right
+now.<00:09:49.120><c> And</c><00:09:49.279><c> then</c><00:09:49.519><c> the</c><00:09:49.839><c> function</c><00:09:50.640><c> is</c><00:09:50.959><c> equal</c><00:09:51.360><c> to</c>
+
+00:09:52.070 --> 00:09:52.080 align:start position:0%
+now. And then the function is equal to
+ 
+
+00:09:52.080 --> 00:09:53.829 align:start position:0%
+now. And then the function is equal to
+it<00:09:52.320><c> was</c><00:09:52.640><c> get,</c><00:09:53.040><c> right?</c><00:09:53.279><c> I</c><00:09:53.440><c> did</c><00:09:53.519><c> some</c><00:09:53.680><c> more</c>
+
+00:09:53.829 --> 00:09:53.839 align:start position:0%
+it was get, right? I did some more
+ 
+
+00:09:53.839 --> 00:09:55.990 align:start position:0%
+it was get, right? I did some more
+reading<00:09:54.080><c> and</c><00:09:54.320><c> there's</c><00:09:54.560><c> actually</c><00:09:54.880><c> it</c><00:09:55.120><c> does</c><00:09:55.360><c> a</c>
+
+00:09:55.990 --> 00:09:56.000 align:start position:0%
+reading and there's actually it does a
+ 
+
+00:09:56.000 --> 00:09:59.030 align:start position:0%
+reading and there's actually it does a
+compare<00:09:56.399><c> on</c><00:09:56.720><c> get</c><00:09:57.040><c> or</c><00:09:57.360><c> set</c><00:09:58.160><c> and</c><00:09:58.560><c> it's</c><00:09:58.800><c> going</c><00:09:58.959><c> to</c>
+
+00:09:59.030 --> 00:09:59.040 align:start position:0%
+compare on get or set and it's going to
+ 
+
+00:09:59.040 --> 00:10:01.030 align:start position:0%
+compare on get or set and it's going to
+return<00:09:59.440><c> that.</c><00:09:59.839><c> And</c><00:10:00.000><c> we</c><00:10:00.160><c> have</c><00:10:00.320><c> to</c><00:10:00.480><c> actually</c><00:10:00.800><c> be</c>
+
+00:10:01.030 --> 00:10:01.040 align:start position:0%
+return that. And we have to actually be
+ 
+
+00:10:01.040 --> 00:10:03.430 align:start position:0%
+return that. And we have to actually be
+doing<00:10:01.360><c> a</c><00:10:01.680><c> set</c><00:10:02.080><c> operation</c><00:10:02.720><c> to</c><00:10:02.959><c> get</c><00:10:03.120><c> into</c><00:10:03.279><c> this</c>
+
+00:10:03.430 --> 00:10:03.440 align:start position:0%
+doing a set operation to get into this
+ 
+
+00:10:03.440 --> 00:10:05.509 align:start position:0%
+doing a set operation to get into this
+function.<00:10:03.839><c> Right?</c><00:10:04.080><c> So</c><00:10:04.240><c> what</c><00:10:04.320><c> we</c><00:10:04.480><c> can</c><00:10:04.560><c> do</c><00:10:04.720><c> is</c><00:10:04.959><c> do</c>
+
+00:10:05.509 --> 00:10:05.519 align:start position:0%
+function. Right? So what we can do is do
+ 
+
+00:10:05.519 --> 00:10:07.829 align:start position:0%
+function. Right? So what we can do is do
+set<00:10:05.839><c> for</c><00:10:06.080><c> this.</c><00:10:06.560><c> I'm</c><00:10:06.880><c> going</c><00:10:06.959><c> to</c><00:10:07.120><c> wrap</c><00:10:07.440><c> this</c><00:10:07.680><c> in</c>
+
+00:10:07.829 --> 00:10:07.839 align:start position:0%
+set for this. I'm going to wrap this in
+ 
+
+00:10:07.839 --> 00:10:09.430 align:start position:0%
+set for this. I'm going to wrap this in
+a<00:10:08.080><c> single</c><00:10:08.399><c> quote</c><00:10:08.640><c> because</c><00:10:08.880><c> I</c><00:10:08.959><c> want</c><00:10:09.040><c> to</c><00:10:09.200><c> do</c><00:10:09.279><c> a</c>
+
+00:10:09.430 --> 00:10:09.440 align:start position:0%
+a single quote because I want to do a
+ 
+
+00:10:09.440 --> 00:10:10.630 align:start position:0%
+a single quote because I want to do a
+command<00:10:09.600><c> injection</c><00:10:10.000><c> at</c><00:10:10.160><c> some</c><00:10:10.240><c> point</c><00:10:10.320><c> and</c><00:10:10.480><c> I</c>
+
+00:10:10.630 --> 00:10:10.640 align:start position:0%
+command injection at some point and I
+ 
+
+00:10:10.640 --> 00:10:12.470 align:start position:0%
+command injection at some point and I
+don't<00:10:10.720><c> want</c><00:10:10.800><c> to</c><00:10:10.880><c> command</c><00:10:11.120><c> inject</c><00:10:11.440><c> myself.</c><00:10:12.240><c> And</c>
+
+00:10:12.470 --> 00:10:12.480 align:start position:0%
+don't want to command inject myself. And
+ 
+
+00:10:12.480 --> 00:10:15.430 align:start position:0%
+don't want to command inject myself. And
+you'll<00:10:12.720><c> see</c><00:10:13.440><c> that</c><00:10:13.839><c> it</c><00:10:14.160><c> says</c><00:10:14.480><c> set</c><00:10:14.959><c> error</c><00:10:15.200><c> equal</c>
+
+00:10:15.430 --> 00:10:15.440 align:start position:0%
+you'll see that it says set error equal
+ 
+
+00:10:15.440 --> 00:10:17.190 align:start position:0%
+you'll see that it says set error equal
+to<00:10:15.600><c> zero</c><00:10:15.920><c> which</c><00:10:16.079><c> means</c><00:10:16.240><c> that</c><00:10:16.399><c> we</c><00:10:16.560><c> set</c><00:10:16.880><c> them</c><00:10:17.040><c> the</c>
+
+00:10:17.190 --> 00:10:17.200 align:start position:0%
+to zero which means that we set them the
+ 
+
+00:10:17.200 --> 00:10:20.310 align:start position:0%
+to zero which means that we set them the
+the<00:10:17.440><c> date</c><00:10:17.760><c> equal</c><00:10:18.000><c> to</c><00:10:18.399><c> asf</c><00:10:19.040><c> asf.</c><00:10:19.839><c> What</c><00:10:20.000><c> we</c><00:10:20.160><c> can</c>
+
+00:10:20.310 --> 00:10:20.320 align:start position:0%
+the date equal to asf asf. What we can
+ 
+
+00:10:20.320 --> 00:10:22.389 align:start position:0%
+the date equal to asf asf. What we can
+do<00:10:20.480><c> now</c><00:10:20.720><c> is</c><00:10:20.959><c> actually</c><00:10:21.279><c> test</c><00:10:21.600><c> does</c><00:10:21.839><c> our</c><00:10:22.000><c> command</c>
+
+00:10:22.389 --> 00:10:22.399 align:start position:0%
+do now is actually test does our command
+ 
+
+00:10:22.399 --> 00:10:24.069 align:start position:0%
+do now is actually test does our command
+injection<00:10:22.959><c> work?</c><00:10:23.279><c> Do</c><00:10:23.440><c> we</c><00:10:23.600><c> have</c><00:10:23.680><c> the</c><00:10:23.839><c> ability</c>
+
+00:10:24.069 --> 00:10:24.079 align:start position:0%
+injection work? Do we have the ability
+ 
+
+00:10:24.079 --> 00:10:25.829 align:start position:0%
+injection work? Do we have the ability
+to<00:10:24.320><c> run</c><00:10:24.560><c> arbitrary</c><00:10:25.120><c> commands</c><00:10:25.519><c> through</c><00:10:25.680><c> just</c>
+
+00:10:25.829 --> 00:10:25.839 align:start position:0%
+to run arbitrary commands through just
+ 
+
+00:10:25.839 --> 00:10:27.509 align:start position:0%
+to run arbitrary commands through just
+the<00:10:26.000><c> use</c><00:10:26.160><c> of</c><00:10:26.240><c> a</c><00:10:26.399><c> simple</c><00:10:26.640><c> reboot?</c><00:10:27.120><c> And</c><00:10:27.279><c> you'll</c>
+
+00:10:27.509 --> 00:10:27.519 align:start position:0%
+the use of a simple reboot? And you'll
+ 
+
+00:10:27.519 --> 00:10:30.150 align:start position:0%
+the use of a simple reboot? And you'll
+see<00:10:27.839><c> first</c><00:10:28.399><c> it</c><00:10:28.640><c> says</c><00:10:28.959><c> error</c><00:10:29.200><c> zero</c><00:10:29.760><c> and</c><00:10:29.920><c> the</c>
+
+00:10:30.150 --> 00:10:30.160 align:start position:0%
+see first it says error zero and the
+ 
+
+00:10:30.160 --> 00:10:33.190 align:start position:0%
+see first it says error zero and the
+second<00:10:30.399><c> time</c><00:10:31.440><c> the</c><00:10:31.680><c> command</c><00:10:32.000><c> hangs</c><00:10:32.800><c> because</c>
+
+00:10:33.190 --> 00:10:33.200 align:start position:0%
+second time the command hangs because
+ 
+
+00:10:33.200 --> 00:10:34.949 align:start position:0%
+second time the command hangs because
+the<00:10:33.440><c> device</c><00:10:33.680><c> has</c><00:10:33.920><c> rebooted.</c><00:10:34.399><c> Right?</c><00:10:34.640><c> We</c><00:10:34.800><c> have</c>
+
+00:10:34.949 --> 00:10:34.959 align:start position:0%
+the device has rebooted. Right? We have
+ 
+
+00:10:34.959 --> 00:10:37.030 align:start position:0%
+the device has rebooted. Right? We have
+turned<00:10:35.200><c> the</c><00:10:35.360><c> device</c><00:10:35.680><c> on</c><00:10:35.839><c> and</c><00:10:36.079><c> off</c><00:10:36.480><c> and</c><00:10:36.640><c> now</c><00:10:36.800><c> we</c>
+
+00:10:37.030 --> 00:10:37.040 align:start position:0%
+turned the device on and off and now we
+ 
+
+00:10:37.040 --> 00:10:38.710 align:start position:0%
+turned the device on and off and now we
+can<00:10:37.120><c> no</c><00:10:37.279><c> longer</c><00:10:37.519><c> connect</c><00:10:37.760><c> to</c><00:10:37.920><c> the</c><00:10:38.079><c> device.</c><00:10:38.560><c> So</c>
+
+00:10:38.710 --> 00:10:38.720 align:start position:0%
+can no longer connect to the device. So
+ 
+
+00:10:38.720 --> 00:10:41.110 align:start position:0%
+can no longer connect to the device. So
+we<00:10:38.959><c> can</c><00:10:39.120><c> run</c><00:10:39.600><c> arbitrary</c><00:10:40.399><c> commands</c><00:10:40.720><c> on</c><00:10:40.959><c> this</c>
+
+00:10:41.110 --> 00:10:41.120 align:start position:0%
+we can run arbitrary commands on this
+ 
+
+00:10:41.120 --> 00:10:42.470 align:start position:0%
+we can run arbitrary commands on this
+device.<00:10:41.440><c> But</c><00:10:41.680><c> but</c><00:10:41.839><c> that's</c><00:10:42.000><c> not</c><00:10:42.160><c> cool.</c><00:10:42.320><c> That's</c>
+
+00:10:42.470 --> 00:10:42.480 align:start position:0%
+device. But but that's not cool. That's
+ 
+
+00:10:42.480 --> 00:10:44.150 align:start position:0%
+device. But but that's not cool. That's
+not<00:10:42.560><c> cool</c><00:10:42.720><c> enough.</c><00:10:42.959><c> We</c><00:10:43.120><c> want</c><00:10:43.200><c> to</c><00:10:43.360><c> get</c><00:10:43.600><c> a</c><00:10:43.920><c> shell</c>
+
+00:10:44.150 --> 00:10:44.160 align:start position:0%
+not cool enough. We want to get a shell
+ 
+
+00:10:44.160 --> 00:10:46.790 align:start position:0%
+not cool enough. We want to get a shell
+on<00:10:44.399><c> this</c><00:10:44.560><c> device.</c><00:10:44.880><c> I</c><00:10:45.120><c> want</c><00:10:45.279><c> to</c><00:10:45.440><c> have</c><00:10:46.079><c> access</c><00:10:46.560><c> to</c>
+
+00:10:46.790 --> 00:10:46.800 align:start position:0%
+on this device. I want to have access to
+ 
+
+00:10:46.800 --> 00:10:48.870 align:start position:0%
+on this device. I want to have access to
+this<00:10:47.120><c> device</c><00:10:47.440><c> via</c><00:10:47.839><c> the</c><00:10:48.160><c> command</c><00:10:48.480><c> line.</c><00:10:48.720><c> So</c>
+
+00:10:48.870 --> 00:10:48.880 align:start position:0%
+this device via the command line. So
+ 
+
+00:10:48.880 --> 00:10:51.670 align:start position:0%
+this device via the command line. So
+what<00:10:49.040><c> can</c><00:10:49.120><c> we</c><00:10:49.279><c> do?</c><00:10:49.760><c> So</c><00:10:50.079><c> going</c><00:10:50.320><c> back</c><00:10:50.560><c> to</c><00:10:50.959><c> our</c><00:10:51.440><c> um</c>
+
+00:10:51.670 --> 00:10:51.680 align:start position:0%
+what can we do? So going back to our um
+ 
+
+00:10:51.680 --> 00:10:53.430 align:start position:0%
+what can we do? So going back to our um
+our<00:10:51.920><c> firmware</c><00:10:52.240><c> image</c><00:10:52.560><c> here,</c><00:10:52.720><c> we</c><00:10:52.880><c> can</c><00:10:53.040><c> see</c><00:10:53.200><c> all</c>
+
+00:10:53.430 --> 00:10:53.440 align:start position:0%
+our firmware image here, we can see all
+ 
+
+00:10:53.440 --> 00:10:55.030 align:start position:0%
+our firmware image here, we can see all
+of<00:10:53.519><c> the</c><00:10:53.760><c> binaries</c><00:10:54.240><c> that</c><00:10:54.399><c> are</c><00:10:54.480><c> on</c><00:10:54.640><c> the</c><00:10:54.800><c> device.</c>
+
+00:10:55.030 --> 00:10:55.040 align:start position:0%
+of the binaries that are on the device.
+ 
+
+00:10:55.040 --> 00:10:56.389 align:start position:0%
+of the binaries that are on the device.
+And<00:10:55.200><c> you'll</c><00:10:55.360><c> see</c><00:10:55.519><c> pretty</c><00:10:55.760><c> quickly</c><00:10:55.920><c> that</c><00:10:56.160><c> we</c>
+
+00:10:56.389 --> 00:10:56.399 align:start position:0%
+And you'll see pretty quickly that we
+ 
+
+00:10:56.399 --> 00:11:00.550 align:start position:0%
+And you'll see pretty quickly that we
+have<00:10:56.640><c> the</c><00:10:56.880><c> lovely</c><00:10:57.600><c> tnetd.</c><00:10:58.480><c> So</c><00:10:58.800><c> user</c><00:10:59.600><c> espin</c><00:11:00.320><c> tn</c>
+
+00:11:00.550 --> 00:11:00.560 align:start position:0%
+have the lovely tnetd. So user espin tn
+ 
+
+00:11:00.560 --> 00:11:02.870 align:start position:0%
+have the lovely tnetd. So user espin tn
+netd<00:11:00.959><c> is</c><00:11:01.040><c> a</c><00:11:01.200><c> binary</c><00:11:01.440><c> that</c><00:11:01.600><c> we</c><00:11:01.760><c> can</c><00:11:01.920><c> use</c><00:11:02.399><c> to</c>
+
+00:11:02.870 --> 00:11:02.880 align:start position:0%
+netd is a binary that we can use to
+ 
+
+00:11:02.880 --> 00:11:06.069 align:start position:0%
+netd is a binary that we can use to
+basically<00:11:03.440><c> run</c><00:11:04.079><c> any</c><00:11:04.480><c> other</c><00:11:04.800><c> binary</c><00:11:05.440><c> on</c><00:11:05.839><c> any</c>
+
+00:11:06.069 --> 00:11:06.079 align:start position:0%
+basically run any other binary on any
+ 
+
+00:11:06.079 --> 00:11:07.509 align:start position:0%
+basically run any other binary on any
+other<00:11:06.320><c> port,</c><00:11:06.640><c> right?</c><00:11:06.800><c> Assuming</c><00:11:07.120><c> there</c><00:11:07.279><c> are</c><00:11:07.360><c> no</c>
+
+00:11:07.509 --> 00:11:07.519 align:start position:0%
+other port, right? Assuming there are no
+ 
+
+00:11:07.519 --> 00:11:09.350 align:start position:0%
+other port, right? Assuming there are no
+firewall<00:11:07.920><c> rules</c><00:11:08.160><c> in</c><00:11:08.399><c> place.</c><00:11:08.720><c> And</c><00:11:08.880><c> so</c><00:11:09.040><c> what</c><00:11:09.200><c> we</c>
+
+00:11:09.350 --> 00:11:09.360 align:start position:0%
+firewall rules in place. And so what we
+ 
+
+00:11:09.360 --> 00:11:11.670 align:start position:0%
+firewall rules in place. And so what we
+can<00:11:09.519><c> do</c><00:11:09.680><c> to</c><00:11:10.240><c> uh</c><00:11:10.320><c> mess</c><00:11:10.560><c> with</c><00:11:10.720><c> that</c><00:11:10.959><c> guy</c><00:11:11.200><c> is</c><00:11:11.519><c> first</c>
+
+00:11:11.670 --> 00:11:11.680 align:start position:0%
+can do to uh mess with that guy is first
+ 
+
+00:11:11.680 --> 00:11:12.790 align:start position:0%
+can do to uh mess with that guy is first
+of<00:11:11.760><c> all</c><00:11:11.839><c> I</c><00:11:12.000><c> got</c><00:11:12.079><c> to</c><00:11:12.160><c> reset</c><00:11:12.480><c> my</c><00:11:12.560><c> network</c>
+
+00:11:12.790 --> 00:11:12.800 align:start position:0%
+of all I got to reset my network
+ 
+
+00:11:12.800 --> 00:11:14.470 align:start position:0%
+of all I got to reset my network
+interface.<00:11:13.279><c> And</c><00:11:13.440><c> then</c><00:11:13.600><c> now</c><00:11:13.760><c> we</c><00:11:13.920><c> can</c><00:11:14.079><c> update</c>
+
+00:11:14.470 --> 00:11:14.480 align:start position:0%
+interface. And then now we can update
+ 
+
+00:11:14.480 --> 00:11:17.350 align:start position:0%
+interface. And then now we can update
+our<00:11:14.959><c> our</c><00:11:15.200><c> exploit</c><00:11:15.760><c> to</c><00:11:16.160><c> actually</c><00:11:16.880><c> set</c><00:11:17.040><c> up</c><00:11:17.200><c> the</c>
+
+00:11:17.350 --> 00:11:17.360 align:start position:0%
+our our exploit to actually set up the
+ 
+
+00:11:17.360 --> 00:11:18.870 align:start position:0%
+our our exploit to actually set up the
+right<00:11:17.519><c> thing.</c><00:11:17.680><c> So</c><00:11:17.839><c> what</c><00:11:17.920><c> I</c><00:11:18.000><c> want</c><00:11:18.079><c> to</c><00:11:18.160><c> do</c><00:11:18.240><c> is</c>
+
+00:11:18.870 --> 00:11:18.880 align:start position:0%
+right thing. So what I want to do is
+ 
+
+00:11:18.880 --> 00:11:21.750 align:start position:0%
+right thing. So what I want to do is
+user<00:11:19.440><c> sbin</c><00:11:19.920><c> tn</c><00:11:20.160><c> netd.</c><00:11:21.040><c> So</c><00:11:21.279><c> first</c><00:11:21.360><c> of</c><00:11:21.440><c> all</c><00:11:21.600><c> we're</c>
+
+00:11:21.750 --> 00:11:21.760 align:start position:0%
+user sbin tn netd. So first of all we're
+ 
+
+00:11:21.760 --> 00:11:23.910 align:start position:0%
+user sbin tn netd. So first of all we're
+putting<00:11:21.920><c> this</c><00:11:22.079><c> IFS</c><00:11:22.560><c> separator</c><00:11:23.040><c> to</c><00:11:23.279><c> to</c><00:11:23.519><c> emulate</c>
+
+00:11:23.910 --> 00:11:23.920 align:start position:0%
+putting this IFS separator to to emulate
+ 
+
+00:11:23.920 --> 00:11:25.509 align:start position:0%
+putting this IFS separator to to emulate
+a<00:11:24.079><c> space</c><00:11:24.240><c> on</c><00:11:24.399><c> the</c><00:11:24.560><c> device</c><00:11:24.800><c> cuz</c><00:11:25.040><c> sometimes</c><00:11:25.360><c> uh</c>
+
+00:11:25.509 --> 00:11:25.519 align:start position:0%
+a space on the device cuz sometimes uh
+ 
+
+00:11:25.519 --> 00:11:28.389 align:start position:0%
+a space on the device cuz sometimes uh
+in<00:11:25.680><c> HTTP</c><00:11:26.399><c> the</c><00:11:26.720><c> spaces</c><00:11:27.120><c> will</c><00:11:27.360><c> get</c><00:11:27.920><c> escaped</c>
+
+00:11:28.389 --> 00:11:28.399 align:start position:0%
+in HTTP the spaces will get escaped
+ 
+
+00:11:28.399 --> 00:11:32.710 align:start position:0%
+in HTTP the spaces will get escaped
+weirdly.<00:11:29.040><c> We</c><00:11:29.279><c> want</c><00:11:29.360><c> to</c><00:11:29.519><c> do</c><00:11:29.760><c> -ps</c><00:11:31.040><c> on</c><00:11:31.279><c> port</c><00:11:31.600><c> 444.</c>
+
+00:11:32.710 --> 00:11:32.720 align:start position:0%
+weirdly. We want to do -ps on port 444.
+ 
+
+00:11:32.720 --> 00:11:35.190 align:start position:0%
+weirdly. We want to do -ps on port 444.
+And<00:11:32.880><c> then</c><00:11:33.040><c> we</c><00:11:33.200><c> want</c><00:11:33.279><c> to</c><00:11:33.440><c> set</c><00:11:33.680><c> the</c><00:11:34.160><c> um</c><00:11:34.320><c> the</c><00:11:34.640><c> login</c>
+
+00:11:35.190 --> 00:11:35.200 align:start position:0%
+And then we want to set the um the login
+ 
+
+00:11:35.200 --> 00:11:39.750 align:start position:0%
+And then we want to set the um the login
+binary<00:11:36.160><c> to</c><00:11:36.560><c> be</c><00:11:37.600><c> uh</c><00:11:37.839><c> bin</c><00:11:38.720><c> ash</c><00:11:39.040><c> I</c><00:11:39.200><c> believe</c><00:11:39.360><c> is</c><00:11:39.519><c> the</c>
+
+00:11:39.750 --> 00:11:39.760 align:start position:0%
+binary to be uh bin ash I believe is the
+ 
+
+00:11:39.760 --> 00:11:41.829 align:start position:0%
+binary to be uh bin ash I believe is the
+the<00:11:39.920><c> shell</c><00:11:40.160><c> that</c><00:11:40.320><c> we</c><00:11:40.480><c> have.</c><00:11:40.880><c> So</c><00:11:41.120><c> now</c><00:11:41.279><c> if</c><00:11:41.519><c> I</c><00:11:41.680><c> do</c>
+
+00:11:41.829 --> 00:11:41.839 align:start position:0%
+the shell that we have. So now if I do
+ 
+
+00:11:41.839 --> 00:11:44.069 align:start position:0%
+the shell that we have. So now if I do
+netcat<00:11:42.560><c> 192168</c>
+
+00:11:44.069 --> 00:11:44.079 align:start position:0%
+netcat 192168
+ 
+
+00:11:44.079 --> 00:11:46.550 align:start position:0%
+netcat 192168
+uh<00:11:44.399><c> 1114444</c>
+
+00:11:46.550 --> 00:11:46.560 align:start position:0%
+uh 1114444
+ 
+
+00:11:46.560 --> 00:11:47.829 align:start position:0%
+uh 1114444
+I<00:11:46.800><c> don't</c><00:11:46.959><c> have</c><00:11:47.040><c> a</c><00:11:47.200><c> shell.</c><00:11:47.440><c> Okay,</c><00:11:47.519><c> let's</c><00:11:47.680><c> try</c>
+
+00:11:47.829 --> 00:11:47.839 align:start position:0%
+I don't have a shell. Okay, let's try
+ 
+
+00:11:47.839 --> 00:11:49.110 align:start position:0%
+I don't have a shell. Okay, let's try
+again.<00:11:48.079><c> Hold</c><00:11:48.240><c> on.</c><00:11:48.480><c> Before</c><00:11:48.720><c> we</c><00:11:48.880><c> do</c><00:11:48.959><c> that</c>
+
+00:11:49.110 --> 00:11:49.120 align:start position:0%
+again. Hold on. Before we do that
+ 
+
+00:11:49.120 --> 00:11:50.310 align:start position:0%
+again. Hold on. Before we do that
+though,<00:11:49.360><c> I</c><00:11:49.519><c> want</c><00:11:49.600><c> to</c><00:11:49.760><c> get</c><00:11:49.920><c> a</c><00:11:50.079><c> little</c><00:11:50.160><c> more</c>
+
+00:11:50.310 --> 00:11:50.320 align:start position:0%
+though, I want to get a little more
+ 
+
+00:11:50.320 --> 00:11:52.310 align:start position:0%
+though, I want to get a little more
+insight<00:11:50.720><c> into</c><00:11:50.959><c> what's</c><00:11:51.360><c> actually</c><00:11:51.760><c> going</c><00:11:52.000><c> on</c><00:11:52.160><c> in</c>
+
+00:11:52.310 --> 00:11:52.320 align:start position:0%
+insight into what's actually going on in
+ 
+
+00:11:52.320 --> 00:11:53.590 align:start position:0%
+insight into what's actually going on in
+the<00:11:52.480><c> device.</c><00:11:52.720><c> Like</c><00:11:52.880><c> what</c><00:11:52.959><c> is</c><00:11:53.120><c> what</c><00:11:53.279><c> is</c><00:11:53.440><c> the</c>
+
+00:11:53.590 --> 00:11:53.600 align:start position:0%
+the device. Like what is what is the
+ 
+
+00:11:53.600 --> 00:11:54.949 align:start position:0%
+the device. Like what is what is the
+process<00:11:53.920><c> list?</c><00:11:54.240><c> What</c><00:11:54.399><c> does</c><00:11:54.480><c> the</c><00:11:54.640><c> environment</c>
+
+00:11:54.949 --> 00:11:54.959 align:start position:0%
+process list? What does the environment
+ 
+
+00:11:54.959 --> 00:11:56.470 align:start position:0%
+process list? What does the environment
+look<00:11:55.120><c> like?</c><00:11:55.440><c> Luckily,</c><00:11:55.839><c> we</c><00:11:56.000><c> have</c><00:11:56.160><c> command</c>
+
+00:11:56.470 --> 00:11:56.480 align:start position:0%
+look like? Luckily, we have command
+ 
+
+00:11:56.480 --> 00:11:58.069 align:start position:0%
+look like? Luckily, we have command
+execution<00:11:56.880><c> on</c><00:11:57.040><c> the</c><00:11:57.200><c> device</c><00:11:57.360><c> and</c><00:11:57.600><c> we</c><00:11:57.760><c> can</c><00:11:57.920><c> run</c>
+
+00:11:58.069 --> 00:11:58.079 align:start position:0%
+execution on the device and we can run
+ 
+
+00:11:58.079 --> 00:11:59.670 align:start position:0%
+execution on the device and we can run
+those<00:11:58.320><c> commands.</c><00:11:58.880><c> There's</c><00:11:59.040><c> just</c><00:11:59.200><c> nowhere</c><00:11:59.519><c> to</c>
+
+00:11:59.670 --> 00:11:59.680 align:start position:0%
+those commands. There's just nowhere to
+ 
+
+00:11:59.680 --> 00:12:02.150 align:start position:0%
+those commands. There's just nowhere to
+really<00:12:00.000><c> put</c><00:12:00.240><c> that</c><00:12:00.560><c> data.</c><00:12:00.959><c> Well,</c><00:12:01.279><c> sort</c><00:12:01.519><c> of.</c><00:12:01.920><c> If</c>
+
+00:12:02.150 --> 00:12:02.160 align:start position:0%
+really put that data. Well, sort of. If
+ 
+
+00:12:02.160 --> 00:12:04.389 align:start position:0%
+really put that data. Well, sort of. If
+we<00:12:02.320><c> actually</c><00:12:02.640><c> go</c><00:12:02.880><c> to</c><00:12:03.120><c> the</c><00:12:03.440><c> uh</c><00:12:03.519><c> the</c><00:12:03.760><c> file</c><00:12:04.079><c> system</c>
+
+00:12:04.389 --> 00:12:04.399 align:start position:0%
+we actually go to the uh the file system
+ 
+
+00:12:04.399 --> 00:12:07.269 align:start position:0%
+we actually go to the uh the file system
+here,<00:12:04.880><c> we're</c><00:12:05.040><c> going</c><00:12:05.120><c> to</c><00:12:05.279><c> go</c><00:12:05.600><c> to</c><00:12:06.320><c> the</c><00:12:06.880><c> config</c>
+
+00:12:07.269 --> 00:12:07.279 align:start position:0%
+here, we're going to go to the config
+ 
+
+00:12:07.279 --> 00:12:09.190 align:start position:0%
+here, we're going to go to the config
+file<00:12:07.600><c> for</c><00:12:07.839><c> Etsy</c><00:12:08.399><c> lighty</c><00:12:08.800><c> and</c><00:12:08.959><c> we're</c><00:12:09.040><c> going</c><00:12:09.120><c> to</c>
+
+00:12:09.190 --> 00:12:09.200 align:start position:0%
+file for Etsy lighty and we're going to
+ 
+
+00:12:09.200 --> 00:12:11.590 align:start position:0%
+file for Etsy lighty and we're going to
+cat<00:12:09.519><c> the</c><00:12:09.680><c> lighty</c><00:12:10.160><c> config.</c><00:12:10.880><c> You'll</c><00:12:11.200><c> see</c><00:12:11.360><c> that</c>
+
+00:12:11.590 --> 00:12:11.600 align:start position:0%
+cat the lighty config. You'll see that
+ 
+
+00:12:11.600 --> 00:12:15.030 align:start position:0%
+cat the lighty config. You'll see that
+we're<00:12:11.920><c> actually</c><00:12:12.399><c> serving</c><00:12:12.959><c> data</c><00:12:13.839><c> from</c><00:12:14.240><c> the</c>
+
+00:12:15.030 --> 00:12:15.040 align:start position:0%
+we're actually serving data from the
+ 
+
+00:12:15.040 --> 00:12:16.870 align:start position:0%
+we're actually serving data from the
+webs<00:12:15.440><c> directory</c><00:12:15.839><c> for</c><00:12:16.079><c> this</c><00:12:16.320><c> device.</c><00:12:16.720><c> Well,</c>
+
+00:12:16.870 --> 00:12:16.880 align:start position:0%
+webs directory for this device. Well,
+ 
+
+00:12:16.880 --> 00:12:18.470 align:start position:0%
+webs directory for this device. Well,
+there<00:12:17.120><c> actually</c><00:12:17.360><c> there</c><00:12:17.519><c> are</c><00:12:17.680><c> two</c><00:12:18.000><c> instances</c>
+
+00:12:18.470 --> 00:12:18.480 align:start position:0%
+there actually there are two instances
+ 
+
+00:12:18.480 --> 00:12:19.590 align:start position:0%
+there actually there are two instances
+running<00:12:18.639><c> of</c><00:12:18.800><c> this.</c><00:12:19.040><c> But</c><00:12:19.120><c> you'll</c><00:12:19.279><c> see</c><00:12:19.360><c> that</c><00:12:19.519><c> we</c>
+
+00:12:19.590 --> 00:12:19.600 align:start position:0%
+running of this. But you'll see that we
+ 
+
+00:12:19.600 --> 00:12:21.910 align:start position:0%
+running of this. But you'll see that we
+have<00:12:19.760><c> one</c><00:12:20.000><c> of</c><00:12:20.079><c> them</c><00:12:20.320><c> is</c><00:12:20.560><c> a</c><00:12:20.880><c> writable</c><00:12:21.360><c> folder</c>
+
+00:12:21.910 --> 00:12:21.920 align:start position:0%
+have one of them is a writable folder
+ 
+
+00:12:21.920 --> 00:12:23.829 align:start position:0%
+have one of them is a writable folder
+that's<00:12:22.160><c> called</c><00:12:22.560><c> /webs.</c><00:12:23.360><c> Let's</c><00:12:23.440><c> see</c><00:12:23.519><c> if</c><00:12:23.680><c> I</c><00:12:23.760><c> can</c>
+
+00:12:23.829 --> 00:12:23.839 align:start position:0%
+that's called /webs. Let's see if I can
+ 
+
+00:12:23.839 --> 00:12:25.590 align:start position:0%
+that's called /webs. Let's see if I can
+find<00:12:24.000><c> it</c><00:12:24.160><c> here.</c><00:12:24.480><c> Do</c><00:12:24.639><c> this</c><00:12:24.800><c> and</c><00:12:25.040><c> then</c><00:12:25.200><c> grab</c>
+
+00:12:25.590 --> 00:12:25.600 align:start position:0%
+find it here. Do this and then grab
+ 
+
+00:12:25.600 --> 00:12:27.990 align:start position:0%
+find it here. Do this and then grab
+webs.<00:12:26.320><c> So</c><00:12:26.560><c> server</c><00:12:26.800><c> document</c><00:12:27.120><c> route</c><00:12:27.360><c> for</c><00:12:27.760><c> this</c>
+
+00:12:27.990 --> 00:12:28.000 align:start position:0%
+webs. So server document route for this
+ 
+
+00:12:28.000 --> 00:12:30.069 align:start position:0%
+webs. So server document route for this
+instance<00:12:28.240><c> of</c><00:12:28.399><c> lighty</c><00:12:28.800><c> is</c><00:12:28.959><c> called</c><00:12:29.200><c> /webs.</c><00:12:29.920><c> What</c>
+
+00:12:30.069 --> 00:12:30.079 align:start position:0%
+instance of lighty is called /webs. What
+ 
+
+00:12:30.079 --> 00:12:32.949 align:start position:0%
+instance of lighty is called /webs. What
+we<00:12:30.240><c> can</c><00:12:30.399><c> actually</c><00:12:30.720><c> do</c><00:12:31.279><c> now</c><00:12:31.839><c> is</c><00:12:32.160><c> run</c><00:12:32.399><c> this</c><00:12:32.720><c> cute</c>
+
+00:12:32.949 --> 00:12:32.959 align:start position:0%
+we can actually do now is run this cute
+ 
+
+00:12:32.959 --> 00:12:35.110 align:start position:0%
+we can actually do now is run this cute
+little<00:12:33.120><c> thing</c><00:12:33.279><c> where</c><00:12:33.519><c> we</c><00:12:33.760><c> do</c><00:12:34.000><c> ps</c><00:12:34.560><c> and</c><00:12:34.800><c> we</c><00:12:34.959><c> just</c>
+
+00:12:35.110 --> 00:12:35.120 align:start position:0%
+little thing where we do ps and we just
+ 
+
+00:12:35.120 --> 00:12:37.269 align:start position:0%
+little thing where we do ps and we just
+take<00:12:35.279><c> the</c><00:12:35.440><c> process</c><00:12:35.920><c> list</c><00:12:36.160><c> and</c><00:12:36.480><c> write</c><00:12:36.720><c> it</c><00:12:36.959><c> to</c>
+
+00:12:37.269 --> 00:12:37.279 align:start position:0%
+take the process list and write it to
+ 
+
+00:12:37.279 --> 00:12:39.750 align:start position:0%
+take the process list and write it to
+web/he<00:12:38.320><c> hehe</c><00:12:38.800><c> and</c><00:12:39.040><c> because</c><00:12:39.279><c> that's</c><00:12:39.519><c> the</c>
+
+00:12:39.750 --> 00:12:39.760 align:start position:0%
+web/he hehe and because that's the
+ 
+
+00:12:39.760 --> 00:12:41.990 align:start position:0%
+web/he hehe and because that's the
+document<00:12:40.160><c> route</c><00:12:40.480><c> for</c><00:12:40.720><c> our</c><00:12:40.959><c> server</c><00:12:41.440><c> now</c><00:12:41.680><c> we</c><00:12:41.839><c> can</c>
+
+00:12:41.990 --> 00:12:42.000 align:start position:0%
+document route for our server now we can
+ 
+
+00:12:42.000 --> 00:12:44.870 align:start position:0%
+document route for our server now we can
+just<00:12:42.320><c> curl</c><00:12:43.279><c> he</c><00:12:43.600><c> he</c><00:12:43.839><c> and</c><00:12:44.079><c> bada</c><00:12:44.320><c> bing</c><00:12:44.480><c> bada</c><00:12:44.720><c> boom</c>
+
+00:12:44.870 --> 00:12:44.880 align:start position:0%
+just curl he he and bada bing bada boom
+ 
+
+00:12:44.880 --> 00:12:46.389 align:start position:0%
+just curl he he and bada bing bada boom
+we<00:12:45.040><c> get</c><00:12:45.120><c> the</c><00:12:45.279><c> process</c><00:12:45.519><c> list</c><00:12:45.680><c> so</c><00:12:45.839><c> we</c><00:12:46.079><c> can</c><00:12:46.160><c> see</c><00:12:46.240><c> a</c>
+
+00:12:46.389 --> 00:12:46.399 align:start position:0%
+we get the process list so we can see a
+ 
+
+00:12:46.399 --> 00:12:48.069 align:start position:0%
+we get the process list so we can see a
+bunch<00:12:46.560><c> of</c><00:12:46.639><c> stuff</c><00:12:46.800><c> going</c><00:12:46.959><c> on</c><00:12:47.360><c> we</c><00:12:47.600><c> can</c><00:12:47.680><c> see</c><00:12:47.839><c> that</c>
+
+00:12:48.069 --> 00:12:48.079 align:start position:0%
+bunch of stuff going on we can see that
+ 
+
+00:12:48.079 --> 00:12:50.790 align:start position:0%
+bunch of stuff going on we can see that
+we<00:12:48.240><c> have</c><00:12:48.720><c> the</c><00:12:49.279><c> lighty</c><00:12:49.680><c> running</c><00:12:50.079><c> with</c><00:12:50.480><c> that</c>
+
+00:12:50.790 --> 00:12:50.800 align:start position:0%
+we have the lighty running with that
+ 
+
+00:12:50.800 --> 00:12:52.629 align:start position:0%
+we have the lighty running with that
+instance<00:12:51.279><c> of</c><00:12:51.519><c> the</c><00:12:51.760><c> config</c><00:12:52.079><c> that</c><00:12:52.240><c> gives</c><00:12:52.399><c> us</c>
+
+00:12:52.629 --> 00:12:52.639 align:start position:0%
+instance of the config that gives us
+ 
+
+00:12:52.639 --> 00:12:54.629 align:start position:0%
+instance of the config that gives us
+access<00:12:52.880><c> to</c><00:12:53.040><c> the</c><00:12:53.200><c> webs</c><00:12:53.519><c> folder</c><00:12:53.920><c> we</c><00:12:54.079><c> have</c><00:12:54.160><c> a</c><00:12:54.320><c> drop</c>
+
+00:12:54.629 --> 00:12:54.639 align:start position:0%
+access to the webs folder we have a drop
+ 
+
+00:12:54.639 --> 00:12:57.110 align:start position:0%
+access to the webs folder we have a drop
+bear<00:12:54.880><c> server</c><00:12:55.279><c> we</c><00:12:55.440><c> have</c><00:12:55.680><c> tnet</c><00:12:56.320><c> running</c><00:12:56.720><c> what</c><00:12:56.959><c> I</c>
+
+00:12:57.110 --> 00:12:57.120 align:start position:0%
+bear server we have tnet running what I
+ 
+
+00:12:57.120 --> 00:12:59.110 align:start position:0%
+bear server we have tnet running what I
+want<00:12:57.200><c> to</c><00:12:57.360><c> run</c><00:12:57.519><c> though</c><00:12:57.760><c> is</c><00:12:58.079><c> my</c><00:12:58.320><c> own</c><00:12:58.639><c> version</c><00:12:58.959><c> of</c>
+
+00:12:59.110 --> 00:12:59.120 align:start position:0%
+want to run though is my own version of
+ 
+
+00:12:59.120 --> 00:13:01.110 align:start position:0%
+want to run though is my own version of
+the<00:12:59.279><c> tnet</c><00:12:59.680><c> server.</c><00:13:00.000><c> I</c><00:13:00.240><c> want</c><00:13:00.320><c> to</c><00:13:00.480><c> get</c><00:13:00.560><c> in</c><00:13:00.720><c> there</c>
+
+00:13:01.110 --> 00:13:01.120 align:start position:0%
+the tnet server. I want to get in there
+ 
+
+00:13:01.120 --> 00:13:03.829 align:start position:0%
+the tnet server. I want to get in there
+and<00:13:01.360><c> I</c><00:13:01.600><c> want</c><00:13:01.839><c> to,</c><00:13:02.399><c> you</c><00:13:02.560><c> know,</c><00:13:02.880><c> run</c><00:13:03.120><c> my</c><00:13:03.360><c> Tnet</c>
+
+00:13:03.829 --> 00:13:03.839 align:start position:0%
+and I want to, you know, run my Tnet
+ 
+
+00:13:03.839 --> 00:13:05.990 align:start position:0%
+and I want to, you know, run my Tnet
+server<00:13:04.079><c> to</c><00:13:04.320><c> give</c><00:13:04.480><c> me</c><00:13:04.720><c> a</c><00:13:04.959><c> shell</c><00:13:05.200><c> on</c><00:13:05.440><c> device.</c>
+
+00:13:05.990 --> 00:13:06.000 align:start position:0%
+server to give me a shell on device.
+ 
+
+00:13:06.000 --> 00:13:07.670 align:start position:0%
+server to give me a shell on device.
+Now,<00:13:06.320><c> after</c><00:13:06.560><c> a</c><00:13:06.720><c> while,</c><00:13:06.880><c> I</c><00:13:07.120><c> was</c><00:13:07.200><c> messing</c><00:13:07.519><c> with</c>
+
+00:13:07.670 --> 00:13:07.680 align:start position:0%
+Now, after a while, I was messing with
+ 
+
+00:13:07.680 --> 00:13:09.750 align:start position:0%
+Now, after a while, I was messing with
+this<00:13:07.920><c> curl</c><00:13:08.320><c> command</c><00:13:08.639><c> that</c><00:13:08.880><c> uses</c><00:13:09.279><c> the</c><00:13:09.440><c> command</c>
+
+00:13:09.750 --> 00:13:09.760 align:start position:0%
+this curl command that uses the command
+ 
+
+00:13:09.760 --> 00:13:12.389 align:start position:0%
+this curl command that uses the command
+injection<00:13:10.160><c> to</c><00:13:10.399><c> run</c><00:13:10.639><c> TNETD.</c><00:13:11.519><c> And</c><00:13:11.680><c> with</c><00:13:11.839><c> TNETD,</c>
+
+00:13:12.389 --> 00:13:12.399 align:start position:0%
+injection to run TNETD. And with TNETD,
+ 
+
+00:13:12.399 --> 00:13:14.470 align:start position:0%
+injection to run TNETD. And with TNETD,
+you<00:13:12.480><c> can</c><00:13:12.639><c> specify</c><00:13:13.040><c> a</c><00:13:13.360><c> port</c><00:13:13.600><c> number</c><00:13:14.079><c> and</c><00:13:14.240><c> a</c>
+
+00:13:14.470 --> 00:13:14.480 align:start position:0%
+you can specify a port number and a
+ 
+
+00:13:14.480 --> 00:13:16.710 align:start position:0%
+you can specify a port number and a
+login<00:13:14.880><c> program</c><00:13:15.279><c> to</c><00:13:15.600><c> use</c><00:13:15.839><c> in</c><00:13:16.079><c> place</c><00:13:16.240><c> of</c><00:13:16.399><c> bin</c>
+
+00:13:16.710 --> 00:13:16.720 align:start position:0%
+login program to use in place of bin
+ 
+
+00:13:16.720 --> 00:13:18.949 align:start position:0%
+login program to use in place of bin
+login.<00:13:17.120><c> And</c><00:13:17.279><c> if</c><00:13:17.360><c> you</c><00:13:17.519><c> can</c><00:13:17.600><c> just</c><00:13:17.760><c> set</c><00:13:18.079><c> binsh,</c>
+
+00:13:18.949 --> 00:13:18.959 align:start position:0%
+login. And if you can just set binsh,
+ 
+
+00:13:18.959 --> 00:13:20.629 align:start position:0%
+login. And if you can just set binsh,
+you<00:13:19.120><c> can</c><00:13:19.200><c> use</c><00:13:19.360><c> that</c><00:13:19.600><c> as</c><00:13:19.839><c> basically</c><00:13:20.160><c> a</c><00:13:20.320><c> bind</c>
+
+00:13:20.629 --> 00:13:20.639 align:start position:0%
+you can use that as basically a bind
+ 
+
+00:13:20.639 --> 00:13:22.230 align:start position:0%
+you can use that as basically a bind
+shell.<00:13:21.040><c> Now,</c><00:13:21.200><c> the</c><00:13:21.360><c> problem</c><00:13:21.519><c> is</c><00:13:21.760><c> I</c><00:13:22.000><c> had</c><00:13:22.079><c> a</c>
+
+00:13:22.230 --> 00:13:22.240 align:start position:0%
+shell. Now, the problem is I had a
+ 
+
+00:13:22.240 --> 00:13:24.550 align:start position:0%
+shell. Now, the problem is I had a
+couple<00:13:22.399><c> issues</c><00:13:22.800><c> where</c><00:13:23.120><c> it</c><00:13:23.360><c> would</c><00:13:23.600><c> run,</c><00:13:24.160><c> but</c><00:13:24.320><c> it</c>
+
+00:13:24.550 --> 00:13:24.560 align:start position:0%
+couple issues where it would run, but it
+ 
+
+00:13:24.560 --> 00:13:25.829 align:start position:0%
+couple issues where it would run, but it
+didn't<00:13:24.720><c> actually</c><00:13:24.959><c> run</c><00:13:25.120><c> the</c><00:13:25.360><c> command.</c><00:13:25.519><c> And</c><00:13:25.680><c> I</c>
+
+00:13:25.829 --> 00:13:25.839 align:start position:0%
+didn't actually run the command. And I
+ 
+
+00:13:25.839 --> 00:13:27.350 align:start position:0%
+didn't actually run the command. And I
+think<00:13:25.920><c> something</c><00:13:26.160><c> is</c><00:13:26.320><c> either</c><00:13:26.560><c> wrong</c><00:13:26.800><c> with</c>
+
+00:13:27.350 --> 00:13:27.360 align:start position:0%
+think something is either wrong with
+ 
+
+00:13:27.360 --> 00:13:29.829 align:start position:0%
+think something is either wrong with
+TNETD<00:13:28.160><c> where</c><00:13:28.399><c> it</c><00:13:28.560><c> doesn't</c><00:13:28.720><c> allow</c><00:13:28.959><c> for</c><00:13:29.120><c> IFS</c><00:13:29.680><c> or</c>
+
+00:13:29.829 --> 00:13:29.839 align:start position:0%
+TNETD where it doesn't allow for IFS or
+ 
+
+00:13:29.839 --> 00:13:31.670 align:start position:0%
+TNETD where it doesn't allow for IFS or
+there's<00:13:30.079><c> some</c><00:13:30.240><c> issue</c><00:13:30.480><c> with</c><00:13:30.720><c> this.</c><00:13:31.200><c> But</c><00:13:31.360><c> what</c><00:13:31.519><c> I</c>
+
+00:13:31.670 --> 00:13:31.680 align:start position:0%
+there's some issue with this. But what I
+ 
+
+00:13:31.680 --> 00:13:33.190 align:start position:0%
+there's some issue with this. But what I
+did<00:13:31.839><c> find</c><00:13:32.079><c> after</c><00:13:32.320><c> a</c><00:13:32.560><c> little</c><00:13:32.560><c> bit</c><00:13:32.720><c> of</c><00:13:32.880><c> searching</c>
+
+00:13:33.190 --> 00:13:33.200 align:start position:0%
+did find after a little bit of searching
+ 
+
+00:13:33.200 --> 00:13:35.829 align:start position:0%
+did find after a little bit of searching
+is<00:13:33.519><c> a</c><00:13:33.920><c> nice</c><00:13:34.240><c> little</c><00:13:34.560><c> program</c><00:13:34.880><c> on</c><00:13:35.120><c> the</c><00:13:35.360><c> device</c>
+
+00:13:35.829 --> 00:13:35.839 align:start position:0%
+is a nice little program on the device
+ 
+
+00:13:35.839 --> 00:13:41.509 align:start position:0%
+is a nice little program on the device
+that's<00:13:36.240><c> called</c><00:13:36.880><c> /webs/cgibin/upload.cgi,</c>
+
+00:13:41.509 --> 00:13:41.519 align:start position:0%
+ 
+ 
+
+00:13:41.519 --> 00:13:43.030 align:start position:0%
+ 
+which<00:13:41.760><c> is</c><00:13:41.920><c> what</c><00:13:42.079><c> you're</c><00:13:42.320><c> using</c><00:13:42.480><c> to</c><00:13:42.800><c> actually</c>
+
+00:13:43.030 --> 00:13:43.040 align:start position:0%
+which is what you're using to actually
+ 
+
+00:13:43.040 --> 00:13:45.190 align:start position:0%
+which is what you're using to actually
+upload<00:13:43.440><c> a</c><00:13:43.680><c> temporary</c><00:13:44.160><c> piece</c><00:13:44.320><c> of</c><00:13:44.480><c> firmware</c>
+
+00:13:45.190 --> 00:13:45.200 align:start position:0%
+upload a temporary piece of firmware
+ 
+
+00:13:45.200 --> 00:13:47.190 align:start position:0%
+upload a temporary piece of firmware
+before<00:13:45.519><c> you</c><00:13:45.760><c> do</c><00:13:45.920><c> a</c><00:13:46.079><c> firmware</c><00:13:46.480><c> update</c><00:13:46.880><c> on</c><00:13:47.040><c> the</c>
+
+00:13:47.190 --> 00:13:47.200 align:start position:0%
+before you do a firmware update on the
+ 
+
+00:13:47.200 --> 00:13:49.030 align:start position:0%
+before you do a firmware update on the
+device.<00:13:47.839><c> The</c><00:13:48.000><c> reason</c><00:13:48.160><c> I</c><00:13:48.320><c> know</c><00:13:48.480><c> this</c><00:13:48.639><c> is</c><00:13:48.800><c> by</c>
+
+00:13:49.030 --> 00:13:49.040 align:start position:0%
+device. The reason I know this is by
+ 
+
+00:13:49.040 --> 00:13:50.949 align:start position:0%
+device. The reason I know this is by
+doing<00:13:49.200><c> a</c><00:13:49.360><c> simple</c><00:13:49.760><c> strings</c><00:13:50.240><c> on</c><00:13:50.480><c> the</c><00:13:50.639><c> device</c><00:13:50.880><c> or</c>
+
+00:13:50.949 --> 00:13:50.959 align:start position:0%
+doing a simple strings on the device or
+ 
+
+00:13:50.959 --> 00:13:52.389 align:start position:0%
+doing a simple strings on the device or
+on<00:13:51.120><c> the</c><00:13:51.200><c> upload.ci,</c><00:13:51.600><c> CGI.</c><00:13:52.079><c> You'll</c><00:13:52.240><c> see</c><00:13:52.320><c> that</c>
+
+00:13:52.389 --> 00:13:52.399 align:start position:0%
+on the upload.ci, CGI. You'll see that
+ 
+
+00:13:52.399 --> 00:13:54.629 align:start position:0%
+on the upload.ci, CGI. You'll see that
+it<00:13:52.560><c> writes</c><00:13:52.800><c> the</c><00:13:53.040><c> file</c><00:13:53.200><c> out</c><00:13:53.440><c> to</c><00:13:53.680><c> temp</c><00:13:54.240><c> temp</c>
+
+00:13:54.629 --> 00:13:54.639 align:start position:0%
+it writes the file out to temp temp
+ 
+
+00:13:54.639 --> 00:13:57.269 align:start position:0%
+it writes the file out to temp temp
+firmware.<00:13:55.440><c> And</c><00:13:55.600><c> so</c><00:13:55.839><c> you</c><00:13:56.000><c> can</c><00:13:56.160><c> actually</c><00:13:56.480><c> use</c><00:13:57.120><c> uh</c>
+
+00:13:57.269 --> 00:13:57.279 align:start position:0%
+firmware. And so you can actually use uh
+ 
+
+00:13:57.279 --> 00:14:00.150 align:start position:0%
+firmware. And so you can actually use uh
+curl<00:13:57.839><c> to</c><00:13:58.079><c> do</c><00:13:58.160><c> a</c><00:13:58.399><c> file</c><00:13:58.639><c> upload</c><00:13:59.199><c> using</c><00:13:59.600><c> the</c><00:13:59.839><c> exact</c>
+
+00:14:00.150 --> 00:14:00.160 align:start position:0%
+curl to do a file upload using the exact
+ 
+
+00:14:00.160 --> 00:14:01.990 align:start position:0%
+curl to do a file upload using the exact
+process<00:14:00.480><c> they</c><00:14:00.720><c> use</c><00:14:00.959><c> this</c><00:14:01.120><c> multi-art</c><00:14:01.680><c> form</c>
+
+00:14:01.990 --> 00:14:02.000 align:start position:0%
+process they use this multi-art form
+ 
+
+00:14:02.000 --> 00:14:04.949 align:start position:0%
+process they use this multi-art form
+data<00:14:02.480><c> by</c><00:14:02.720><c> doing</c><00:14:03.120><c> file</c><00:14:03.519><c> equals</c><00:14:04.320><c> at</c><00:14:04.639><c> and</c><00:14:04.800><c> then</c>
+
+00:14:04.949 --> 00:14:04.959 align:start position:0%
+data by doing file equals at and then
+ 
+
+00:14:04.959 --> 00:14:06.710 align:start position:0%
+data by doing file equals at and then
+the<00:14:05.120><c> name</c><00:14:05.279><c> of</c><00:14:05.360><c> the</c><00:14:05.600><c> file.</c><00:14:05.920><c> Right?</c><00:14:06.240><c> So</c><00:14:06.399><c> you</c><00:14:06.639><c> can</c>
+
+00:14:06.710 --> 00:14:06.720 align:start position:0%
+the name of the file. Right? So you can
+ 
+
+00:14:06.720 --> 00:14:08.310 align:start position:0%
+the name of the file. Right? So you can
+literally<00:14:07.040><c> do</c><00:14:07.199><c> that</c><00:14:07.440><c> and</c><00:14:07.680><c> point</c><00:14:07.920><c> it</c><00:14:08.079><c> to</c><00:14:08.160><c> that</c>
+
+00:14:08.310 --> 00:14:08.320 align:start position:0%
+literally do that and point it to that
+ 
+
+00:14:08.320 --> 00:14:10.389 align:start position:0%
+literally do that and point it to that
+URL.<00:14:08.800><c> And</c><00:14:08.959><c> in</c><00:14:09.199><c> doing</c><00:14:09.360><c> that</c><00:14:09.600><c> you</c><00:14:09.760><c> will</c><00:14:09.920><c> get</c>
+
+00:14:10.389 --> 00:14:10.399 align:start position:0%
+URL. And in doing that you will get
+ 
+
+00:14:10.399 --> 00:14:13.269 align:start position:0%
+URL. And in doing that you will get
+upload.cgi<00:14:11.440><c> to</c><00:14:11.760><c> ingest</c><00:14:12.079><c> the</c><00:14:12.320><c> script</c><00:14:12.800><c> and</c><00:14:13.120><c> put</c>
+
+00:14:13.269 --> 00:14:13.279 align:start position:0%
+upload.cgi to ingest the script and put
+ 
+
+00:14:13.279 --> 00:14:15.509 align:start position:0%
+upload.cgi to ingest the script and put
+it<00:14:13.440><c> on</c><00:14:13.680><c> temp</c><00:14:14.000><c> firmware.</c><00:14:14.720><c> And</c><00:14:14.959><c> what</c><00:14:15.199><c> you</c><00:14:15.360><c> can</c>
+
+00:14:15.509 --> 00:14:15.519 align:start position:0%
+it on temp firmware. And what you can
+ 
+
+00:14:15.519 --> 00:14:19.430 align:start position:0%
+it on temp firmware. And what you can
+actually<00:14:15.760><c> see</c><00:14:16.000><c> here</c><00:14:16.240><c> is</c><00:14:16.480><c> if</c><00:14:16.720><c> we</c><00:14:16.880><c> do</c><00:14:17.199><c> a</c><00:14:17.600><c> uh</c><00:14:17.839><c> ls</c><00:14:18.720><c> of</c>
+
+00:14:19.430 --> 00:14:19.440 align:start position:0%
+actually see here is if we do a uh ls of
+ 
+
+00:14:19.440 --> 00:14:23.189 align:start position:0%
+actually see here is if we do a uh ls of
+um<00:14:19.680><c> of</c><00:14:20.000><c> temp</c><00:14:20.880><c> and</c><00:14:21.120><c> we</c><00:14:21.440><c> get</c><00:14:21.760><c> hehei,</c><00:14:22.800><c> you</c><00:14:23.040><c> will</c>
+
+00:14:23.189 --> 00:14:23.199 align:start position:0%
+um of temp and we get hehei, you will
+ 
+
+00:14:23.199 --> 00:14:25.829 align:start position:0%
+um of temp and we get hehei, you will
+see<00:14:23.360><c> that</c><00:14:23.839><c> this</c><00:14:24.240><c> temp</c><00:14:24.720><c> firmware</c><00:14:25.199><c> file</c>
+
+00:14:25.829 --> 00:14:25.839 align:start position:0%
+see that this temp firmware file
+ 
+
+00:14:25.839 --> 00:14:27.590 align:start position:0%
+see that this temp firmware file
+actually<00:14:26.160><c> exists</c><00:14:26.560><c> now.</c><00:14:26.800><c> It's</c><00:14:27.040><c> now</c><00:14:27.199><c> on</c><00:14:27.360><c> the</c>
+
+00:14:27.590 --> 00:14:27.600 align:start position:0%
+actually exists now. It's now on the
+ 
+
+00:14:27.600 --> 00:14:29.670 align:start position:0%
+actually exists now. It's now on the
+device,<00:14:27.839><c> which</c><00:14:28.079><c> is</c><00:14:28.399><c> crazy.</c><00:14:28.880><c> So</c><00:14:29.120><c> now</c><00:14:29.360><c> all</c><00:14:29.519><c> we</c>
+
+00:14:29.670 --> 00:14:29.680 align:start position:0%
+device, which is crazy. So now all we
+ 
+
+00:14:29.680 --> 00:14:31.829 align:start position:0%
+device, which is crazy. So now all we
+have<00:14:29.760><c> to</c><00:14:29.920><c> do</c><00:14:30.240><c> is</c><00:14:30.480><c> do</c><00:14:30.639><c> a</c><00:14:30.800><c> little</c><00:14:31.199><c> bit</c><00:14:31.279><c> of</c><00:14:31.440><c> a</c><00:14:31.600><c> a</c>
+
+00:14:31.829 --> 00:14:31.839 align:start position:0%
+have to do is do a little bit of a a
+ 
+
+00:14:31.839 --> 00:14:33.829 align:start position:0%
+have to do is do a little bit of a a
+commod<00:14:32.480><c> plus</c><00:14:32.880><c> x</c><00:14:33.040><c> to</c><00:14:33.199><c> make</c><00:14:33.360><c> the</c><00:14:33.519><c> file</c>
+
+00:14:33.829 --> 00:14:33.839 align:start position:0%
+commod plus x to make the file
+ 
+
+00:14:33.839 --> 00:14:36.310 align:start position:0%
+commod plus x to make the file
+executable.<00:14:34.720><c> We</c><00:14:34.880><c> will</c><00:14:35.040><c> commod</c><00:14:35.519><c> plus</c><00:14:35.839><c> exit</c><00:14:36.160><c> and</c>
+
+00:14:36.310 --> 00:14:36.320 align:start position:0%
+executable. We will commod plus exit and
+ 
+
+00:14:36.320 --> 00:14:38.550 align:start position:0%
+executable. We will commod plus exit and
+we'll<00:14:36.560><c> do</c><00:14:37.120><c> just</c><00:14:37.360><c> the</c><00:14:37.600><c> temp</c><00:14:37.839><c> firmware</c><00:14:38.240><c> run.</c>
+
+00:14:38.550 --> 00:14:38.560 align:start position:0%
+we'll do just the temp firmware run.
+ 
+
+00:14:38.560 --> 00:14:40.949 align:start position:0%
+we'll do just the temp firmware run.
+We're<00:14:38.720><c> going</c><00:14:38.800><c> to</c><00:14:38.959><c> run</c><00:14:39.519><c> the</c><00:14:40.000><c> temp</c><00:14:40.399><c> firmware</c>
+
+00:14:40.949 --> 00:14:40.959 align:start position:0%
+We're going to run the temp firmware
+ 
+
+00:14:40.959 --> 00:14:43.030 align:start position:0%
+We're going to run the temp firmware
+file<00:14:41.360><c> which</c><00:14:41.680><c> has</c><00:14:41.839><c> a</c><00:14:42.160><c> script.</c><00:14:42.560><c> Oh,</c><00:14:42.720><c> I</c><00:14:42.880><c> didn't</c>
+
+00:14:43.030 --> 00:14:43.040 align:start position:0%
+file which has a script. Oh, I didn't
+ 
+
+00:14:43.040 --> 00:14:44.550 align:start position:0%
+file which has a script. Oh, I didn't
+show<00:14:43.120><c> you</c><00:14:43.199><c> the</c><00:14:43.360><c> script.</c><00:14:43.680><c> Uh</c><00:14:44.000><c> yeah,</c><00:14:44.160><c> the</c><00:14:44.399><c> script</c>
+
+00:14:44.550 --> 00:14:44.560 align:start position:0%
+show you the script. Uh yeah, the script
+ 
+
+00:14:44.560 --> 00:14:47.430 align:start position:0%
+show you the script. Uh yeah, the script
+that<00:14:44.720><c> I</c><00:14:44.959><c> wrote</c><00:14:45.519><c> uh</c><00:14:45.760><c> by</c><00:14:45.920><c> the</c><00:14:46.000><c> way</c><00:14:46.320><c> is</c><00:14:47.279><c> uh</c>
+
+00:14:47.430 --> 00:14:47.440 align:start position:0%
+that I wrote uh by the way is uh
+ 
+
+00:14:47.440 --> 00:14:50.310 align:start position:0%
+that I wrote uh by the way is uh
+scripts.sh,<00:14:48.800><c> which</c><00:14:49.040><c> literally</c><00:14:49.440><c> just</c><00:14:49.839><c> enables</c>
+
+00:14:50.310 --> 00:14:50.320 align:start position:0%
+scripts.sh, which literally just enables
+ 
+
+00:14:50.320 --> 00:14:52.150 align:start position:0%
+scripts.sh, which literally just enables
+a<00:14:50.480><c> telnet</c><00:14:50.959><c> D</c><00:14:51.040><c> server</c><00:14:51.279><c> as</c><00:14:51.519><c> I</c><00:14:51.600><c> want</c><00:14:51.680><c> it</c><00:14:51.839><c> to</c><00:14:51.920><c> run,</c>
+
+00:14:52.150 --> 00:14:52.160 align:start position:0%
+a telnet D server as I want it to run,
+ 
+
+00:14:52.160 --> 00:14:54.069 align:start position:0%
+a telnet D server as I want it to run,
+right?<00:14:52.320><c> So</c><00:14:52.480><c> it</c><00:14:52.639><c> runs</c><00:14:52.880><c> a</c><00:14:53.120><c> script</c><00:14:53.279><c> as</c><00:14:53.519><c> bin</c><00:14:53.839><c> ash</c>
+
+00:14:54.069 --> 00:14:54.079 align:start position:0%
+right? So it runs a script as bin ash
+ 
+
+00:14:54.079 --> 00:14:55.829 align:start position:0%
+right? So it runs a script as bin ash
+and<00:14:54.240><c> it</c><00:14:54.399><c> runs</c><00:14:54.639><c> user</c><00:14:54.959><c> spin</c><00:14:55.279><c> tnet</c><00:14:55.680><c> d</c><00:14:55.839><c> b</c><00:14:55.839><c> b</c><00:14:55.839><c> b</c><00:14:55.839><c> b</c><00:14:55.839><c> b</c><00:14:55.839><c> b</c>
+
+00:14:55.829 --> 00:14:55.839 align:start position:0%
+and it runs user spin tnet d b b b b b b
+ 
+
+00:14:55.839 --> 00:14:55.910 align:start position:0%
+and it runs user spin tnet d b b b b b b
+b b b b b b b b b b b b b b<00:14:55.920><c> b</c><00:14:55.920><c> b</c><00:14:55.920><c> b</c><00:14:55.920><c> b</c><00:14:55.920><c> b</c><00:14:55.920><c> b</c>
+
+00:14:55.910 --> 00:14:55.920 align:start position:0%
+b b b b b b b b b b b b b b b b b b b b
+ 
+
+00:14:55.920 --> 00:14:56.710 align:start position:0%
+b b b b b b b b b b b b b b b b b b b b
+b b b b b b b b b b b b b bin<00:14:56.160><c> aash</c><00:14:56.480><c> port</c>
+
+00:14:56.710 --> 00:14:56.720 align:start position:0%
+b b b b b b b b b b b b b bin aash port
+ 
+
+00:14:56.720 --> 00:14:58.470 align:start position:0%
+b b b b b b b b b b b b b bin aash port
+4444.<00:14:57.440><c> And</c><00:14:57.600><c> you</c><00:14:57.760><c> can</c><00:14:57.839><c> see</c><00:14:57.920><c> this</c><00:14:58.079><c> all</c><00:14:58.240><c> works</c>
+
+00:14:58.470 --> 00:14:58.480 align:start position:0%
+4444. And you can see this all works
+ 
+
+00:14:58.480 --> 00:15:00.069 align:start position:0%
+4444. And you can see this all works
+together.<00:14:58.720><c> If</c><00:14:58.880><c> we</c><00:14:59.040><c> simply</c><00:14:59.360><c> just</c><00:14:59.519><c> go</c><00:14:59.760><c> here</c><00:14:59.920><c> and</c>
+
+00:15:00.069 --> 00:15:00.079 align:start position:0%
+together. If we simply just go here and
+ 
+
+00:15:00.079 --> 00:15:04.150 align:start position:0%
+together. If we simply just go here and
+do<00:15:00.240><c> a</c><00:15:00.320><c> little</c><00:15:00.560><c> netcat</c><00:15:01.519><c> 192.16811</c><00:15:02.880><c> 4444,</c><00:15:03.760><c> bada</c>
+
+00:15:04.150 --> 00:15:04.160 align:start position:0%
+do a little netcat 192.16811 4444, bada
+ 
+
+00:15:04.160 --> 00:15:06.710 align:start position:0%
+do a little netcat 192.16811 4444, bada
+bing,<00:15:04.560><c> bada</c><00:15:04.959><c> boom,</c><00:15:05.279><c> we're</c><00:15:05.519><c> root,</c><00:15:05.839><c> baby.</c><00:15:06.560><c> This</c>
+
+00:15:06.710 --> 00:15:06.720 align:start position:0%
+bing, bada boom, we're root, baby. This
+ 
+
+00:15:06.720 --> 00:15:08.949 align:start position:0%
+bing, bada boom, we're root, baby. This
+is<00:15:06.800><c> VR,</c><00:15:07.199><c> guys.</c><00:15:07.440><c> This</c><00:15:07.680><c> is</c><00:15:07.760><c> the</c><00:15:08.000><c> world</c><00:15:08.320><c> of</c>
+
+00:15:08.949 --> 00:15:08.959 align:start position:0%
+is VR, guys. This is the world of
+ 
+
+00:15:08.959 --> 00:15:11.110 align:start position:0%
+is VR, guys. This is the world of
+acquiring<00:15:09.680><c> weird</c><00:15:10.079><c> little</c><00:15:10.320><c> devices</c><00:15:10.800><c> off</c><00:15:10.959><c> of</c>
+
+00:15:11.110 --> 00:15:11.120 align:start position:0%
+acquiring weird little devices off of
+ 
+
+00:15:11.120 --> 00:15:13.030 align:start position:0%
+acquiring weird little devices off of
+Teimu,<00:15:11.680><c> taking</c><00:15:11.920><c> them</c><00:15:12.000><c> apart</c><00:15:12.240><c> and</c><00:15:12.480><c> seeing</c><00:15:12.800><c> what</c>
+
+00:15:13.030 --> 00:15:13.040 align:start position:0%
+Teimu, taking them apart and seeing what
+ 
+
+00:15:13.040 --> 00:15:15.030 align:start position:0%
+Teimu, taking them apart and seeing what
+issues<00:15:13.440><c> we</c><00:15:13.760><c> can</c><00:15:13.839><c> find.</c><00:15:14.240><c> Let's</c><00:15:14.480><c> talk</c>
+
+00:15:15.030 --> 00:15:15.040 align:start position:0%
+issues we can find. Let's talk
+ 
+
+00:15:15.040 --> 00:15:17.110 align:start position:0%
+issues we can find. Let's talk
+responsible<00:15:15.600><c> disclosure,</c><00:15:16.160><c> right?</c><00:15:16.639><c> I</c><00:15:16.880><c> have</c>
+
+00:15:17.110 --> 00:15:17.120 align:start position:0%
+responsible disclosure, right? I have
+ 
+
+00:15:17.120 --> 00:15:20.389 align:start position:0%
+responsible disclosure, right? I have
+tried<00:15:17.600><c> very</c><00:15:18.000><c> hard</c><00:15:18.320><c> to</c><00:15:18.720><c> identify</c><00:15:19.199><c> what</c><00:15:19.839><c> company</c>
+
+00:15:20.389 --> 00:15:20.399 align:start position:0%
+tried very hard to identify what company
+ 
+
+00:15:20.399 --> 00:15:22.790 align:start position:0%
+tried very hard to identify what company
+makes<00:15:20.639><c> this</c><00:15:20.880><c> device.</c><00:15:21.199><c> I</c><00:15:21.440><c> cannot</c><00:15:21.760><c> ID</c><00:15:22.079><c> one.</c><00:15:22.560><c> So,</c>
+
+00:15:22.790 --> 00:15:22.800 align:start position:0%
+makes this device. I cannot ID one. So,
+ 
+
+00:15:22.800 --> 00:15:24.949 align:start position:0%
+makes this device. I cannot ID one. So,
+this<00:15:22.959><c> is</c><00:15:23.040><c> a</c><00:15:23.279><c> bug</c><00:15:23.519><c> that</c><00:15:23.839><c> I</c><00:15:24.079><c> could</c><00:15:24.399><c> not</c><00:15:24.639><c> find</c>
+
+00:15:24.949 --> 00:15:24.959 align:start position:0%
+this is a bug that I could not find
+ 
+
+00:15:24.959 --> 00:15:26.550 align:start position:0%
+this is a bug that I could not find
+anyone<00:15:25.279><c> to</c><00:15:25.440><c> tell</c><00:15:25.680><c> about.</c><00:15:25.920><c> So,</c><00:15:26.079><c> now</c><00:15:26.320><c> I'm</c>
+
+00:15:26.550 --> 00:15:26.560 align:start position:0%
+anyone to tell about. So, now I'm
+ 
+
+00:15:26.560 --> 00:15:28.310 align:start position:0%
+anyone to tell about. So, now I'm
+telling<00:15:26.880><c> you</c><00:15:27.120><c> guys.</c><00:15:27.519><c> Okay,</c><00:15:27.839><c> awesome.</c><00:15:28.240><c> All</c>
+
+00:15:28.310 --> 00:15:28.320 align:start position:0%
+telling you guys. Okay, awesome. All
+ 
+
+00:15:28.320 --> 00:15:29.509 align:start position:0%
+telling you guys. Okay, awesome. All
+right,<00:15:28.560><c> guys.</c><00:15:28.720><c> If</c><00:15:28.880><c> you</c><00:15:28.959><c> enjoyed</c><00:15:29.120><c> this,</c><00:15:29.279><c> do</c><00:15:29.440><c> me</c>
+
+00:15:29.509 --> 00:15:29.519 align:start position:0%
+right, guys. If you enjoyed this, do me
+ 
+
+00:15:29.519 --> 00:15:31.269 align:start position:0%
+right, guys. If you enjoyed this, do me
+a<00:15:29.600><c> favor.</c><00:15:29.920><c> Go</c><00:15:30.079><c> check</c><00:15:30.240><c> out</c><00:15:30.399><c> Stack</c><00:15:30.720><c> Smash.</c><00:15:31.040><c> It's</c>
+
+00:15:31.269 --> 00:15:31.279 align:start position:0%
+a favor. Go check out Stack Smash. It's
+ 
+
+00:15:31.279 --> 00:15:33.110 align:start position:0%
+a favor. Go check out Stack Smash. It's
+my<00:15:31.519><c> community</c><00:15:31.680><c> where</c><00:15:31.920><c> I</c><00:15:32.160><c> teach</c><00:15:32.399><c> people</c><00:15:32.639><c> how</c><00:15:32.880><c> to</c>
+
+00:15:33.110 --> 00:15:33.120 align:start position:0%
+my community where I teach people how to
+ 
+
+00:15:33.120 --> 00:15:34.870 align:start position:0%
+my community where I teach people how to
+do<00:15:33.360><c> stuff</c><00:15:33.519><c> like</c><00:15:33.680><c> this</c><00:15:34.000><c> to</c><00:15:34.240><c> not</c><00:15:34.480><c> only</c><00:15:34.720><c> figure</c>
+
+00:15:34.870 --> 00:15:34.880 align:start position:0%
+do stuff like this to not only figure
+ 
+
+00:15:34.880 --> 00:15:36.629 align:start position:0%
+do stuff like this to not only figure
+out<00:15:35.040><c> how</c><00:15:35.120><c> to</c><00:15:35.279><c> hack,</c><00:15:35.600><c> how</c><00:15:35.680><c> to</c><00:15:35.839><c> make</c><00:15:35.920><c> the</c><00:15:36.079><c> world</c><00:15:36.320><c> a</c>
+
+00:15:36.629 --> 00:15:36.639 align:start position:0%
+out how to hack, how to make the world a
+ 
+
+00:15:36.639 --> 00:15:38.310 align:start position:0%
+out how to hack, how to make the world a
+safer<00:15:36.880><c> place,</c><00:15:37.120><c> but</c><00:15:37.279><c> software</c><00:15:37.680><c> security.</c><00:15:38.160><c> And</c>
+
+00:15:38.310 --> 00:15:38.320 align:start position:0%
+safer place, but software security. And
+ 
+
+00:15:38.320 --> 00:15:39.670 align:start position:0%
+safer place, but software security. And
+if<00:15:38.480><c> you</c><00:15:38.560><c> like</c><00:15:38.720><c> this</c><00:15:38.880><c> channel,</c><00:15:39.120><c> then</c><00:15:39.279><c> hit</c><00:15:39.519><c> hit</c>
+
+00:15:39.670 --> 00:15:39.680 align:start position:0%
+if you like this channel, then hit hit
+ 
+
+00:15:39.680 --> 00:15:40.870 align:start position:0%
+if you like this channel, then hit hit
+that<00:15:39.839><c> sub</c><00:15:40.000><c> button</c><00:15:40.160><c> over</c><00:15:40.320><c> there.</c><00:15:40.480><c> It's</c><00:15:40.639><c> right</c>
+
+00:15:40.870 --> 00:15:40.880 align:start position:0%
+that sub button over there. It's right
+ 
+
+00:15:40.880 --> 00:15:42.550 align:start position:0%
+that sub button over there. It's right
+it's<00:15:41.120><c> down</c><00:15:41.199><c> there</c><00:15:41.360><c> somewhere.</c><00:15:41.920><c> Uh</c><00:15:42.240><c> we'll</c><00:15:42.480><c> see</c>
+
+00:15:42.550 --> 00:15:42.560 align:start position:0%
+it's down there somewhere. Uh we'll see
+ 
+
+00:15:42.560 --> 00:15:46.320 align:start position:0%
+it's down there somewhere. Uh we'll see
+you<00:15:42.720><c> in</c><00:15:42.880><c> the</c><00:15:43.040><c> next</c><00:15:43.120><c> one.</c><00:15:43.440><c> Take</c><00:15:43.600><c> care.</c><00:15:43.839><c> Goodbye.</c>
+

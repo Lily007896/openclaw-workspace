@@ -1,38 +1,21 @@
-# Brainstorm (Allen + Lily)
+# Brainstorm (product work only)
 
-Goal: find and ship a web/app product that people use and that generates income.
+This folder is for **product work** only: finding and validating problems, turning them into ideas, and running experiments to build a real website/app business.
 
-## Rules
-- Keep notes small (one idea per note).
-- Prefer links over folders; folders are just for light grouping.
-- Use backlinks by linking concepts explicitly: `[[Problem - ...]]`, `[[Idea - ...]]`, `[[Experiment - ...]]`.
+## What belongs here
+- Problems (pain points) → `Problems/`
+- Ideas (solutions) → `Ideas/`
+- Experiments (validation/build tests) → `Experiments/`
+- People/personas → `People/`
+- Signals (raw inputs) → `Signals/`
+- Business models knowledge base → `Models/`
+- APIs knowledge base (for product packaging opportunities) → `APIs/`
 
-## Folder structure
-- `Ideas/` — product ideas
-- `Problems/` — user pains / jobs-to-be-done
-- `Experiments/` — tests we run (landing page, SEO, cold outreach, etc.)
-- `People/` — target personas / audiences
+## What does NOT belong here
+- OpenClaw/tooling/pipeline implementation details
+- Cron/debug/runbook notes
 
-## Recommended note patterns
-### Problem note
-- Who has this problem?
-- How painful / frequent?
-- Current workaround?
-- Why now?
+Those technical notes live in Lily’s memory topic: `memory/topics/openclaw-ops.md`.
 
-### Idea note
-- Which problem does it solve? (link to a Problem note)
-- Who is the user? (link to a People note)
-- What is the smallest version?
-- How do we get users (distribution)?
-- How does it make money?
-
-### Experiment note
-- Hypothesis
-- Method
-- Success metric
-- Result
-- Next step
-
-## Index
-Start here: `[[Brainstorm Index]]`
+## Operating principle
+Keep everything skimmable. Use links/backlinks. If a note doesn’t help us build a product, we don’t create it.
