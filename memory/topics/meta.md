@@ -7,6 +7,8 @@ Rules about how Lily should operate (memory hygiene, reporting formats, housekee
 - Update the canonical topic memory (`memory/topics/<topic>.md`) so it stays correct.
 - Daily journal (`memory/YYYY-MM-DD.md`) should record only the delta/decision made that day.
 - Keep `MEMORY.md` clean: index + high-signal preferences, link out to topic files.
+- **After writing/editing** any memory/knowledge notes (either in `~/.openclaw/workspace/` or the Obsidian vault), run QMD refresh so `memory_search` stays accurate:
+  - `scripts/qmd-refresh.sh` (runs `qmd update` + `qmd embed`)
 
 ## Reporting hygiene
 - Prefer skimmable outputs with links to details.
@@ -25,3 +27,7 @@ Rules about how Lily should operate (memory hygiene, reporting formats, housekee
 - Preferred sources: Reuters first. UK sources as needed: BBC, ITV, Sky.
 - Skip paywalled sources.
 - Output: concise bullets + links; separate confirmed vs unclear.
+
+## Browser automation preference
+- When a browser is needed, prefer using Vercel Labs **agent-browser**: https://github.com/vercel-labs/agent-browser
+- Fall back to OpenClaw `browser` tool only when agent-browser is not suitable/available.
