@@ -1,3 +1,0 @@
-# APIs
-
-- [[API - OpenAI (overview)]]

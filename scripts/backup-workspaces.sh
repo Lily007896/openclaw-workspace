@@ -46,18 +46,7 @@ backup_repo() {
   popd >/dev/null
 }
 
-# 1) Sync Windows Obsidian vault into Lily workspace for Git backup
+# Backup Lily + Moss (workspace repos only)
 LILY_DIR="${OPENCLAW_WORKSPACE_DIR:-$HOME/.openclaw/workspace}"
-WIN_VAULT="/mnt/c/Users/allen/Documents/Obsidian/Lily's vault"
-WS_VAULT="$LILY_DIR/obsidian-vault"
-mkdir -p "$WS_VAULT"
-if command -v rsync >/dev/null 2>&1; then
-  rsync -a --delete --exclude '.obsidian/' --exclude '.trash/' "$WIN_VAULT/" "$WS_VAULT/"
-else
-  rm -rf "$WS_VAULT"/*
-  cp -a "$WIN_VAULT/." "$WS_VAULT/"
-fi
-
-# 2) Backup Lily + Moss
-backup_repo "$LILY_DIR" "workspace" 
+backup_repo "$LILY_DIR" "workspace"
 backup_repo "$HOME/.openclaw/workspace-work" "moss-memory"

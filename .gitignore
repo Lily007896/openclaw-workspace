@@ -2,3 +2,6 @@
 # Generated transcripts / temp
 tmp/ytdlp/
 tmp/ytdlp2/
+
+# Local clones / large synced dirs
+obsidian-vault/
