@@ -1,6 +1,6 @@
 ---
 name: daily-idea-candidate-scan
-description: Daily scan for app ideas using the “validated apps (1% better)” methodology. Pull candidate projects from X/Twitter (via web search), Product Hunt, and Reddit (r/SideProject + r/AppIdeas). Filter out crypto. Output a Top 10 candidate list with traction/traffic hints and maintenance risk. Write the results into Allen’s Obsidian vault under Brainstorm/Signals/IdeaCandidates/_raw/YYYY-MM-DD.md.
+description: Daily scan for app ideas using the “validated apps (1% better)” methodology. Pull candidate projects from X/Twitter (via web search), Product Hunt, and Reddit (r/SideProject + r/AppIdeas). Filter out crypto. Output a Top 10 candidate list with traction/traffic hints and maintenance risk. Write the results into Allen’s Lily Obsidian vault under Brainstorm/Signals/IdeaCandidates/_raw/YYYY-MM-DD.md.
 ---
 
 # Daily Idea Candidate Scan (Allen)
@@ -37,7 +37,7 @@ For each candidate include:
 
 ## Storage (required)
 Write a single markdown note to:
-- `/mnt/c/Users/allen/Documents/Obsidian/Lily's vault/Brainstorm/Signals/YYYY-MM-DD.md`
+- `/mnt/c/Users/allen/Documents/Obsidian/Lily's vault/Brainstorm/Signals/IdeaCandidates/_raw/YYYY-MM-DD.md`
 
 The note format:
 - Title: `Idea Candidates — YYYY-MM-DD`
