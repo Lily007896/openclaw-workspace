@@ -1,0 +1,2 @@
+[main/sessions/main/599f3494-4d52-4486-bc05-c457ddd0638c.jsonl#L124] Assistant: QMD refresh: ok, 4 collections updated. Documents indexed: 949 files total. Vectors embedded: 3,578 total; this run added 22 chunks from 1 document. Timestamp: Thu 2026-09-03 20:16 Europe/London.
+[main/sessions/main/928ba7e4-e915-4750-baad-a5fc5e75b382.jsonl#L7] Assistant: QMD refresh: ok, 4 collections updated. Documents indexed: 949 files total. Vectors embedded: 3,578 total; this run added 22 chunks from 1 document. Timestamp: Thu 2026-09-03 20:16 Europe/London.
